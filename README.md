@@ -10,3 +10,13 @@ Here are some TODOs:
 6. Review role permissions in github org.
 7. Add repo to teach interns how to use github.
 8. Setup ci/cd for all repos.
+
+Changing the org name from `unibeninterns` to `drid-uniben` already broke stuff for repos whos deployment mode is that changes get pulled into a vps, in that case to fix, first run:
+``bash
+git remote -v
+```
+to confirm that it is using the old name uniben interns, if true, you wan update the url like this:
+```bash
+# This assumes git remote -v showed origin as your remote
+git remote set-url origin ${basically the same url you saw when you ran git remote -v, just only change the org name from unibeninterns to drid-uniben}
+```
