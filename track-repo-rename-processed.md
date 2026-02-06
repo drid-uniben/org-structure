@@ -2,6 +2,7 @@
 
 ## 1. IBR-TetFund-Review-System
 **Description:** This is a review system to review the proposals submitted for the annual TetFund grant for researchers.
+IBR stands for institution based research.
 - **Stack:**
   - Frontend: Next.js, Typescript, Tailwind CSS
   - Backend: Node.js, Express, Typescript
