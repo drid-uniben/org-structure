@@ -10,6 +10,7 @@ Here are some TODOs:
 6. Review role permissions in github org.
 7. Add repo to teach interns how to use github.
 8. Setup ci/cd for all repos.
+9. Update the website urls to the production urls for each repo not the vercel dev deployment urls currently there.
 
 Changing the org name from `unibeninterns` to `drid-uniben` already broke stuff for repos whos deployment mode is that changes get pulled into a vps, in that case to fix, first run:
 ``bash
