@@ -18,9 +18,10 @@ IBR stands for institution based research.
   - Description: Landing page with links to IBR TetFund and Drid Research Diploma.
 
 ### Progress Report:
-1. Contribution workflows added to `claim issues`, `disclaim issues`, `propose pr`, `withdraw pr`, workflows to add `awaiting author` and `awaiting review tags`.
+1. Rename repos to follow the required standards.
+2. Contribution workflows added to `claim issues`, `disclaim issues`, `propose pr`, `withdraw pr`, workflows to add `awaiting author` and `awaiting review tags`.
 
-### TODO:
+### Todo:
 1. Add CONTRIBUTING.md and CODE_OF_CONDUCT.md
 2. Add link to whatsapp or telegram chats for some workflows.
 3. Set up continuous deployment pipeline, for staging and production.
