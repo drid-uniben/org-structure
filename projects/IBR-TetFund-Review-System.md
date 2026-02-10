@@ -22,7 +22,7 @@ IBR stands for institution based research.
 2. Contribution workflows added to `claim issues`, `disclaim issues`, `propose pr`, `withdraw pr`, workflows to add `awaiting author` and `awaiting review tags`.
 
 ### Todo:
-1. Add CONTRIBUTING.md and CODE_OF_CONDUCT.md
-2. Add link to whatsapp or telegram chats for some workflows.
-3. Set up continuous deployment pipeline, for staging and production.
+1. Add CONTRIBUTING.md and CODE_OF_CONDUCT.md (added to ibr-and-courses repo)
+2. Add link to whatsapp or telegram chats for some workflows. (waiting for response from Ray)
+3. Set up continuous deployment pipeline, for staging and production. (ci pipeline setup)
 4. Move on to setup the next project.
