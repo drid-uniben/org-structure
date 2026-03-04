@@ -19,6 +19,11 @@ IBR stands for institution based research.
   - Name: `ibr-and-courses`
   - Description: Landing page with links to IBR TetFund and Drid Research Diploma.
 
+### Progress Report:
+1. Repo renaming [COMPLETE]
+2. Add workflow to create docker container.
+3. Setup ci in the vps.
+4. Update workflow in 2 to ssh into vps and run deployment script.
 ---
 
 ## 2. DRID-Official
@@ -35,6 +40,10 @@ IBR stands for institution based research.
 - **Repo 2:** [Link](https://github.com/drid-uniben/server)
   - Old Name: `server`
   - New Name: `drid-official-server`
+
+### Progress Report:
+1. Repo renaming
+...
 
 ---
 
@@ -72,6 +81,13 @@ IBR stands for institution based research.
 - **Repo 4:** [Link](https://github.com/drid-uniben/ubjsti_server)
   - Old Name: `ubjsti_server`
   - New Name: `ubjsti-server`
+
+### Progress Report:
+1. Repo renaming [COMPLETE]
+2. Update repo branches
+3. Add contribution workflow
+4. Add docker
+5. Add workflow to build containers
 
 ---
 
