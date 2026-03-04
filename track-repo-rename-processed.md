@@ -83,11 +83,12 @@ IBR stands for institution based research.
   - New Name: `ubjsti-server`
 
 ### Progress Report:
-1. Repo renaming [COMPLETE]
-2. Update repo branches
-3. Add contribution workflow
-4. Add docker
-5. Add workflow to build containers
+1. Repo renaming *Complete*
+2. Add branch protection rules *Complete*
+3. Update repo branches *Complete*
+4. Add contribution workflow
+5. Add docker
+6. Add workflow to build containers
 
 ---
 
