@@ -16,5 +16,5 @@
   - New Name: `drid-official-server`
 
 ## Progress Report
-1. Repo renaming
+1. Repo renaming *Complete*
 2. ...
