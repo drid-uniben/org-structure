@@ -14,10 +14,13 @@ IBR stands for institution based research.
   - New Name: `ibr-tetfund-client`
 - **Repo 2:** [Link](https://github.com/drid-uniben/server2_v2)
   - Old Name: `server2_v2`
-  - New Name: `ibr-tetfund-server-v2`
+  - New Name: `ibr-tetfund-server`
 - **Repo 3 (To be created):** [Link](https://github.com/drid-uniben/ibr-and-courses)
   - Name: `ibr-and-courses`
   - Description: Landing page with links to IBR TetFund and Drid Research Diploma.
+- **Repo 4 [Phased Out]:** [Link](https://github.com/drid-uniben/server2)
+  - Old Name: `server2`
+  - New Name: `ibr-tetfund-server-old`
 
 ## Progress Report
 1. Repo renaming *Complete*

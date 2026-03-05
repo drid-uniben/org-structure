@@ -124,4 +124,6 @@ Github Project: Research Diploma
 - [proposal-cli](https://github.com/drid-uniben/proposal-cli) (`proposal-cli`)
 - [research_frontend](https://github.com/drid-uniben/research_frontend) (`research_frontend`)
 - [research-server](https://github.com/drid-uniben/research-server) (`research-server`)
-- [server2](https://github.com/drid-uniben/server2) (`server2`)
+
+## 7. Old random tools and dev repos
+- [server2](https://github.com/drid-uniben/server2) (`server2`) - this is actually ibr-tetfund-server-v1, and it no longer in use.
