@@ -20,7 +20,7 @@ IBR stands for institution based research.
   - Description: Landing page with links to IBR TetFund and Drid Research Diploma.
 
 ### Progress Report:
-1. Repo renaming [COMPLETE]
+1. Repo renaming *Complete*
 2. Add workflow to create docker container.
 3. Setup ci in the vps.
 4. Update workflow in 2 to ssh into vps and run deployment script.
@@ -62,6 +62,12 @@ IBR stands for institution based research.
   - Old Name: `django-backend`
   - New Name: `research-diploma-server`
 
+Github Project: Research Diploma
+
+### Progress Report:
+1. Renaming repo *Complete*
+2. Updating branches
+
 ---
 
 ## 4. Humanities-and-STEM-Journals
@@ -101,16 +107,20 @@ IBR stands for institution based research.
   - Old Name: `DridCon_Ticket`
   - New Name: `dridcon-ticket-system`
 
+### Progress Report
+1. Repo renaming *Complete*
+...
+
 ---
 
 ## 6. Random, Tools, and Dev Repos
 **Description:** Catalogue of tools, workers, config repos, and random repositories (including uncompleted/source repos).
 
 **Repositories:**
-- [org-structure](https://github.com/drid-uniben/org-structure) (`org-structure`)
+- [org-structure](https://github.com/drid-uniben/org-structure) (`org-structure`) - all good.
 - [.github](https://github.com/drid-uniben/.github) (`.github`)
-- [demo-repository](https://github.com/drid-uniben/demo-repository) (`demo-repository`)
-- [snipets](https://github.com/drid-uniben/snipets) (`snipets`)
+- [demo-repository](https://github.com/drid-uniben/demo-repository) (`demo-repository`) - repo deleted
+- [snipets](https://github.com/drid-uniben/snipets) (`snipets`) - repo deleted and data pulled into org-structure repo.
 - [proposal-cli](https://github.com/drid-uniben/proposal-cli) (`proposal-cli`)
 - [research_frontend](https://github.com/drid-uniben/research_frontend) (`research_frontend`)
 - [research-server](https://github.com/drid-uniben/research-server) (`research-server`)
