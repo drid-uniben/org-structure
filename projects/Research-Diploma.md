@@ -19,4 +19,7 @@ Github Project: Research Diploma
 
 ## Progress Report
 1. Renaming repo *Complete*
-2. Updating branches
+2. Updating branch names *Complete*
+3. Adding branch protection rules
+4. Adding contributing workflows
+5. Adding ci to build/test project
