@@ -1,9 +1,13 @@
 ## Devs
 1. Lucky Egho, backend - https://github.com/EGHO-LUCKY
 
-3. Ohenhen Isoken Glory, backend - https://github.com/Glorie27
-
 6. Ameh Isaac Favour, backend - https://github.com/Isaac-Ameh
+
+3. Ohenhen Isoken Glory, backend(django) - https://github.com/Glorie27
+
+11. Augustine Edwin, backend(django) - https://github.com/auztintech
+
+12. todo:addtoorg; unknown, backend(django) - https://github.com/oma01234
 
 9. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
 
