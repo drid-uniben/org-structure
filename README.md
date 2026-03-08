@@ -23,3 +23,5 @@ to confirm that it is using the old name uniben interns, if true, you wan update
 # This assumes git remote -v showed origin as your remote
 git remote set-url origin ${basically the same url you saw when you ran git remote -v, just only change the org name from unibeninterns to drid-uniben}
 ```
+
+See [interns.md] for a list of interns and the respective projects they are assigned to.
