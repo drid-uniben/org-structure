@@ -7,8 +7,6 @@
 
 11. Augustine Edwin, backend(django) - https://github.com/auztintech
 
-12. todo:addtoorg; unknown, backend(django) - https://github.com/oma01234
-
 9. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
 
 10. Light Ebube, frontend - https://github.com/Lyteking
