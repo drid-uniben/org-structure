@@ -7,12 +7,11 @@
 
 9. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
 
+10. Light Ebube, frontend - https://github.com/Lyteking
+
 2. Daniel Ikediashi, fullstack - https://github.com/uncleiked
 
 4. Arharhire Mudiaga, fullstack - https://github.com/mudiageo
-
-
-10. Light Ebube, frontend - https://github.com/Lyteking
 
 7. Omoyakhi Raymond Eshikogie, fullstack - https://github.com/Raymond-engr
 
