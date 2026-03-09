@@ -76,3 +76,4 @@ Updates need to be made to the following projects to improve them, upgrade depre
 1. Email Campaigns.
 2. Drid Con Ticket.
 3. Lecturer Profile Stuff (should be under the main uniben website stuff)
+4. Refurbish of journals-db.uniben.edu
