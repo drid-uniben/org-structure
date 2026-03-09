@@ -23,8 +23,8 @@
 
 ## Design
 12. Marilyn Emenogu [figma.com/@mar_lynk](https://www.figma.com/@mar_lynk)
-13. Harmony OYEYIOLA [figma.com/@harmonydami](https://www.figma.com/@harmonydami)
-14. Osawaru Osamede *figma profile link required*
+13. Harmony Oyeyiola [figma.com/@harmonydami](https://www.figma.com/@harmonydami)
+14. Osawaru Osamede [figma.com/@pearl56](https://www.figma.com/@pearl56)
 
 
 ## Projects and Teams
