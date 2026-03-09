@@ -22,9 +22,9 @@
 5. Afahakan Precious, fullstack - https://github.com/Precious-Afahakan - 4
 
 ## Design
-12. Designer 1
-13. Designer 2
-14. Designer 3
+12. Marilyn Emenogu [figma.com/@mar_lynk](https://www.figma.com/@mar_lynk)
+13. Harmony OYEYIOLA [figma.com/@harmonydami](https://www.figma.com/@harmonydami)
+14. Osawaru Osamede *figma profile link required*
 
 
 ## Projects and Teams
