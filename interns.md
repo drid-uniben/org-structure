@@ -76,6 +76,6 @@ Updates need to be made to the following projects to improve them, upgrade depre
 4. Refurbish of journals-db.uniben.edu
 
 ### Deigns that need to be completed ASAP, but they are not big enough to be their own project as it is a single page stuff.
-1. Design a single web page for https://drid-uniben.org then the devs are to implement it in https://github.com/drid-uniben/drid-uniben-org 
+1. Design a single web page for https://drid-uniben.org then the devs are to implement it in https://github.com/drid-uniben/drid-uniben.org 
 2. Design a single web page for https://proposal.drid-uniben.org then the devs are to implement it in https://github.com/drid-uniben/proposal. https://proposal.drid-uniben.org should link to ibr-tetfund-client and subsequent new proposals that might pop up.
 3. ibr-tetfund-client should be put under https://ibr.drid-uniben.org
