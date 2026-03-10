@@ -43,23 +43,20 @@ This is a rest api abstraction over smptp.
 
 ## Members:
 1. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
-2. Omoyakhi Raymond Eshikogie, fullstack - https://github.com/Raymond-engr
-3. Arharhire Mudiaga, fullstack - https://github.com/mudiageo
+2. Arharhire Mudiaga, fullstack - https://github.com/mudiageo
 
 ### 3. Storage Service
 
 ## Members:
 1. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
-2. Omoyakhi Raymond Eshikogie, fullstack - https://github.com/Raymond-engr
-3. Ameh Isaac Favour, backend - https://github.com/Isaac-Ameh
+2. Ameh Isaac Favour, backend - https://github.com/Isaac-Ameh
 
 ### 4. Service Dashboard for DRID API services
 Dashboard for creating and managing tokens for services. 
 
 ## Members:
 1. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
-2. Omoyakhi Raymond Eshikogie, fullstack - https://github.com/Raymond-engr
-5. Afahakan Precious, fullstack - https://github.com/Precious-Afahakan
+2. Afahakan Precious, fullstack - https://github.com/Precious-Afahakan
 
 
 ### 5. Research Diploma
