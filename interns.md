@@ -19,7 +19,7 @@
 
 8. Genesis Osasenaga Ighalo, fullstack - https://github.com/daves-hub - 5
 
-5. Afahakan Precious, fullstack - https://github.com/Precious-Afahakan - 4
+5. Afahakan Precious, backend - https://github.com/Precious-Afahakan - 4
 
 ## Design
 12. Marilyn Emenogu [figma.com/@mar_lynk](https://www.figma.com/@mar_lynk)
@@ -56,7 +56,7 @@ Dashboard for creating and managing tokens for services.
 
 ## Members:
 1. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
-2. Afahakan Precious, fullstack - https://github.com/Precious-Afahakan
+2. Afahakan Precious, backend - https://github.com/Precious-Afahakan
 
 
 ### 5. Research Diploma
@@ -67,6 +67,12 @@ Dashboard for creating and managing tokens for services.
 2. Genesis Osasenaga Ighalo, fullstack - https://github.com/daves-hub
 3. Ohenhen Isoken Glory, backend(django) - https://github.com/Glorie27
 4. Augustine Edwin, backend(django) - https://github.com/auztintech
+
+### 6. Auth-service
+
+## Members.
+1. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
+2. Afahakan Precious, backend - https://github.com/Precious-Afahakan
 
 ### Future Projects
 Updates need to be made to the following projects to improve them, upgrade deprecated packages, basically maintainance stuff and a few improvement:
