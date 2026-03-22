@@ -7,7 +7,7 @@
 
 11. Augustine Edwin, backend(django) - https://github.com/auztintech - 5
 
-9. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman - (devops/maintainer)
+9. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman - (devops/maintainer)
 
 10. Light Ebube, frontend - https://github.com/Lyteking - 5
 
@@ -32,7 +32,7 @@
 ### 1. IBR Tetfund Project
 
 ## Members:
-1. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
+1. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman
 2. Omoyakhi Raymond Eshikogie, fullstack - https://github.com/Raymond-engr
 3. Daniel Ikediashi, fullstack - https://github.com/uncleiked
 4. Lucky Egho, backend - https://github.com/EGHO-LUCKY
@@ -42,20 +42,20 @@
 This is a rest api abstraction over smptp.
 
 ## Members:
-1. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
+1. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman
 2. Arharhire Mudiaga, fullstack - https://github.com/mudiageo
 
 ### 3. Storage Service
 
 ## Members:
-1. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
+1. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman
 2. Ameh Isaac Favour, backend - https://github.com/Isaac-Ameh
 
 ### 4. Service Dashboard for DRID API services
 Dashboard for creating and managing tokens for services. 
 
 ## Members:
-1. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
+1. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman
 2. Afahakan Precious, fullstack - https://github.com/Precious-Afahakan
 
 
