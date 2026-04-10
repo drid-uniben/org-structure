@@ -66,6 +66,8 @@ Dashboard for creating and managing tokens for services.
 1. Light Ebube, frontend - https://github.com/Lyteking
 2. Genesis Osasenaga Ighalo, fullstack - https://github.com/daves-hub
 3. Ohenhen Isoken Glory, backend(django) - https://github.com/Glorie27
+
+## Non-Member:
 4. Augustine Edwin, backend(django) - https://github.com/auztintech
 
 ### 6. Auth-service
