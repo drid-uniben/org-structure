@@ -40,24 +40,21 @@
 
 
 ### 2. Research Diploma
-
+[client](https://github.com/drid-uniben/research-diploma-client), [server](https://github.com/drid-uniben/research-diploma-server)
 ## Members:
-
 1. Light Ebube, frontend - https://github.com/Lyteking
 2. Genesis Osasenaga Ighalo, fullstack - https://github.com/daves-hub
 3. Ohenhen Isoken Glory, backend(django) - https://github.com/Glorie27
-
-## Non-Member:
+## Past-Member:
 4. Augustine Edwin, backend(django) - https://github.com/auztintech
 
 ### 3. Service Platform
-
+[Seep Project](https://github.com/drid-uniben/service-platform)
 ## Members
-1. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
+1. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman (dashboard, auth, storage, email)
 2. Afahakan Precious, backend - https://github.com/Precious-Afahakan (auth)
-1. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman (dashboard)
-2. Ameh Isaac Favour, backend - https://github.com/Isaac-Ameh (storage)
-2. Arharhire Mudiaga, fullstack - https://github.com/mudiageo (email)
+3. Ameh Isaac Favour, backend - https://github.com/Isaac-Ameh (storage)
+4. Arharhire Mudiaga, fullstack - https://github.com/mudiageo (email)
 
 ### Future Projects
 Updates need to be made to the following projects to improve them, upgrade deprecated packages, basically maintainance stuff and a few improvement:
