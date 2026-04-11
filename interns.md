@@ -5,7 +5,7 @@
 
 3. Ohenhen Isoken Glory, backend(django) - https://github.com/Glorie27 - 5
 
-11. Augustine Edwin, backend(django) - https://github.com/auztintech - 5
+11. Augustine Edwin, backend(django) - https://github.com/auztintech 
 
 9. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman - (devops/maintainer)
 
@@ -38,28 +38,8 @@
 4. Lucky Egho, backend - https://github.com/EGHO-LUCKY
 5. Designer 1
 
-### 2. Email Service
-This is a rest api abstraction over smptp.
 
-## Members:
-1. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman
-2. Arharhire Mudiaga, fullstack - https://github.com/mudiageo
-
-### 3. Storage Service
-
-## Members:
-1. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman
-2. Ameh Isaac Favour, backend - https://github.com/Isaac-Ameh
-
-### 4. Service Dashboard for DRID API services
-Dashboard for creating and managing tokens for services. 
-
-## Members:
-1. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman
-2. Afahakan Precious, backend - https://github.com/Precious-Afahakan
-
-
-### 5. Research Diploma
+### 2. Research Diploma
 
 ## Members:
 
@@ -70,11 +50,14 @@ Dashboard for creating and managing tokens for services.
 ## Non-Member:
 4. Augustine Edwin, backend(django) - https://github.com/auztintech
 
-### 6. Auth-service
+### 3. Service Platform
 
-## Members.
+## Members
 1. Emmanuel Osalotioman Osazuwa, backend+devops - https://github.com/Osalotioman
-2. Afahakan Precious, backend - https://github.com/Precious-Afahakan
+2. Afahakan Precious, backend - https://github.com/Precious-Afahakan (auth)
+1. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman (dashboard)
+2. Ameh Isaac Favour, backend - https://github.com/Isaac-Ameh (storage)
+2. Arharhire Mudiaga, fullstack - https://github.com/mudiageo (email)
 
 ### Future Projects
 Updates need to be made to the following projects to improve them, upgrade deprecated packages, basically maintainance stuff and a few improvement:
