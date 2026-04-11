@@ -5,8 +5,6 @@
 
 3. Ohenhen Isoken Glory, backend(django) - https://github.com/Glorie27 - 5
 
-11. Augustine Edwin, backend(django) - https://github.com/auztintech 
-
 9. Emmanuel Osalotioman Osazuwa, fullstack+devops - https://github.com/Osalotioman - (devops/maintainer)
 
 10. Light Ebube, frontend - https://github.com/Lyteking - 5
