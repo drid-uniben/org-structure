@@ -43,7 +43,7 @@
 1. Light Ebube, frontend - https://github.com/Lyteking
 2. Genesis Osasenaga Ighalo, fullstack - https://github.com/daves-hub
 3. Ohenhen Isoken Glory, backend(django) - https://github.com/Glorie27
-## Past-Member:
+## Honorary Technology and Product Unit Lead:
 4. Augustine Edwin, backend(django) - https://github.com/auztintech
 
 ### 3. Service Platform
