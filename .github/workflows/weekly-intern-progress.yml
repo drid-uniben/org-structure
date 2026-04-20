@@ -1,4 +1,4 @@
-name: Weekly Intern PR Progress
+name: Weekly Intern Activity Progress
 
 on:
   schedule:
@@ -17,7 +17,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate progress.md from org PR activity
+      - name: Generate progress.md from org activity
         uses: actions/github-script@v7
         with:
           github-token: ${{ github.token }}
@@ -68,8 +68,10 @@ jobs:
             for (const intern of interns) {
               report.set(intern.username.toLowerCase(), {
                 intern,
-                repos: new Map(),
+                prRepos: new Map(),
+                commitRepos: new Map(),
                 totalPRs: 0,
+                totalCommits: 0,
               });
             }
 
@@ -104,11 +106,11 @@ jobs:
                 }
 
                 const row = report.get(login);
-                if (!row.repos.has(repo.name)) {
-                  row.repos.set(repo.name, []);
+                if (!row.prRepos.has(repo.name)) {
+                  row.prRepos.set(repo.name, []);
                 }
 
-                row.repos.get(repo.name).push({
+                row.prRepos.get(repo.name).push({
                   number: pr.number,
                   title: pr.title,
                   url: pr.html_url,
@@ -121,14 +123,50 @@ jobs:
 
                 row.totalPRs += 1;
               }
+
+              const commits = await github.paginate(github.rest.repos.listCommits, {
+                owner: ORG,
+                repo: repo.name,
+                since: since.toISOString(),
+                per_page: 100,
+              });
+
+              for (const commit of commits) {
+                const login = commit.author?.login?.toLowerCase();
+                if (!login || !internByLogin.has(login)) {
+                  continue;
+                }
+
+                const row = report.get(login);
+                if (!row.commitRepos.has(repo.name)) {
+                  row.commitRepos.set(repo.name, []);
+                }
+
+                row.commitRepos.get(repo.name).push({
+                  sha: commit.sha,
+                  shortSha: commit.sha.slice(0, 7),
+                  message: (commit.commit?.message || '').split('\n')[0],
+                  url: commit.html_url,
+                  date: commit.commit?.author?.date,
+                });
+
+                row.totalCommits += 1;
+              }
             }
 
             const fmtDate = (d) => new Date(d).toISOString().slice(0, 10);
             const reportDate = now.toISOString().slice(0, 10);
             const sinceDate = since.toISOString().slice(0, 10);
+            const activityRepoCount = (row) => {
+              const allRepos = new Set([
+                ...row.commitRepos.keys(),
+                ...row.prRepos.keys(),
+              ]);
+              return allRepos.size;
+            };
 
             const lines = [];
-            lines.push('# DRID Weekly Intern PR Progress Report');
+            lines.push('# DRID Weekly Intern Activity Report');
             lines.push('');
             lines.push(`Generated: ${reportDate}`);
             lines.push(`Window: ${sinceDate} to ${reportDate} (last ${WINDOW_DAYS} days)`);
@@ -136,44 +174,70 @@ jobs:
             lines.push('');
             lines.push('## Summary');
             lines.push('');
-            lines.push('| Intern | PRs in Window | Repos Touched |');
-            lines.push('| --- | ---: | ---: |');
+            lines.push('| Intern | Commits in Window | PRs in Window | Active Repos |');
+            lines.push('| --- | ---: | ---: | ---: |');
 
-            const rows = Array.from(report.values()).sort((a, b) => b.totalPRs - a.totalPRs);
+            const rows = Array.from(report.values()).sort((a, b) => {
+              if (b.totalCommits !== a.totalCommits) {
+                return b.totalCommits - a.totalCommits;
+              }
+              return b.totalPRs - a.totalPRs;
+            });
             for (const row of rows) {
               lines.push(
-                `| ${row.intern.name} (@${row.intern.username}) | ${row.totalPRs} | ${row.repos.size} |`
+                `| ${row.intern.name} (@${row.intern.username}) | ${row.totalCommits} | ${row.totalPRs} | ${activityRepoCount(row)} |`
               );
             }
 
             lines.push('');
-            lines.push('## Detailed Activity');
+            lines.push('## Detailed Activity (Commits First)');
             lines.push('');
 
             for (const row of rows) {
               lines.push(`### ${row.intern.name} (@${row.intern.username})`);
 
-              if (row.totalPRs === 0) {
-                lines.push('No PR activity in the last 7 days.');
+              if (row.totalCommits === 0 && row.totalPRs === 0) {
+                lines.push('No commit or PR activity in the last 7 days.');
                 lines.push('');
                 continue;
               }
 
-              const repoEntries = Array.from(row.repos.entries()).sort((a, b) => b[1].length - a[1].length);
+              lines.push(`Total commits: ${row.totalCommits}`);
               lines.push(`Total PRs: ${row.totalPRs}`);
               lines.push('');
 
-              for (const [repoName, prs] of repoEntries) {
-                lines.push(`- ${repoName} (${prs.length} PR${prs.length > 1 ? 's' : ''})`);
-                for (const pr of prs.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))) {
-                  const status = pr.merged_at
-                    ? 'merged'
-                    : pr.state === 'open'
-                      ? 'open'
-                      : 'closed';
-                  lines.push(
-                    `  - [#${pr.number}](${pr.url}) ${pr.title} - ${status}, updated ${fmtDate(pr.updated_at)}`
-                  );
+              lines.push('Commits:');
+              if (row.totalCommits === 0) {
+                lines.push('- None in this window.');
+              } else {
+                const commitEntries = Array.from(row.commitRepos.entries()).sort((a, b) => b[1].length - a[1].length);
+                for (const [repoName, commits] of commitEntries) {
+                  lines.push(`- ${repoName} (${commits.length} commit${commits.length > 1 ? 's' : ''})`);
+                  for (const commit of commits.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))) {
+                    const commitDate = commit.date ? fmtDate(commit.date) : 'unknown-date';
+                    lines.push(`  - [${commit.shortSha}](${commit.url}) ${commit.message} - ${commitDate}`);
+                  }
+                }
+              }
+
+              lines.push('');
+              lines.push('PRs:');
+              if (row.totalPRs === 0) {
+                lines.push('- None in this window.');
+              } else {
+                const prEntries = Array.from(row.prRepos.entries()).sort((a, b) => b[1].length - a[1].length);
+                for (const [repoName, prs] of prEntries) {
+                  lines.push(`- ${repoName} (${prs.length} PR${prs.length > 1 ? 's' : ''})`);
+                  for (const pr of prs.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))) {
+                    const status = pr.merged_at
+                      ? 'merged'
+                      : pr.state === 'open'
+                        ? 'open'
+                        : 'closed';
+                    lines.push(
+                      `  - [#${pr.number}](${pr.url}) ${pr.title} - ${status}, updated ${fmtDate(pr.updated_at)}`
+                    );
+                  }
                 }
               }
 
