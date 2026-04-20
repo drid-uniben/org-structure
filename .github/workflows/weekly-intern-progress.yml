@@ -1,0 +1,191 @@
+name: Weekly Intern PR Progress
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  build-progress-report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate progress.md from org PR activity
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ github.token }}
+          script: |
+            const fs = require('fs');
+
+            const ORG = 'drid-uniben';
+            const WINDOW_DAYS = 7;
+            const internsPath = '.github/data/interns.json';
+
+            if (!fs.existsSync(internsPath)) {
+              core.setFailed(`Missing ${internsPath}.`);
+              return;
+            }
+
+            const internsRaw = JSON.parse(fs.readFileSync(internsPath, 'utf8'));
+            const interns = internsRaw.map((entry) => {
+              if (typeof entry === 'string') {
+                return { username: entry, name: entry };
+              }
+              return {
+                username: entry.username,
+                name: entry.name || entry.username,
+              };
+            }).filter((entry) => entry.username);
+
+            if (interns.length === 0) {
+              core.setFailed('No intern usernames found in interns.json');
+              return;
+            }
+
+            const internByLogin = new Map(
+              interns.map((i) => [i.username.toLowerCase(), i])
+            );
+
+            const now = new Date();
+            const since = new Date(now.getTime() - WINDOW_DAYS * 24 * 60 * 60 * 1000);
+
+            const repos = await github.paginate(github.rest.repos.listForOrg, {
+              org: ORG,
+              per_page: 100,
+              type: 'all',
+              sort: 'updated',
+              direction: 'desc',
+            });
+
+            const report = new Map();
+            for (const intern of interns) {
+              report.set(intern.username.toLowerCase(), {
+                intern,
+                repos: new Map(),
+                totalPRs: 0,
+              });
+            }
+
+            for (const repo of repos) {
+              const pulls = await github.paginate(github.rest.pulls.list, {
+                owner: ORG,
+                repo: repo.name,
+                state: 'all',
+                sort: 'updated',
+                direction: 'desc',
+                per_page: 100,
+              });
+
+              for (const pr of pulls) {
+                const login = pr.user?.login?.toLowerCase();
+                if (!login || !internByLogin.has(login)) {
+                  continue;
+                }
+
+                const lastActivity = [
+                  pr.updated_at,
+                  pr.created_at,
+                  pr.closed_at,
+                  pr.merged_at,
+                ]
+                  .filter(Boolean)
+                  .map((d) => new Date(d))
+                  .sort((a, b) => b - a)[0];
+
+                if (!lastActivity || lastActivity < since) {
+                  continue;
+                }
+
+                const row = report.get(login);
+                if (!row.repos.has(repo.name)) {
+                  row.repos.set(repo.name, []);
+                }
+
+                row.repos.get(repo.name).push({
+                  number: pr.number,
+                  title: pr.title,
+                  url: pr.html_url,
+                  state: pr.state,
+                  draft: pr.draft,
+                  created_at: pr.created_at,
+                  updated_at: pr.updated_at,
+                  merged_at: pr.merged_at,
+                });
+
+                row.totalPRs += 1;
+              }
+            }
+
+            const fmtDate = (d) => new Date(d).toISOString().slice(0, 10);
+            const reportDate = now.toISOString().slice(0, 10);
+            const sinceDate = since.toISOString().slice(0, 10);
+
+            const lines = [];
+            lines.push('# DRID Weekly Intern PR Progress Report');
+            lines.push('');
+            lines.push(`Generated: ${reportDate}`);
+            lines.push(`Window: ${sinceDate} to ${reportDate} (last ${WINDOW_DAYS} days)`);
+            lines.push(`Organization: ${ORG}`);
+            lines.push('');
+            lines.push('## Summary');
+            lines.push('');
+            lines.push('| Intern | PRs in Window | Repos Touched |');
+            lines.push('| --- | ---: | ---: |');
+
+            const rows = Array.from(report.values()).sort((a, b) => b.totalPRs - a.totalPRs);
+            for (const row of rows) {
+              lines.push(
+                `| ${row.intern.name} (@${row.intern.username}) | ${row.totalPRs} | ${row.repos.size} |`
+              );
+            }
+
+            lines.push('');
+            lines.push('## Detailed Activity');
+            lines.push('');
+
+            for (const row of rows) {
+              lines.push(`### ${row.intern.name} (@${row.intern.username})`);
+
+              if (row.totalPRs === 0) {
+                lines.push('No PR activity in the last 7 days.');
+                lines.push('');
+                continue;
+              }
+
+              const repoEntries = Array.from(row.repos.entries()).sort((a, b) => b[1].length - a[1].length);
+              lines.push(`Total PRs: ${row.totalPRs}`);
+              lines.push('');
+
+              for (const [repoName, prs] of repoEntries) {
+                lines.push(`- ${repoName} (${prs.length} PR${prs.length > 1 ? 's' : ''})`);
+                for (const pr of prs.sort((a, b) => new Date(b.updated_at) - new Date(a.updated_at))) {
+                  const status = pr.merged_at
+                    ? 'merged'
+                    : pr.state === 'open'
+                      ? 'open'
+                      : 'closed';
+                  lines.push(
+                    `  - [#${pr.number}](${pr.url}) ${pr.title} - ${status}, updated ${fmtDate(pr.updated_at)}`
+                  );
+                }
+              }
+
+              lines.push('');
+            }
+
+            fs.writeFileSync('progress.md', `${lines.join('\n')}\n`, 'utf8');
+            core.info('Wrote progress.md');
+
+      - name: Commit updated progress.md
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(report): update weekly intern progress"
+          file_pattern: progress.md
+          branch: ${{ github.ref_name }}
