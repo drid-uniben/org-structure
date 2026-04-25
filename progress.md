@@ -1,17 +1,17 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-04-22
-Window: 2026-04-15 to 2026-04-22 (last 7 days)
+Generated: 2026-04-25
+Window: 2026-04-18 to 2026-04-25 (last 7 days)
 Organization: drid-uniben
 
 ## Summary
 
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 23 | 6 | 3 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 20 | 6 | 3 |
 | Ameh Isaac Favour (@Isaac-Ameh) | 1 | 1 | 1 |
-| Lucky Egho (@EGHO-LUCKY) | 0 | 1 | 1 |
 | Arharhire Mudiaga (@mudiageo) | 0 | 1 | 1 |
+| Lucky Egho (@EGHO-LUCKY) | 0 | 0 | 0 |
 | Ohenhen Isoken Glory (@Glorie27) | 0 | 0 | 0 |
 | Light Ebube (@Lyteking) | 0 | 0 | 0 |
 | Daniel Ikediashi (@uncleiked) | 0 | 0 | 0 |
@@ -22,7 +22,7 @@ Organization: drid-uniben
 ## Detailed Activity (Commits First)
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
-Total commits: 23
+Total commits: 20
 Total PRs: 6
 
 Commits:
@@ -39,19 +39,16 @@ Commits:
   - [25d10de](https://github.com/drid-uniben/ubjh/commit/25d10de6d67e92fe9fd8cae51a03e20e718dd4a0) chore: Update env and remove extra field in example env - 2026-04-22
   - [739b91b](https://github.com/drid-uniben/ubjh/commit/739b91b38ccd09e930a79f5629b53e4237652feb) feat: Script to deploy ubjh containers to github container registry (#2) - 2026-04-21
 - org-structure (7 commits)
+  - [e8a53c9](https://github.com/drid-uniben/org-structure/commit/e8a53c9ac0b49d6e2ba5727947ea12a6d38e05e1) chore(report): update weekly intern progress - 2026-04-22
   - [1523363](https://github.com/drid-uniben/org-structure/commit/1523363d0b65efc7d82c7d1bdcee1453646c37af) chore(report): update weekly intern progress - 2026-04-22
   - [8f1b759](https://github.com/drid-uniben/org-structure/commit/8f1b759546fc1f0bf9da490fe4576a814face9c0) chore(report): update weekly intern progress - 2026-04-22
   - [2cd7230](https://github.com/drid-uniben/org-structure/commit/2cd72302d8c0879d24acfc0a989d867d60594076) chore(report): update weekly intern progress - 2026-04-20
   - [dd428c5](https://github.com/drid-uniben/org-structure/commit/dd428c5e0cf9c1062049dc03cd4cdbde3ef4674e) chore(report): enhance weekly intern activity report to include commit tracking - 2026-04-20
   - [9fff9a4](https://github.com/drid-uniben/org-structure/commit/9fff9a4a4adc604895eb3c91148a53d01b2779f6) chore(report): update weekly intern progress - 2026-04-20
   - [9e45d31](https://github.com/drid-uniben/org-structure/commit/9e45d31dcee56b30e98b671f66a905f370d90006) chore: Add interns.json and create weekly intern progress workflow (#7) - 2026-04-20
-  - [6784ca1](https://github.com/drid-uniben/org-structure/commit/6784ca10c4659db71b2e45c5ca9212f592a23e95) chore: Rename Past-Member section to Honorary Technology and Product Unit Lead - 2026-04-17
-- service-platform (5 commits)
+- service-platform (2 commits)
   - [d841ea5](https://github.com/drid-uniben/service-platform/commit/d841ea58588c3f6ac53a21ffc7716b5266ebac2a) feat: add doc specifying api architecture (#4) - 2026-04-22
   - [799a3da](https://github.com/drid-uniben/service-platform/commit/799a3daaf94f9443758c0ce98ea86346cbcdc712) chore: Update copyright year and owner in LICENSE file (#2) - 2026-04-19
-  - [9bcc0cf](https://github.com/drid-uniben/service-platform/commit/9bcc0cfbb9cd2dcc37b2fdf5a26e22544fc089e5) docs: add linting instructions for ruff in README.md - 2026-04-17
-  - [758e695](https://github.com/drid-uniben/service-platform/commit/758e695a47468374f911466179b46f141ee97ef9) fix: update parameter naming to maintain camelCase consistency in upload route - 2026-04-17
-  - [8d2d36d](https://github.com/drid-uniben/service-platform/commit/8d2d36d6bb1e5f4c37cd66a46c09ff64f5861ef3) feat: implement SnakeCaseRoute for consistent API key and object key handling - 2026-04-17
 
 PRs:
 - ubjh (3 PRs)
@@ -76,17 +73,6 @@ PRs:
 - service-platform (1 PR)
   - [#3](https://github.com/drid-uniben/service-platform/pull/3) docs(email-service): add local setup guide, openapi docs - merged, updated 2026-04-22
 
-### Lucky Egho (@EGHO-LUCKY)
-Total commits: 0
-Total PRs: 1
-
-Commits:
-- None in this window.
-
-PRs:
-- ibr-tetfund-server (1 PR)
-  - [#4](https://github.com/drid-uniben/ibr-tetfund-server/pull/4) Add template file, Docker ci setup - open, updated 2026-04-18
-
 ### Arharhire Mudiaga (@mudiageo)
 Total commits: 0
 Total PRs: 1
@@ -97,6 +83,9 @@ Commits:
 PRs:
 - ubjh (1 PR)
   - [#1](https://github.com/drid-uniben/ubjh/pull/1) fix(ci): add pnpm version in server CI - closed, updated 2026-04-22
+
+### Lucky Egho (@EGHO-LUCKY)
+No commit or PR activity in the last 7 days.
 
 ### Ohenhen Isoken Glory (@Glorie27)
 No commit or PR activity in the last 7 days.
