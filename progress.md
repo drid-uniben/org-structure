@@ -1,18 +1,18 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-04-25
-Window: 2026-04-18 to 2026-04-25 (last 7 days)
+Generated: 2026-04-27
+Window: 2026-04-20 to 2026-04-27 (last 7 days)
 Organization: drid-uniben
 
 ## Summary
 
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 20 | 6 | 3 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 20 | 5 | 3 |
 | Ameh Isaac Favour (@Isaac-Ameh) | 1 | 1 | 1 |
+| Ohenhen Isoken Glory (@Glorie27) | 0 | 1 | 1 |
 | Arharhire Mudiaga (@mudiageo) | 0 | 1 | 1 |
 | Lucky Egho (@EGHO-LUCKY) | 0 | 0 | 0 |
-| Ohenhen Isoken Glory (@Glorie27) | 0 | 0 | 0 |
 | Light Ebube (@Lyteking) | 0 | 0 | 0 |
 | Daniel Ikediashi (@uncleiked) | 0 | 0 | 0 |
 | Omoyakhi Raymond Eshikogie (@Raymond-engr) | 0 | 0 | 0 |
@@ -23,7 +23,7 @@ Organization: drid-uniben
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
 Total commits: 20
-Total PRs: 6
+Total PRs: 5
 
 Commits:
 - ubjh (11 commits)
@@ -38,7 +38,8 @@ Commits:
   - [f323dcb](https://github.com/drid-uniben/ubjh/commit/f323dcb090d6845bdf47183f1dc58a8cdd3d1832) fix: Minimal type errors to enable running project locally - 2026-04-22
   - [25d10de](https://github.com/drid-uniben/ubjh/commit/25d10de6d67e92fe9fd8cae51a03e20e718dd4a0) chore: Update env and remove extra field in example env - 2026-04-22
   - [739b91b](https://github.com/drid-uniben/ubjh/commit/739b91b38ccd09e930a79f5629b53e4237652feb) feat: Script to deploy ubjh containers to github container registry (#2) - 2026-04-21
-- org-structure (7 commits)
+- org-structure (8 commits)
+  - [dded0dc](https://github.com/drid-uniben/org-structure/commit/dded0dc6d8705d995f1f3773cb9192e5252f5eaf) chore(report): update weekly intern progress - 2026-04-25
   - [e8a53c9](https://github.com/drid-uniben/org-structure/commit/e8a53c9ac0b49d6e2ba5727947ea12a6d38e05e1) chore(report): update weekly intern progress - 2026-04-22
   - [1523363](https://github.com/drid-uniben/org-structure/commit/1523363d0b65efc7d82c7d1bdcee1453646c37af) chore(report): update weekly intern progress - 2026-04-22
   - [8f1b759](https://github.com/drid-uniben/org-structure/commit/8f1b759546fc1f0bf9da490fe4576a814face9c0) chore(report): update weekly intern progress - 2026-04-22
@@ -46,20 +47,18 @@ Commits:
   - [dd428c5](https://github.com/drid-uniben/org-structure/commit/dd428c5e0cf9c1062049dc03cd4cdbde3ef4674e) chore(report): enhance weekly intern activity report to include commit tracking - 2026-04-20
   - [9fff9a4](https://github.com/drid-uniben/org-structure/commit/9fff9a4a4adc604895eb3c91148a53d01b2779f6) chore(report): update weekly intern progress - 2026-04-20
   - [9e45d31](https://github.com/drid-uniben/org-structure/commit/9e45d31dcee56b30e98b671f66a905f370d90006) chore: Add interns.json and create weekly intern progress workflow (#7) - 2026-04-20
-- service-platform (2 commits)
+- service-platform (1 commit)
   - [d841ea5](https://github.com/drid-uniben/service-platform/commit/d841ea58588c3f6ac53a21ffc7716b5266ebac2a) feat: add doc specifying api architecture (#4) - 2026-04-22
-  - [799a3da](https://github.com/drid-uniben/service-platform/commit/799a3daaf94f9443758c0ce98ea86346cbcdc712) chore: Update copyright year and owner in LICENSE file (#2) - 2026-04-19
 
 PRs:
 - ubjh (3 PRs)
   - [#4](https://github.com/drid-uniben/ubjh/pull/4) fix: All lint errors - merged, updated 2026-04-22
   - [#3](https://github.com/drid-uniben/ubjh/pull/3) fix: Minimal type errors to enable running project locally - merged, updated 2026-04-22
   - [#2](https://github.com/drid-uniben/ubjh/pull/2) feat: Script to deploy ubjh containers to github container registry - merged, updated 2026-04-21
-- service-platform (2 PRs)
-  - [#4](https://github.com/drid-uniben/service-platform/pull/4) feat: add doc specifying api architecture - merged, updated 2026-04-22
-  - [#2](https://github.com/drid-uniben/service-platform/pull/2) chore: Update copyright year and owner in LICENSE file - merged, updated 2026-04-19
 - org-structure (1 PR)
   - [#7](https://github.com/drid-uniben/org-structure/pull/7) chore: Add interns.json and create weekly intern progress workflow - merged, updated 2026-04-20
+- service-platform (1 PR)
+  - [#4](https://github.com/drid-uniben/service-platform/pull/4) feat: add doc specifying api architecture - merged, updated 2026-04-22
 
 ### Ameh Isaac Favour (@Isaac-Ameh)
 Total commits: 1
@@ -73,6 +72,17 @@ PRs:
 - service-platform (1 PR)
   - [#3](https://github.com/drid-uniben/service-platform/pull/3) docs(email-service): add local setup guide, openapi docs - merged, updated 2026-04-22
 
+### Ohenhen Isoken Glory (@Glorie27)
+Total commits: 0
+Total PRs: 1
+
+Commits:
+- None in this window.
+
+PRs:
+- service-platform (1 PR)
+  - [#5](https://github.com/drid-uniben/service-platform/pull/5) Refactor storage service only  - closed, updated 2026-04-27
+
 ### Arharhire Mudiaga (@mudiageo)
 Total commits: 0
 Total PRs: 1
@@ -85,9 +95,6 @@ PRs:
   - [#1](https://github.com/drid-uniben/ubjh/pull/1) fix(ci): add pnpm version in server CI - closed, updated 2026-04-22
 
 ### Lucky Egho (@EGHO-LUCKY)
-No commit or PR activity in the last 7 days.
-
-### Ohenhen Isoken Glory (@Glorie27)
 No commit or PR activity in the last 7 days.
 
 ### Light Ebube (@Lyteking)
