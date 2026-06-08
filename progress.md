@@ -1,14 +1,14 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-06-01
-Window: 2026-05-25 to 2026-06-01 (last 7 days)
+Generated: 2026-06-08
+Window: 2026-06-01 to 2026-06-08 (last 7 days)
 Organization: drid-uniben
 
 ## Summary
 
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 1 | 1 | 1 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 1 | 0 | 1 |
 | Lucky Egho (@EGHO-LUCKY) | 0 | 0 | 0 |
 | Ameh Isaac Favour (@Isaac-Ameh) | 0 | 0 | 0 |
 | Ohenhen Isoken Glory (@Glorie27) | 0 | 0 | 0 |
@@ -22,15 +22,14 @@ Organization: drid-uniben
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
 Total commits: 1
-Total PRs: 1
+Total PRs: 0
 
 Commits:
 - org-structure (1 commit)
-  - [39d2512](https://github.com/drid-uniben/org-structure/commit/39d2512453d1c8b0ec8dc0590291f9f6388d0457) chore: Remove Afahakan Precious from interns.json (#8) - 2026-05-28
+  - [ff9223c](https://github.com/drid-uniben/org-structure/commit/ff9223c314d3890e71b252337a4b496968a2b69b) chore(report): update weekly intern progress - 2026-06-01
 
 PRs:
-- org-structure (1 PR)
-  - [#8](https://github.com/drid-uniben/org-structure/pull/8) chore: Remove Afahakan Precious from interns.json - merged, updated 2026-05-28
+- None in this window.
 
 ### Lucky Egho (@EGHO-LUCKY)
 No commit or PR activity in the last 7 days.
