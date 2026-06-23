@@ -25,7 +25,7 @@ jobs:
             const fs = require('fs');
 
             const ORG = 'drid-uniben';
-            const WINDOW_DAYS = 7;
+            const WINDOW_DAYS = 365;
             const internsPath = '.github/data/interns.json';
 
             if (!fs.existsSync(internsPath)) {
