@@ -1,15 +1,15 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-06-23
-Window: 2025-06-23 to 2026-06-23 (last 365 days)
+Generated: 2026-06-29
+Window: 2025-06-29 to 2026-06-29 (last 365 days)
 Organization: drid-uniben
 
 ## Summary
 
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
-| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 488 | 82 | 17 |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 286 | 50 | 18 |
+| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 478 | 82 | 17 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 294 | 53 | 19 |
 | Light Ebube (@Lyteking) | 59 | 4 | 5 |
 | Genesis Osasenaga Ighalo (@daves-hub) | 21 | 4 | 1 |
 | Ohenhen Isoken Glory (@Glorie27) | 2 | 3 | 2 |
@@ -21,7 +21,7 @@ Organization: drid-uniben
 ## Detailed Activity (Commits First)
 
 ### Omoyakhi Raymond Eshikogie (@Raymond-engr)
-Total commits: 488
+Total commits: 478
 Total PRs: 82
 
 Commits:
@@ -336,7 +336,7 @@ Commits:
   - [bc97b52](https://github.com/drid-uniben/ubjsti-client/commit/bc97b522cbfcfa6b4f492c6b4e80fa3df2aa69ba) Update - 2025-11-05
   - [282b33a](https://github.com/drid-uniben/ubjsti-client/commit/282b33a85b75fe1efac5ffcce0e19807c6511aa0) Started the base setup of the repo - 2025-10-24
   - [6fe2e93](https://github.com/drid-uniben/ubjsti-client/commit/6fe2e93c1758bd086f468e903e83fb6a24fec2b0) Initial commit from Create Next App - 2025-10-24
-- ibr-tetfund-client (45 commits)
+- ibr-tetfund-client (39 commits)
   - [945223d](https://github.com/drid-uniben/ibr-tetfund-client/commit/945223d7002ed16e971869cb2582ce56d097c15a) Refactor: Consolidate final proposal submission flow - 2025-08-10
   - [638ffb8](https://github.com/drid-uniben/ibr-tetfund-client/commit/638ffb81ab17c0e8674638f4ab695beeb3bbda8e) feat: Introduce final proposal submission flow - 2025-08-10
   - [f2a5dda](https://github.com/drid-uniben/ibr-tetfund-client/commit/f2a5dda6bc81d6c833b7b8a3a0ae58771ecd1fcf) Updates - 2025-08-10
@@ -376,13 +376,7 @@ Commits:
   - [ee56084](https://github.com/drid-uniben/ibr-tetfund-client/commit/ee56084b8672799f32c9c5a415a5d6bbcf573200) Updates - 2025-06-30
   - [4cdbfd6](https://github.com/drid-uniben/ibr-tetfund-client/commit/4cdbfd64a38eba67225a432011b98181f1c4e666) Final decision page updates - 2025-06-29
   - [182860f](https://github.com/drid-uniben/ibr-tetfund-client/commit/182860fd594c0a45ae6bf34629c37e6489f1b83f) updates - 2025-06-29
-  - [6b82d69](https://github.com/drid-uniben/ibr-tetfund-client/commit/6b82d69378adc5f484f5e5b32bbe26bc16b7203a) Working on the final decisions page - 2025-06-29
-  - [ec3652f](https://github.com/drid-uniben/ibr-tetfund-client/commit/ec3652fe8653d64370c6957dfcde68f99b10e0df) Working on the final decisions page - 2025-06-29
-  - [c149898](https://github.com/drid-uniben/ibr-tetfund-client/commit/c149898e4ed6cb64f0f6ea0854d702857eb4de2f) Working on the final decisions page - 2025-06-29
-  - [a9b8b50](https://github.com/drid-uniben/ibr-tetfund-client/commit/a9b8b5048b0ba933c0c8878dd7384065ed81cde2) updates - 2025-06-28
-  - [4ca3534](https://github.com/drid-uniben/ibr-tetfund-client/commit/4ca35349c7065597e64a469e1ea5c9d7a260b34b) updates - 2025-06-28
-  - [e75e7cc](https://github.com/drid-uniben/ibr-tetfund-client/commit/e75e7cc53cdcc2ea92592695399d591bd0d54207) Working on the Final decisions page - 2025-06-27
-- ibr-tetfund-server (32 commits)
+- ibr-tetfund-server (28 commits)
   - [9f4785c](https://github.com/drid-uniben/ibr-tetfund-server/commit/9f4785c451863ef9b90a10a72b5481b42c444d2b) fix: Correct full proposal submission deadline to Aug 14 - 2025-08-10
   - [68150ba](https://github.com/drid-uniben/ibr-tetfund-server/commit/68150ba6c1b8e7dcb69cf7c03c2b753a0f53557e) feat: Implement final submission for approved proposals - 2025-08-10
   - [e4f4edb](https://github.com/drid-uniben/ibr-tetfund-server/commit/e4f4edbe15b1e940c2105152a0b51385d4b4d032) feat(review): Implement full proposal status update with email notification - 2025-08-10
@@ -411,10 +405,6 @@ Commits:
   - [701e537](https://github.com/drid-uniben/ibr-tetfund-server/commit/701e537276897de658d7e77fa835828649975929) Updates - 2025-06-29
   - [745d354](https://github.com/drid-uniben/ibr-tetfund-server/commit/745d354bf091df263090798bd67b763f537153c2) Updates - 2025-06-29
   - [9ff3733](https://github.com/drid-uniben/ibr-tetfund-server/commit/9ff37339b76e6083a37c1dced9405ae4f87ba28c) Final decisions page - 2025-06-29
-  - [ebd7621](https://github.com/drid-uniben/ibr-tetfund-server/commit/ebd762130f0f10548109392f29b66645d989f82a) working on the final decisions controllers - 2025-06-27
-  - [cc9d95a](https://github.com/drid-uniben/ibr-tetfund-server/commit/cc9d95a441281ed6ebb5309ef1f5c533a285f237) context - 2025-06-27
-  - [fc2287c](https://github.com/drid-uniben/ibr-tetfund-server/commit/fc2287c43869208983d1dd99ad00d25b39412202) context - 2025-06-27
-  - [736d114](https://github.com/drid-uniben/ibr-tetfund-server/commit/736d114666136a367614432b9b2426ea7d0e4565) started on the decisions seperate controller - 2025-06-27
 - ubjsti-server (27 commits)
   - [2ccb5ae](https://github.com/drid-uniben/ubjsti-server/commit/2ccb5aeaea05b3d94d690e303e43e2a69e3bb727) Merge pull request #14 from drid-uniben/author - 2026-06-19
   - [4a3664e](https://github.com/drid-uniben/ubjsti-server/commit/4a3664ec2dda7fc033ebfa6904a02a7acc86ac6b) did the author dashboard - 2026-06-19
@@ -624,8 +614,8 @@ PRs:
   - [#3](https://github.com/drid-uniben/research-diploma-client/pull/3) Revamps registration flow with waitlist forms and UI tweaks - merged, updated 2026-01-23
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
-Total commits: 286
-Total PRs: 50
+Total commits: 294
+Total PRs: 53
 
 Commits:
 - drid-intern (74 commits)
@@ -703,7 +693,8 @@ Commits:
   - [1640501](https://github.com/drid-uniben/drid-intern/commit/1640501d44804536051e60646ad8b86329cdefcb) init: Scaffold backend - 2026-02-20
   - [7d5c6b2](https://github.com/drid-uniben/drid-intern/commit/7d5c6b23b8ce6456ada864513495ff1919e8f53b) ci: CI workflow to build and lint frontend/backend - 2026-02-20
   - [bb8089d](https://github.com/drid-uniben/drid-intern/commit/bb8089d85b5bc36e7f4750695ecb22f810b7487f) init: Scaffold frontend - 2026-02-20
-- org-structure (58 commits)
+- org-structure (59 commits)
+  - [88627bc](https://github.com/drid-uniben/org-structure/commit/88627bc310758bfe860db0621eb63d575a370ae8) chore(report): update weekly intern progress - 2026-06-23
   - [5f2e261](https://github.com/drid-uniben/org-structure/commit/5f2e26132e7eb47046e0538730245c5c039504d6) Update weekly-intern-progress.yml (#9) - 2026-06-23
   - [7e9f939](https://github.com/drid-uniben/org-structure/commit/7e9f939f6fe0cb2a7f9e872539f2be91928a48db) chore(report): update weekly intern progress - 2026-06-22
   - [48c240d](https://github.com/drid-uniben/org-structure/commit/48c240dc192d03e17ebc4e3b4d36a666f64b4055) chore(report): update weekly intern progress - 2026-06-15
@@ -878,6 +869,16 @@ Commits:
   - [8824ad6](https://github.com/drid-uniben/email-service/commit/8824ad6001aaa46573e41e87313c4aa2e49c6514) feat: enhance email service with SMTP provider and webhook registration - 2026-03-10
   - [5a337da](https://github.com/drid-uniben/email-service/commit/5a337daf05cc35e4df814fd08f7a31a40641083d) chore: update project configuration and Docker setup - 2026-03-09
   - [6712850](https://github.com/drid-uniben/email-service/commit/671285093aebf934cbb5f8543506b66febb23525) feat: initialize project with NestJS, Prisma, and PostgreSQL setup - 2026-02-28
+- ubjsti-server (9 commits)
+  - [513d01a](https://github.com/drid-uniben/ubjsti-server/commit/513d01a615c5ab4453134931d076fee1e6786dc2) Merge pull request #16 from drid-uniben/docs/create-readme - 2026-06-23
+  - [1c9d477](https://github.com/drid-uniben/ubjsti-server/commit/1c9d477a71d8b21584ce4e110f4bafc398bc3cba) docs: Create README.md - 2026-06-23
+  - [707d1b7](https://github.com/drid-uniben/ubjsti-server/commit/707d1b700ac25b06a908dcbe294df56421248212) Merge pull request #15 from drid-uniben/chore/delete-claudefile - 2026-06-23
+  - [7ad8bd0](https://github.com/drid-uniben/ubjsti-server/commit/7ad8bd03987cbb61e2291d2322236daa19c85206) chore: Delete CLAUDE.md - 2026-06-23
+  - [d8ecfec](https://github.com/drid-uniben/ubjsti-server/commit/d8ecfeceadd994e43743bb2c8f7e7fc91aff9195) Merge pull request #10 from drid-uniben/main - 2026-04-11
+  - [b244f79](https://github.com/drid-uniben/ubjsti-server/commit/b244f791f8cc1258713f55fbd5d30ebaa0bed30b) Merge pull request #3 from drid-uniben/staging - 2026-04-11
+  - [ef6e727](https://github.com/drid-uniben/ubjsti-server/commit/ef6e7275de2879cf816d52972b6814ba42c24f4c) Merge pull request #2 from drid-uniben/multiple_ori - 2026-04-11
+  - [b931e31](https://github.com/drid-uniben/ubjsti-server/commit/b931e31f88fe8d4db22095191eed6408f3bafe6e) Merge pull request #1 from drid-uniben/feat/contribution-workflows - 2026-03-05
+  - [ef6716a](https://github.com/drid-uniben/ubjsti-server/commit/ef6716ac92018cec112bedf3468a4558868a13f1) chore: Contribution workflows - 2026-03-05
 - ubjh-server (8 commits)
   - [b4c1103](https://github.com/drid-uniben/ubjh-server/commit/b4c11035ac0073a9c018108df5e79176896550c1) Merge pull request #5 from drid-uniben/staging - 2026-04-11
   - [f9a2b65](https://github.com/drid-uniben/ubjh-server/commit/f9a2b6541f167ca33d25fed834d7d8e47b415ce8) Merge pull request #3 from drid-uniben/origins - 2026-04-11
@@ -903,29 +904,27 @@ Commits:
   - [7601943](https://github.com/drid-uniben/ibr-tetfund-server/commit/7601943ff913f5ef4781041e2acc44ad7c0099d2) refactor: Switch to pnpm, update readme - 2026-03-08
   - [b80db3d](https://github.com/drid-uniben/ibr-tetfund-server/commit/b80db3dd9976823f6d0d1dbf8a661557f6f97c88) feat: Add dockerfile and dockerignore - 2026-02-09
   - [0417775](https://github.com/drid-uniben/ibr-tetfund-server/commit/0417775f7a32153805c8cc81bcd2ee215a430cfa) chore: Contributor workflows - 2026-02-09
-- ubjsti-server (5 commits)
-  - [d8ecfec](https://github.com/drid-uniben/ubjsti-server/commit/d8ecfeceadd994e43743bb2c8f7e7fc91aff9195) Merge pull request #10 from drid-uniben/main - 2026-04-11
-  - [b244f79](https://github.com/drid-uniben/ubjsti-server/commit/b244f791f8cc1258713f55fbd5d30ebaa0bed30b) Merge pull request #3 from drid-uniben/staging - 2026-04-11
-  - [ef6e727](https://github.com/drid-uniben/ubjsti-server/commit/ef6e7275de2879cf816d52972b6814ba42c24f4c) Merge pull request #2 from drid-uniben/multiple_ori - 2026-04-11
-  - [b931e31](https://github.com/drid-uniben/ubjsti-server/commit/b931e31f88fe8d4db22095191eed6408f3bafe6e) Merge pull request #1 from drid-uniben/feat/contribution-workflows - 2026-03-05
-  - [ef6716a](https://github.com/drid-uniben/ubjsti-server/commit/ef6716ac92018cec112bedf3468a4558868a13f1) chore: Contribution workflows - 2026-03-05
 - ibr-tetfund-client (5 commits)
   - [169c4c4](https://github.com/drid-uniben/ibr-tetfund-client/commit/169c4c4fca92698f29e27f057e3db5eddd989751) chore: Update lock file - 2026-03-09
   - [f24c9e6](https://github.com/drid-uniben/ibr-tetfund-client/commit/f24c9e6bb584fff013def1c02d054bba9eae574a) Merge pull request #4 from drid-uniben/chore/add-license - 2026-03-08
   - [c4cb3e4](https://github.com/drid-uniben/ibr-tetfund-client/commit/c4cb3e4c1bce2d3032181fd08d05b70d73738bd8) chore: Add Apache License 2.0 - 2026-03-08
   - [3b49425](https://github.com/drid-uniben/ibr-tetfund-client/commit/3b49425a7f182c69aaad7ebc76bc0ed9bc152140) chore: Issue templates, Code of conduct. refactor: npm => pnpm - 2026-03-08
   - [c4ea40b](https://github.com/drid-uniben/ibr-tetfund-client/commit/c4ea40bb655979989ff307b1e99bd93d21d9e3b5) chore: Contributor workflows - 2026-02-09
+- ubjsti-client (4 commits)
+  - [87107a2](https://github.com/drid-uniben/ubjsti-client/commit/87107a2cb150d3ea8b4ea045d524a3218e7aec4e) Merge pull request #21 from drid-uniben/chore/update-readme - 2026-06-23
+  - [998d268](https://github.com/drid-uniben/ubjsti-client/commit/998d26837ea7abf625deefe3771fbfa4477e7074) chore: Update README.md - 2026-06-23
+  - [1dbdf2e](https://github.com/drid-uniben/ubjsti-client/commit/1dbdf2e97d60de19b6f5e5f8e60785811ec2559a) Merge pull request #1 from drid-uniben/feat/contribution-workflows - 2026-03-05
+  - [1d33307](https://github.com/drid-uniben/ubjsti-client/commit/1d3330707b2c6bbb5d6ce1b234d05241c262e39e) chore: Contribution workflows - 2026-03-05
 - ubjh-client (4 commits)
   - [b96b443](https://github.com/drid-uniben/ubjh-client/commit/b96b443c4f3e4ee9310d28b7cf18639ae962bc55) Merge pull request #3 from drid-uniben/chore/cleanup - 2026-04-11
   - [16529bc](https://github.com/drid-uniben/ubjh-client/commit/16529bc49699e2f0c10328becd1c8c1760ac3e9a) chore: Create dedicated docs folder for md doc file and update packages - 2026-04-11
   - [1f67a95](https://github.com/drid-uniben/ubjh-client/commit/1f67a957e9d9b7ad256c1b10ef9e2f0e5b51ec31) Merge pull request #2 from drid-uniben/feat/contribution-workflows - 2026-03-05
   - [f21c5d4](https://github.com/drid-uniben/ubjh-client/commit/f21c5d4f5842bf0de9cfffd4a75ae4c131c40949) chore: Contribution workflows - 2026-03-05
-- ubjsti-client (2 commits)
-  - [1dbdf2e](https://github.com/drid-uniben/ubjsti-client/commit/1dbdf2e97d60de19b6f5e5f8e60785811ec2559a) Merge pull request #1 from drid-uniben/feat/contribution-workflows - 2026-03-05
-  - [1d33307](https://github.com/drid-uniben/ubjsti-client/commit/1d3330707b2c6bbb5d6ce1b234d05241c262e39e) chore: Contribution workflows - 2026-03-05
 - storage-service (2 commits)
   - [4f31742](https://github.com/drid-uniben/storage-service/commit/4f31742ccf266da21fd13104b522ecd23b870ec4) refactor: remove storage providers and related services - 2026-03-10
   - [9e255e0](https://github.com/drid-uniben/storage-service/commit/9e255e0ac526c34514be181d521f85a5bde79e5b) init: Initial setup - 2026-03-09
+- drid-uniben.github.io (1 commit)
+  - [1eb8829](https://github.com/drid-uniben/drid-uniben.github.io/commit/1eb8829a49c2a9a75f812492f27087ef9060872b) chore: Create README.md - 2026-06-27
 - research-diploma-server (1 commit)
   - [e78ad54](https://github.com/drid-uniben/research-diploma-server/commit/e78ad54d06415b59e8997f4c99a699d17761718a) chore: Add Apache License 2.0 (#12) - 2026-03-12
 - repo-forge (1 commit)
@@ -955,6 +954,12 @@ PRs:
   - [#3](https://github.com/drid-uniben/drid-con-ticket/pull/3) [WIP] : Major update - merged, updated 2025-12-06
   - [#2](https://github.com/drid-uniben/drid-con-ticket/pull/2) update feat/upgrade1 with dev - merged, updated 2025-12-06
   - [#1](https://github.com/drid-uniben/drid-con-ticket/pull/1) chore: update readme - merged, updated 2025-12-05
+- ubjsti-server (5 PRs)
+  - [#16](https://github.com/drid-uniben/ubjsti-server/pull/16) docs: Create README.md - merged, updated 2026-06-23
+  - [#15](https://github.com/drid-uniben/ubjsti-server/pull/15) chore: Delete CLAUDE.md - merged, updated 2026-06-23
+  - [#10](https://github.com/drid-uniben/ubjsti-server/pull/10) sync: Sync staging with prod - merged, updated 2026-04-11
+  - [#3](https://github.com/drid-uniben/ubjsti-server/pull/3) chore: update prod - merged, updated 2026-04-11
+  - [#1](https://github.com/drid-uniben/ubjsti-server/pull/1) chore: Contribution workflows - merged, updated 2026-03-05
 - org-structure (5 PRs)
   - [#9](https://github.com/drid-uniben/org-structure/pull/9) Update weekly-intern-progress.yml - merged, updated 2026-06-23
   - [#8](https://github.com/drid-uniben/org-structure/pull/8) chore: Remove Afahakan Precious from interns.json - merged, updated 2026-05-28
@@ -976,19 +981,16 @@ PRs:
   - [#3](https://github.com/drid-uniben/email-service/pull/3) chore: Add Apache License 2.0 to the project - merged, updated 2026-03-10
   - [#2](https://github.com/drid-uniben/email-service/pull/2) feat: add issue templates, workflows for claiming, disclaiming, proposing, and withdrawing PRs, and implement CI/CD processes - merged, updated 2026-03-10
   - [#1](https://github.com/drid-uniben/email-service/pull/1) feat: enhance email service with SMTP provider and webhook registration - merged, updated 2026-03-10
-- ubjsti-server (3 PRs)
-  - [#10](https://github.com/drid-uniben/ubjsti-server/pull/10) sync: Sync staging with prod - merged, updated 2026-04-11
-  - [#3](https://github.com/drid-uniben/ubjsti-server/pull/3) chore: update prod - merged, updated 2026-04-11
-  - [#1](https://github.com/drid-uniben/ubjsti-server/pull/1) chore: Contribution workflows - merged, updated 2026-03-05
 - service-platform (3 PRs)
   - [#4](https://github.com/drid-uniben/service-platform/pull/4) feat: add doc specifying api architecture - merged, updated 2026-04-22
   - [#2](https://github.com/drid-uniben/service-platform/pull/2) chore: Update copyright year and owner in LICENSE file - merged, updated 2026-04-19
   - [#1](https://github.com/drid-uniben/service-platform/pull/1) init: Create mono-repo service platform - merged, updated 2026-04-11
+- ubjsti-client (2 PRs)
+  - [#21](https://github.com/drid-uniben/ubjsti-client/pull/21) chore: Update README.md - merged, updated 2026-06-23
+  - [#1](https://github.com/drid-uniben/ubjsti-client/pull/1) chore: Contribution workflows - merged, updated 2026-03-05
 - ubjh-client (2 PRs)
   - [#3](https://github.com/drid-uniben/ubjh-client/pull/3) chore: Create dedicated docs folder for md doc file and update packages - merged, updated 2026-04-11
   - [#2](https://github.com/drid-uniben/ubjh-client/pull/2) chore: Contribution workflows - merged, updated 2026-03-05
-- ubjsti-client (1 PR)
-  - [#1](https://github.com/drid-uniben/ubjsti-client/pull/1) chore: Contribution workflows - merged, updated 2026-03-05
 - ibr-tetfund-client (1 PR)
   - [#4](https://github.com/drid-uniben/ibr-tetfund-client/pull/4) chore: Add Apache License 2.0 - merged, updated 2026-03-08
 - research-diploma-server (1 PR)
