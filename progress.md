@@ -1,15 +1,15 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-06-29
-Window: 2025-06-29 to 2026-06-29 (last 365 days)
+Generated: 2026-07-06
+Window: 2025-07-06 to 2026-07-06 (last 365 days)
 Organization: drid-uniben
 
 ## Summary
 
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
-| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 478 | 82 | 17 |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 294 | 53 | 19 |
+| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 441 | 82 | 17 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 295 | 53 | 19 |
 | Light Ebube (@Lyteking) | 59 | 4 | 5 |
 | Genesis Osasenaga Ighalo (@daves-hub) | 21 | 4 | 1 |
 | Ohenhen Isoken Glory (@Glorie27) | 2 | 3 | 2 |
@@ -21,7 +21,7 @@ Organization: drid-uniben
 ## Detailed Activity (Commits First)
 
 ### Omoyakhi Raymond Eshikogie (@Raymond-engr)
-Total commits: 478
+Total commits: 441
 Total PRs: 82
 
 Commits:
@@ -336,75 +336,6 @@ Commits:
   - [bc97b52](https://github.com/drid-uniben/ubjsti-client/commit/bc97b522cbfcfa6b4f492c6b4e80fa3df2aa69ba) Update - 2025-11-05
   - [282b33a](https://github.com/drid-uniben/ubjsti-client/commit/282b33a85b75fe1efac5ffcce0e19807c6511aa0) Started the base setup of the repo - 2025-10-24
   - [6fe2e93](https://github.com/drid-uniben/ubjsti-client/commit/6fe2e93c1758bd086f468e903e83fb6a24fec2b0) Initial commit from Create Next App - 2025-10-24
-- ibr-tetfund-client (39 commits)
-  - [945223d](https://github.com/drid-uniben/ibr-tetfund-client/commit/945223d7002ed16e971869cb2582ce56d097c15a) Refactor: Consolidate final proposal submission flow - 2025-08-10
-  - [638ffb8](https://github.com/drid-uniben/ibr-tetfund-client/commit/638ffb81ab17c0e8674638f4ab695beeb3bbda8e) feat: Introduce final proposal submission flow - 2025-08-10
-  - [f2a5dda](https://github.com/drid-uniben/ibr-tetfund-client/commit/f2a5dda6bc81d6c833b7b8a3a0ae58771ecd1fcf) Updates - 2025-08-10
-  - [8572876](https://github.com/drid-uniben/ibr-tetfund-client/commit/8572876f559068518fff972a0ce4e2c9ecf2637d) Merge branch 'main' of https://github.com/unibeninterns/client-new-site - 2025-08-10
-  - [b31e2b1](https://github.com/drid-uniben/ibr-tetfund-client/commit/b31e2b186078e8235b835e61b028a1d0d9f16669) feat: Add search for proposals and linkify comments - 2025-08-10
-  - [518d159](https://github.com/drid-uniben/ibr-tetfund-client/commit/518d1593e9c2981f90f2350d1ecde3ca9c412a1c) Update to api - 2025-08-08
-  - [5958ebb](https://github.com/drid-uniben/ibr-tetfund-client/commit/5958ebb4de59e1f8501e5a66c5160579b5e7ba0c) Update to api - 2025-08-08
-  - [45611ce](https://github.com/drid-uniben/ibr-tetfund-client/commit/45611ceb84f5614daa80ad10b41c84f0d7b14e9c) Reset to normal, without the export button - 2025-08-06
-  - [f1f14b4](https://github.com/drid-uniben/ibr-tetfund-client/commit/f1f14b459f49ceb2e1740f9b8b29758b7711a91d) No error in export - 2025-08-05
-  - [a866107](https://github.com/drid-uniben/ibr-tetfund-client/commit/a86610785db1664ed7d6af1db46e2b1d979792e1) error in export - 2025-08-05
-  - [f35085c](https://github.com/drid-uniben/ibr-tetfund-client/commit/f35085cc516cdbc6588c72174cc73bf5d19d6bee) Updates - 2025-08-05
-  - [7785e3c](https://github.com/drid-uniben/ibr-tetfund-client/commit/7785e3c67d8960bbf229b4df642784336d1188cc) Updates - 2025-08-05
-  - [3e6c0a0](https://github.com/drid-uniben/ibr-tetfund-client/commit/3e6c0a03025409fc406e24ab9d447c34b9da0bfb) Updates - 2025-08-05
-  - [9881947](https://github.com/drid-uniben/ibr-tetfund-client/commit/9881947f107cbb8fbad40afaec921a0b45539e4a) Export report functionality - 2025-08-05
-  - [cc3e854](https://github.com/drid-uniben/ibr-tetfund-client/commit/cc3e8544689c723024310569f2c17cbe952d8a4f) updates - 2025-08-04
-  - [21d8cce](https://github.com/drid-uniben/ibr-tetfund-client/commit/21d8cce46d2b2b0e25a9432e01507dcd10ae7a09) Score feature - 2025-08-02
-  - [ea6a7d4](https://github.com/drid-uniben/ibr-tetfund-client/commit/ea6a7d4178b2b2c2c69a72158b5936258747a7d9) Updates - 2025-07-31
-  - [ca90239](https://github.com/drid-uniben/ibr-tetfund-client/commit/ca90239f1801eccc465146ddea76274196f7b5f2) Added the Full proposal poster cards - 2025-07-31
-  - [9a4e5e2](https://github.com/drid-uniben/ibr-tetfund-client/commit/9a4e5e2e6e02d398bc18d90bd2d27c250ee081b6) Added the Full proposal poster cards - 2025-07-31
-  - [03341ce](https://github.com/drid-uniben/ibr-tetfund-client/commit/03341cefa5abc32ac3d63b4d1512e04d29f95cd7) Updates - 2025-07-26
-  - [0d82644](https://github.com/drid-uniben/ibr-tetfund-client/commit/0d82644558a65d767f65da3dbd9b789f90fd946c) Finished the analytics page - 2025-07-25
-  - [7222eda](https://github.com/drid-uniben/ibr-tetfund-client/commit/7222edaf57800d2e9f60fcc48584e1a71637a146) Started on the analytics page - 2025-07-25
-  - [ae4e850](https://github.com/drid-uniben/ibr-tetfund-client/commit/ae4e85084b95a2b4460ba4e0e070091551382e57) Adding the final decisions_2 for the full proposals - 2025-07-24
-  - [a6bbb20](https://github.com/drid-uniben/ibr-tetfund-client/commit/a6bbb202817750c89f5b004eb6855147d7f8b31a) Adding the final decisions_2 for the full proposals - 2025-07-24
-  - [6aa1281](https://github.com/drid-uniben/ibr-tetfund-client/commit/6aa1281aadd60ca10017a36da6522fd2f2d92f96) Finished Full Proposal submission functionality - 2025-07-03
-  - [873079e](https://github.com/drid-uniben/ibr-tetfund-client/commit/873079e8247d5b4b3e9ac8c22024b5026b41da1f) Adding the full proposal functionality - 2025-07-03
-  - [7350d36](https://github.com/drid-uniben/ibr-tetfund-client/commit/7350d3679371a65446976e0b8e0aee767b06af2a) Adding the full proposal functionality - 2025-07-02
-  - [eda6bc8](https://github.com/drid-uniben/ibr-tetfund-client/commit/eda6bc8cf837d7575605788d2448144e1f3506f2) Adding the full proposal submit functionality - 2025-07-02
-  - [9022efb](https://github.com/drid-uniben/ibr-tetfund-client/commit/9022efbf43b0da7780eddab1c4bbda4c619b6e87) updates - 2025-07-02
-  - [710bcba](https://github.com/drid-uniben/ibr-tetfund-client/commit/710bcbaf30f14dbfc0acb2b65be6ce62d24ba7d1) updates - 2025-07-02
-  - [a6c76b8](https://github.com/drid-uniben/ibr-tetfund-client/commit/a6c76b8633eecb8111d70510feff2a7735d26765) updates - 2025-07-02
-  - [1e6365b](https://github.com/drid-uniben/ibr-tetfund-client/commit/1e6365b301b638e90c693361f8ede39ef8fff03a) Final changes - 2025-07-01
-  - [d3816ff](https://github.com/drid-uniben/ibr-tetfund-client/commit/d3816ff0788cfa650dd0c94a25fcb958dd0846f2) fixes and updates - 2025-07-01
-  - [0e0f49d](https://github.com/drid-uniben/ibr-tetfund-client/commit/0e0f49d3d2315d262e4ac84ff0b1c1c48cf8dee2) fixes and updates - 2025-07-01
-  - [84e9e6b](https://github.com/drid-uniben/ibr-tetfund-client/commit/84e9e6bb54e114625e2e64d99424b1006c1b19a3) Updates - 2025-07-01
-  - [d6f944a](https://github.com/drid-uniben/ibr-tetfund-client/commit/d6f944a4f17f922808772b8a4b25b4e6d68e6371) Fi - 2025-06-30
-  - [ee56084](https://github.com/drid-uniben/ibr-tetfund-client/commit/ee56084b8672799f32c9c5a415a5d6bbcf573200) Updates - 2025-06-30
-  - [4cdbfd6](https://github.com/drid-uniben/ibr-tetfund-client/commit/4cdbfd64a38eba67225a432011b98181f1c4e666) Final decision page updates - 2025-06-29
-  - [182860f](https://github.com/drid-uniben/ibr-tetfund-client/commit/182860fd594c0a45ae6bf34629c37e6489f1b83f) updates - 2025-06-29
-- ibr-tetfund-server (28 commits)
-  - [9f4785c](https://github.com/drid-uniben/ibr-tetfund-server/commit/9f4785c451863ef9b90a10a72b5481b42c444d2b) fix: Correct full proposal submission deadline to Aug 14 - 2025-08-10
-  - [68150ba](https://github.com/drid-uniben/ibr-tetfund-server/commit/68150ba6c1b8e7dcb69cf7c03c2b753a0f53557e) feat: Implement final submission for approved proposals - 2025-08-10
-  - [e4f4edb](https://github.com/drid-uniben/ibr-tetfund-server/commit/e4f4edbe15b1e940c2105152a0b51385d4b4d032) feat(review): Implement full proposal status update with email notification - 2025-08-10
-  - [a9411c5](https://github.com/drid-uniben/ibr-tetfund-server/commit/a9411c5b9be38cdb58739b8f00f68195764a1af5) Score feature - 2025-08-02
-  - [c1c1210](https://github.com/drid-uniben/ibr-tetfund-server/commit/c1c121014b390420145e414a4164ea29dcfe7702) Added the Full proposal poster cards logic - 2025-07-31
-  - [4eba8a4](https://github.com/drid-uniben/ibr-tetfund-server/commit/4eba8a4747fe4193911e881f656f9f35f09919cf) Fixed upload issues for production - 2025-07-30
-  - [255fb40](https://github.com/drid-uniben/ibr-tetfund-server/commit/255fb408dc4fdde9fa26502b60ab3199a88f37bd) Updates - 2025-07-26
-  - [efab2be](https://github.com/drid-uniben/ibr-tetfund-server/commit/efab2be1d9931b21e1d6756fe7ea3df1c39396ba) updates - 2025-07-25
-  - [4c9705c](https://github.com/drid-uniben/ibr-tetfund-server/commit/4c9705c136df13f62a1a19cc191349c31192fefe) updates - 2025-07-25
-  - [1c5dbd5](https://github.com/drid-uniben/ibr-tetfund-server/commit/1c5dbd52f630ba776925d45999d43d2e185b6e40) Finished the analytics controller - 2025-07-25
-  - [1d96cc0](https://github.com/drid-uniben/ibr-tetfund-server/commit/1d96cc054d384febab3638b85857768c746f5e6e) Finished the analytics controller - 2025-07-25
-  - [44b687d](https://github.com/drid-uniben/ibr-tetfund-server/commit/44b687d9df839e82d0ce51ed97bae8dd61e08058) Started on the analytics controller - 2025-07-25
-  - [70db456](https://github.com/drid-uniben/ibr-tetfund-server/commit/70db4564ccced518bd9b377d6851323a149f374d) Adding the final decisions_2 for the full proposals - 2025-07-24
-  - [cf3170f](https://github.com/drid-uniben/ibr-tetfund-server/commit/cf3170f3bcc906013e57c83116aba03c126e0cc6) Adding the final decisions_2 for the full proposals - 2025-07-24
-  - [984d12a](https://github.com/drid-uniben/ibr-tetfund-server/commit/984d12af64823ec6082e92f9113bde97cb102e35) updates - 2025-07-24
-  - [f2fe696](https://github.com/drid-uniben/ibr-tetfund-server/commit/f2fe6966beac076814a82a0a92263d1dfbb5bfd7) Final updates - 2025-07-03
-  - [5c5b1a4](https://github.com/drid-uniben/ibr-tetfund-server/commit/5c5b1a4cb4c0accdbdf5f6da664cd6de76fb9579) Finished Full Proposal submission functionality - 2025-07-03
-  - [87d08d3](https://github.com/drid-uniben/ibr-tetfund-server/commit/87d08d32645197931cd4d3c358994e2b83c0d4dd) Added the full proposal submit functionality - 2025-07-02
-  - [39726e3](https://github.com/drid-uniben/ibr-tetfund-server/commit/39726e321265c684cfcc3e7df4030f07848c1266) adding context - 2025-07-02
-  - [a6410e8](https://github.com/drid-uniben/ibr-tetfund-server/commit/a6410e8b3296c38d56e6ad321006b67f93394cf9) updates - 2025-07-02
-  - [35698fd](https://github.com/drid-uniben/ibr-tetfund-server/commit/35698fd7b6fe12fc3dd7baa8934932e1eb90d87c) changes - 2025-07-01
-  - [b84875b](https://github.com/drid-uniben/ibr-tetfund-server/commit/b84875b3a535b51b8bc5b31538e6e3980be329e3) changes - 2025-07-01
-  - [248c145](https://github.com/drid-uniben/ibr-tetfund-server/commit/248c1453677ddfade8a88c722af2de1d77681066) changes - 2025-07-01
-  - [a823763](https://github.com/drid-uniben/ibr-tetfund-server/commit/a8237637bd5b220e03dca2ec0427f3d72f8f1200) FInished the final decisions page - 2025-06-30
-  - [05ed5f0](https://github.com/drid-uniben/ibr-tetfund-server/commit/05ed5f01a348239bcf1466e6b522eabbc2603f4f) updates - 2025-06-30
-  - [701e537](https://github.com/drid-uniben/ibr-tetfund-server/commit/701e537276897de658d7e77fa835828649975929) Updates - 2025-06-29
-  - [745d354](https://github.com/drid-uniben/ibr-tetfund-server/commit/745d354bf091df263090798bd67b763f537153c2) Updates - 2025-06-29
-  - [9ff3733](https://github.com/drid-uniben/ibr-tetfund-server/commit/9ff37339b76e6083a37c1dced9405ae4f87ba28c) Final decisions page - 2025-06-29
 - ubjsti-server (27 commits)
   - [2ccb5ae](https://github.com/drid-uniben/ubjsti-server/commit/2ccb5aeaea05b3d94d690e303e43e2a69e3bb727) Merge pull request #14 from drid-uniben/author - 2026-06-19
   - [4a3664e](https://github.com/drid-uniben/ubjsti-server/commit/4a3664ec2dda7fc033ebfa6904a02a7acc86ac6b) did the author dashboard - 2026-06-19
@@ -433,34 +364,6 @@ Commits:
   - [82cb7d7](https://github.com/drid-uniben/ubjsti-server/commit/82cb7d7b81a25f200cacb76f37d46229f2440acf) feat(reviews): Fallback to manual assignment if auto-assign fails - 2025-12-03
   - [81b7b3a](https://github.com/drid-uniben/ubjsti-server/commit/81b7b3afddd953e776183a3d359231fa778ce59e) Made important changes to server and updated the email templates - 2025-11-13
   - [1136814](https://github.com/drid-uniben/ubjsti-server/commit/113681484ded89c68304081f97339761eb9bcd3b) Adapted the server to serve the Uniben Journal of Science, Technology and Innovation - 2025-11-06
-- client (27 commits)
-  - [2696fc6](https://github.com/drid-uniben/client/commit/2696fc60ba87670099ee4697f2d8b54321ed5b72) fix(dashboard): Keep parent navigation item active on sub-pages - 2025-10-20
-  - [8aaa15a](https://github.com/drid-uniben/client/commit/8aaa15ac92cf409cf015160828bbbe3b213be448) feat(ui): Add nav links and optimize hero images with Next/Image - 2025-10-07
-  - [e54f221](https://github.com/drid-uniben/client/commit/e54f2214dfdf849953ceeefe4eb5397565c78d3a) refactor(article): Migrate article detail page to Server Component - 2025-10-07
-  - [f716d21](https://github.com/drid-uniben/client/commit/f716d212c9a425e2d2fd49cf607c4bfa919aebd7) Final update - 2025-07-11
-  - [d52eb5f](https://github.com/drid-uniben/client/commit/d52eb5f6d217887c9ba969d86ccb88142576a8e4) Fixes - 2025-07-11
-  - [13fca8e](https://github.com/drid-uniben/client/commit/13fca8e3228119720aef3d601f887c1d9c56be97) Updates - 2025-07-11
-  - [6ba1646](https://github.com/drid-uniben/client/commit/6ba164661df078ab9a86a11288c28cff722f6b58) Updates - 2025-07-10
-  - [bd2ad01](https://github.com/drid-uniben/client/commit/bd2ad014636f2baa80edcc1e0fe4ed8d7eeeaa9f) Updates - 2025-07-10
-  - [9024c81](https://github.com/drid-uniben/client/commit/9024c81d0e7ecf969894ef49585f9bbe6b12a162) Updates - 2025-07-10
-  - [4ab89f5](https://github.com/drid-uniben/client/commit/4ab89f5607e751ca78ab9fe7bda58003977d0cbd) Updates - 2025-07-10
-  - [aa88ead](https://github.com/drid-uniben/client/commit/aa88ead740092d9c2bdd7f5757948f5d4110503d) Updates for the new info documents section - 2025-07-10
-  - [a2db466](https://github.com/drid-uniben/client/commit/a2db466e5d74f8689d02c7415035ef87df1581eb) Updates for the new info documents section - 2025-07-10
-  - [bbe5e21](https://github.com/drid-uniben/client/commit/bbe5e2160421f7dfd1b8ea6c0384ef185167f61c) Updates - 2025-07-08
-  - [96302b0](https://github.com/drid-uniben/client/commit/96302b0ed2ff575120686f4915d926fd2423243c) Updates - 2025-07-07
-  - [fa624fd](https://github.com/drid-uniben/client/commit/fa624fdd76bf0b93e1241248b6213a5065724856) Updates - 2025-07-07
-  - [7103d27](https://github.com/drid-uniben/client/commit/7103d27a2ebc7716aab382447b368e2c71b2884c) updates - 2025-07-07
-  - [3deef13](https://github.com/drid-uniben/client/commit/3deef13f3629ff22a82b6f9e29455351643b6c76) updates - 2025-07-07
-  - [855ea23](https://github.com/drid-uniben/client/commit/855ea239913ef072343c7b9e35c7ab899f5159eb) Updates - 2025-07-06
-  - [5991fa5](https://github.com/drid-uniben/client/commit/5991fa5b39fc2b3743ff03f511337f762749f053) Updates - 2025-07-05
-  - [290faa6](https://github.com/drid-uniben/client/commit/290faa6c85f0e18f1dbbb4c850ffa84a67cfc500) Updates - 2025-07-04
-  - [efb9a93](https://github.com/drid-uniben/client/commit/efb9a93a06a44aa6dee03a77d9b91e11528e283b) Updates - 2025-07-04
-  - [407e81d](https://github.com/drid-uniben/client/commit/407e81d1feb39d3671031bfd1c80e0dbabc872cc) Updates - 2025-07-04
-  - [7c30736](https://github.com/drid-uniben/client/commit/7c30736245135163ec05f76ae7723154046bab2b) Updates - 2025-07-04
-  - [e8949d1](https://github.com/drid-uniben/client/commit/e8949d1121aaec37d4573731f35050721624f274) Updates - 2025-07-03
-  - [3c34966](https://github.com/drid-uniben/client/commit/3c3496655116c8513e075091823056e714e1e6f5) Starting the refurbishing of the design of majority of the pages - 2025-07-03
-  - [6fffa24](https://github.com/drid-uniben/client/commit/6fffa24584e6d3adf260d23954db7d8833b4f2ae) Starting the refurbishing of the design of majority of the pages - 2025-07-03
-  - [4cce316](https://github.com/drid-uniben/client/commit/4cce316d08729d10650000b68d1398f069d3ef1d) changes - 2025-07-03
 - research-diploma-client (25 commits)
   - [a9f0074](https://github.com/drid-uniben/research-diploma-client/commit/a9f00747b61b815d04138ec9c3cedfdd3331641f) Merge pull request #3 from unibeninterns/wait - 2026-01-23
   - [3f2fa79](https://github.com/drid-uniben/research-diploma-client/commit/3f2fa79c2aa06ab39f9bfdceba7f96263f85810e) Revamps registration flow with waitlist forms and UI tweaks - 2026-01-23
@@ -487,6 +390,66 @@ Commits:
   - [bf7f05d](https://github.com/drid-uniben/research-diploma-client/commit/bf7f05db5976ac090340c4e91b19232b125a9cbf) update - 2025-08-13
   - [677ae95](https://github.com/drid-uniben/research-diploma-client/commit/677ae9570c2d21f443048b06b026bcd5f6e79f15) feat(core): Implement initial app structure and authentication - 2025-08-10
   - [0a9f368](https://github.com/drid-uniben/research-diploma-client/commit/0a9f3688dc51e8c611cd29576887bbf8c21c601e) Initial commit from Create Next App - 2025-07-31
+- ibr-tetfund-client (24 commits)
+  - [945223d](https://github.com/drid-uniben/ibr-tetfund-client/commit/945223d7002ed16e971869cb2582ce56d097c15a) Refactor: Consolidate final proposal submission flow - 2025-08-10
+  - [638ffb8](https://github.com/drid-uniben/ibr-tetfund-client/commit/638ffb81ab17c0e8674638f4ab695beeb3bbda8e) feat: Introduce final proposal submission flow - 2025-08-10
+  - [f2a5dda](https://github.com/drid-uniben/ibr-tetfund-client/commit/f2a5dda6bc81d6c833b7b8a3a0ae58771ecd1fcf) Updates - 2025-08-10
+  - [8572876](https://github.com/drid-uniben/ibr-tetfund-client/commit/8572876f559068518fff972a0ce4e2c9ecf2637d) Merge branch 'main' of https://github.com/unibeninterns/client-new-site - 2025-08-10
+  - [b31e2b1](https://github.com/drid-uniben/ibr-tetfund-client/commit/b31e2b186078e8235b835e61b028a1d0d9f16669) feat: Add search for proposals and linkify comments - 2025-08-10
+  - [518d159](https://github.com/drid-uniben/ibr-tetfund-client/commit/518d1593e9c2981f90f2350d1ecde3ca9c412a1c) Update to api - 2025-08-08
+  - [5958ebb](https://github.com/drid-uniben/ibr-tetfund-client/commit/5958ebb4de59e1f8501e5a66c5160579b5e7ba0c) Update to api - 2025-08-08
+  - [45611ce](https://github.com/drid-uniben/ibr-tetfund-client/commit/45611ceb84f5614daa80ad10b41c84f0d7b14e9c) Reset to normal, without the export button - 2025-08-06
+  - [f1f14b4](https://github.com/drid-uniben/ibr-tetfund-client/commit/f1f14b459f49ceb2e1740f9b8b29758b7711a91d) No error in export - 2025-08-05
+  - [a866107](https://github.com/drid-uniben/ibr-tetfund-client/commit/a86610785db1664ed7d6af1db46e2b1d979792e1) error in export - 2025-08-05
+  - [f35085c](https://github.com/drid-uniben/ibr-tetfund-client/commit/f35085cc516cdbc6588c72174cc73bf5d19d6bee) Updates - 2025-08-05
+  - [7785e3c](https://github.com/drid-uniben/ibr-tetfund-client/commit/7785e3c67d8960bbf229b4df642784336d1188cc) Updates - 2025-08-05
+  - [3e6c0a0](https://github.com/drid-uniben/ibr-tetfund-client/commit/3e6c0a03025409fc406e24ab9d447c34b9da0bfb) Updates - 2025-08-05
+  - [9881947](https://github.com/drid-uniben/ibr-tetfund-client/commit/9881947f107cbb8fbad40afaec921a0b45539e4a) Export report functionality - 2025-08-05
+  - [cc3e854](https://github.com/drid-uniben/ibr-tetfund-client/commit/cc3e8544689c723024310569f2c17cbe952d8a4f) updates - 2025-08-04
+  - [21d8cce](https://github.com/drid-uniben/ibr-tetfund-client/commit/21d8cce46d2b2b0e25a9432e01507dcd10ae7a09) Score feature - 2025-08-02
+  - [ea6a7d4](https://github.com/drid-uniben/ibr-tetfund-client/commit/ea6a7d4178b2b2c2c69a72158b5936258747a7d9) Updates - 2025-07-31
+  - [ca90239](https://github.com/drid-uniben/ibr-tetfund-client/commit/ca90239f1801eccc465146ddea76274196f7b5f2) Added the Full proposal poster cards - 2025-07-31
+  - [9a4e5e2](https://github.com/drid-uniben/ibr-tetfund-client/commit/9a4e5e2e6e02d398bc18d90bd2d27c250ee081b6) Added the Full proposal poster cards - 2025-07-31
+  - [03341ce](https://github.com/drid-uniben/ibr-tetfund-client/commit/03341cefa5abc32ac3d63b4d1512e04d29f95cd7) Updates - 2025-07-26
+  - [0d82644](https://github.com/drid-uniben/ibr-tetfund-client/commit/0d82644558a65d767f65da3dbd9b789f90fd946c) Finished the analytics page - 2025-07-25
+  - [7222eda](https://github.com/drid-uniben/ibr-tetfund-client/commit/7222edaf57800d2e9f60fcc48584e1a71637a146) Started on the analytics page - 2025-07-25
+  - [ae4e850](https://github.com/drid-uniben/ibr-tetfund-client/commit/ae4e85084b95a2b4460ba4e0e070091551382e57) Adding the final decisions_2 for the full proposals - 2025-07-24
+  - [a6bbb20](https://github.com/drid-uniben/ibr-tetfund-client/commit/a6bbb202817750c89f5b004eb6855147d7f8b31a) Adding the final decisions_2 for the full proposals - 2025-07-24
+- client (18 commits)
+  - [2696fc6](https://github.com/drid-uniben/client/commit/2696fc60ba87670099ee4697f2d8b54321ed5b72) fix(dashboard): Keep parent navigation item active on sub-pages - 2025-10-20
+  - [8aaa15a](https://github.com/drid-uniben/client/commit/8aaa15ac92cf409cf015160828bbbe3b213be448) feat(ui): Add nav links and optimize hero images with Next/Image - 2025-10-07
+  - [e54f221](https://github.com/drid-uniben/client/commit/e54f2214dfdf849953ceeefe4eb5397565c78d3a) refactor(article): Migrate article detail page to Server Component - 2025-10-07
+  - [f716d21](https://github.com/drid-uniben/client/commit/f716d212c9a425e2d2fd49cf607c4bfa919aebd7) Final update - 2025-07-11
+  - [d52eb5f](https://github.com/drid-uniben/client/commit/d52eb5f6d217887c9ba969d86ccb88142576a8e4) Fixes - 2025-07-11
+  - [13fca8e](https://github.com/drid-uniben/client/commit/13fca8e3228119720aef3d601f887c1d9c56be97) Updates - 2025-07-11
+  - [6ba1646](https://github.com/drid-uniben/client/commit/6ba164661df078ab9a86a11288c28cff722f6b58) Updates - 2025-07-10
+  - [bd2ad01](https://github.com/drid-uniben/client/commit/bd2ad014636f2baa80edcc1e0fe4ed8d7eeeaa9f) Updates - 2025-07-10
+  - [9024c81](https://github.com/drid-uniben/client/commit/9024c81d0e7ecf969894ef49585f9bbe6b12a162) Updates - 2025-07-10
+  - [4ab89f5](https://github.com/drid-uniben/client/commit/4ab89f5607e751ca78ab9fe7bda58003977d0cbd) Updates - 2025-07-10
+  - [aa88ead](https://github.com/drid-uniben/client/commit/aa88ead740092d9c2bdd7f5757948f5d4110503d) Updates for the new info documents section - 2025-07-10
+  - [a2db466](https://github.com/drid-uniben/client/commit/a2db466e5d74f8689d02c7415035ef87df1581eb) Updates for the new info documents section - 2025-07-10
+  - [bbe5e21](https://github.com/drid-uniben/client/commit/bbe5e2160421f7dfd1b8ea6c0384ef185167f61c) Updates - 2025-07-08
+  - [96302b0](https://github.com/drid-uniben/client/commit/96302b0ed2ff575120686f4915d926fd2423243c) Updates - 2025-07-07
+  - [fa624fd](https://github.com/drid-uniben/client/commit/fa624fdd76bf0b93e1241248b6213a5065724856) Updates - 2025-07-07
+  - [7103d27](https://github.com/drid-uniben/client/commit/7103d27a2ebc7716aab382447b368e2c71b2884c) updates - 2025-07-07
+  - [3deef13](https://github.com/drid-uniben/client/commit/3deef13f3629ff22a82b6f9e29455351643b6c76) updates - 2025-07-07
+  - [855ea23](https://github.com/drid-uniben/client/commit/855ea239913ef072343c7b9e35c7ab899f5159eb) Updates - 2025-07-06
+- ibr-tetfund-server (15 commits)
+  - [9f4785c](https://github.com/drid-uniben/ibr-tetfund-server/commit/9f4785c451863ef9b90a10a72b5481b42c444d2b) fix: Correct full proposal submission deadline to Aug 14 - 2025-08-10
+  - [68150ba](https://github.com/drid-uniben/ibr-tetfund-server/commit/68150ba6c1b8e7dcb69cf7c03c2b753a0f53557e) feat: Implement final submission for approved proposals - 2025-08-10
+  - [e4f4edb](https://github.com/drid-uniben/ibr-tetfund-server/commit/e4f4edbe15b1e940c2105152a0b51385d4b4d032) feat(review): Implement full proposal status update with email notification - 2025-08-10
+  - [a9411c5](https://github.com/drid-uniben/ibr-tetfund-server/commit/a9411c5b9be38cdb58739b8f00f68195764a1af5) Score feature - 2025-08-02
+  - [c1c1210](https://github.com/drid-uniben/ibr-tetfund-server/commit/c1c121014b390420145e414a4164ea29dcfe7702) Added the Full proposal poster cards logic - 2025-07-31
+  - [4eba8a4](https://github.com/drid-uniben/ibr-tetfund-server/commit/4eba8a4747fe4193911e881f656f9f35f09919cf) Fixed upload issues for production - 2025-07-30
+  - [255fb40](https://github.com/drid-uniben/ibr-tetfund-server/commit/255fb408dc4fdde9fa26502b60ab3199a88f37bd) Updates - 2025-07-26
+  - [efab2be](https://github.com/drid-uniben/ibr-tetfund-server/commit/efab2be1d9931b21e1d6756fe7ea3df1c39396ba) updates - 2025-07-25
+  - [4c9705c](https://github.com/drid-uniben/ibr-tetfund-server/commit/4c9705c136df13f62a1a19cc191349c31192fefe) updates - 2025-07-25
+  - [1c5dbd5](https://github.com/drid-uniben/ibr-tetfund-server/commit/1c5dbd52f630ba776925d45999d43d2e185b6e40) Finished the analytics controller - 2025-07-25
+  - [1d96cc0](https://github.com/drid-uniben/ibr-tetfund-server/commit/1d96cc054d384febab3638b85857768c746f5e6e) Finished the analytics controller - 2025-07-25
+  - [44b687d](https://github.com/drid-uniben/ibr-tetfund-server/commit/44b687d9df839e82d0ce51ed97bae8dd61e08058) Started on the analytics controller - 2025-07-25
+  - [70db456](https://github.com/drid-uniben/ibr-tetfund-server/commit/70db4564ccced518bd9b377d6851323a149f374d) Adding the final decisions_2 for the full proposals - 2025-07-24
+  - [cf3170f](https://github.com/drid-uniben/ibr-tetfund-server/commit/cf3170f3bcc906013e57c83116aba03c126e0cc6) Adding the final decisions_2 for the full proposals - 2025-07-24
+  - [984d12a](https://github.com/drid-uniben/ibr-tetfund-server/commit/984d12af64823ec6082e92f9113bde97cb102e35) updates - 2025-07-24
 - ubjh (5 commits)
   - [f4668cf](https://github.com/drid-uniben/ubjh/commit/f4668cf2a316aa672712a11d155bd93a1a102469) Merge pull request #6 from drid-uniben/deadline - 2026-05-10
   - [4a2d82d](https://github.com/drid-uniben/ubjh/commit/4a2d82d6a887c365e375c16b80e21b50ab909659) Disable manuscript submissions and show closure notice - 2026-05-10
@@ -614,7 +577,7 @@ PRs:
   - [#3](https://github.com/drid-uniben/research-diploma-client/pull/3) Revamps registration flow with waitlist forms and UI tweaks - merged, updated 2026-01-23
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
-Total commits: 294
+Total commits: 295
 Total PRs: 53
 
 Commits:
@@ -693,7 +656,8 @@ Commits:
   - [1640501](https://github.com/drid-uniben/drid-intern/commit/1640501d44804536051e60646ad8b86329cdefcb) init: Scaffold backend - 2026-02-20
   - [7d5c6b2](https://github.com/drid-uniben/drid-intern/commit/7d5c6b23b8ce6456ada864513495ff1919e8f53b) ci: CI workflow to build and lint frontend/backend - 2026-02-20
   - [bb8089d](https://github.com/drid-uniben/drid-intern/commit/bb8089d85b5bc36e7f4750695ecb22f810b7487f) init: Scaffold frontend - 2026-02-20
-- org-structure (59 commits)
+- org-structure (60 commits)
+  - [7ef6853](https://github.com/drid-uniben/org-structure/commit/7ef685311695c610502f8b24eb169bc73e78e5a5) chore(report): update weekly intern progress - 2026-06-29
   - [88627bc](https://github.com/drid-uniben/org-structure/commit/88627bc310758bfe860db0621eb63d575a370ae8) chore(report): update weekly intern progress - 2026-06-23
   - [5f2e261](https://github.com/drid-uniben/org-structure/commit/5f2e26132e7eb47046e0538730245c5c039504d6) Update weekly-intern-progress.yml (#9) - 2026-06-23
   - [7e9f939](https://github.com/drid-uniben/org-structure/commit/7e9f939f6fe0cb2a7f9e872539f2be91928a48db) chore(report): update weekly intern progress - 2026-06-22
@@ -954,18 +918,18 @@ PRs:
   - [#3](https://github.com/drid-uniben/drid-con-ticket/pull/3) [WIP] : Major update - merged, updated 2025-12-06
   - [#2](https://github.com/drid-uniben/drid-con-ticket/pull/2) update feat/upgrade1 with dev - merged, updated 2025-12-06
   - [#1](https://github.com/drid-uniben/drid-con-ticket/pull/1) chore: update readme - merged, updated 2025-12-05
-- ubjsti-server (5 PRs)
-  - [#16](https://github.com/drid-uniben/ubjsti-server/pull/16) docs: Create README.md - merged, updated 2026-06-23
-  - [#15](https://github.com/drid-uniben/ubjsti-server/pull/15) chore: Delete CLAUDE.md - merged, updated 2026-06-23
-  - [#10](https://github.com/drid-uniben/ubjsti-server/pull/10) sync: Sync staging with prod - merged, updated 2026-04-11
-  - [#3](https://github.com/drid-uniben/ubjsti-server/pull/3) chore: update prod - merged, updated 2026-04-11
-  - [#1](https://github.com/drid-uniben/ubjsti-server/pull/1) chore: Contribution workflows - merged, updated 2026-03-05
 - org-structure (5 PRs)
   - [#9](https://github.com/drid-uniben/org-structure/pull/9) Update weekly-intern-progress.yml - merged, updated 2026-06-23
   - [#8](https://github.com/drid-uniben/org-structure/pull/8) chore: Remove Afahakan Precious from interns.json - merged, updated 2026-05-28
   - [#7](https://github.com/drid-uniben/org-structure/pull/7) chore: Add interns.json and create weekly intern progress workflow - merged, updated 2026-04-20
   - [#6](https://github.com/drid-uniben/org-structure/pull/6) chore: Update interns.md to remove redundant entries and reorganize p… - merged, updated 2026-04-11
   - [#5](https://github.com/drid-uniben/org-structure/pull/5) chore: Update Emmanuel Osalotioman Osazuwa's role from backend+devops… - merged, updated 2026-03-22
+- ubjsti-server (5 PRs)
+  - [#16](https://github.com/drid-uniben/ubjsti-server/pull/16) docs: Create README.md - merged, updated 2026-06-23
+  - [#15](https://github.com/drid-uniben/ubjsti-server/pull/15) chore: Delete CLAUDE.md - merged, updated 2026-06-23
+  - [#10](https://github.com/drid-uniben/ubjsti-server/pull/10) sync: Sync staging with prod - merged, updated 2026-04-11
+  - [#3](https://github.com/drid-uniben/ubjsti-server/pull/3) chore: update prod - merged, updated 2026-04-11
+  - [#1](https://github.com/drid-uniben/ubjsti-server/pull/1) chore: Contribution workflows - merged, updated 2026-03-05
 - ubjh-server (4 PRs)
   - [#5](https://github.com/drid-uniben/ubjh-server/pull/5) chore: update prod - merged, updated 2026-04-11
   - [#4](https://github.com/drid-uniben/ubjh-server/pull/4) chore: Allow everyone to view issues - merged, updated 2026-04-11
