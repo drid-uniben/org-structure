@@ -1,16 +1,16 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-09-07
-Window: 2025-09-07 to 2026-09-07 (last 365 days)
+Generated: 2026-09-14
+Window: 2025-09-14 to 2026-09-14 (last 365 days)
 Organization: drid-uniben
 
 ## Summary
 
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
-| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 438 | 114 | 17 |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 308 | 55 | 19 |
-| Light Ebube (@Lyteking) | 40 | 4 | 5 |
+| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 441 | 117 | 16 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 309 | 55 | 19 |
+| Light Ebube (@Lyteking) | 37 | 4 | 5 |
 | Genesis Osasenaga Ighalo (@daves-hub) | 21 | 4 | 1 |
 | Ohenhen Isoken Glory (@Glorie27) | 2 | 3 | 2 |
 | Lucky Egho (@EGHO-LUCKY) | 1 | 2 | 2 |
@@ -21,8 +21,8 @@ Organization: drid-uniben
 ## Detailed Activity (Commits First)
 
 ### Omoyakhi Raymond Eshikogie (@Raymond-engr)
-Total commits: 438
-Total PRs: 114
+Total commits: 441
+Total PRs: 117
 
 Commits:
 - ubjh-client (104 commits)
@@ -343,7 +343,11 @@ Commits:
   - [bc97b52](https://github.com/drid-uniben/ubjsti-client/commit/bc97b522cbfcfa6b4f492c6b4e80fa3df2aa69ba) Update - 2025-11-05
   - [282b33a](https://github.com/drid-uniben/ubjsti-client/commit/282b33a85b75fe1efac5ffcce0e19807c6511aa0) Started the base setup of the repo - 2025-10-24
   - [6fe2e93](https://github.com/drid-uniben/ubjsti-client/commit/6fe2e93c1758bd086f468e903e83fb6a24fec2b0) Initial commit from Create Next App - 2025-10-24
-- ibr-tetfund-server (30 commits)
+- ibr-tetfund-server (34 commits)
+  - [d44b51f](https://github.com/drid-uniben/ibr-tetfund-server/commit/d44b51fe25f345572db4d6179106d8c7604c0d73) Merge pull request #18 from drid-uniben/second-call - 2026-09-13
+  - [25d2672](https://github.com/drid-uniben/ibr-tetfund-server/commit/25d2672bc3d4e32fc0c8400973e38b41a6368f0e) made the alternative email zod schema more flexible to accept empty spaces - 2026-09-13
+  - [b799a28](https://github.com/drid-uniben/ibr-tetfund-server/commit/b799a2803662c777691c93265e4bf428ad0fa12a) Merge pull request #17 from drid-uniben/second-call - 2026-09-13
+  - [a5c0b81](https://github.com/drid-uniben/ibr-tetfund-server/commit/a5c0b81e4a0c1f3d9a48eca96a5b8332163ca4ff) fix(reviewer): correct facultyId/departmentId field mismatch and improve validation errors - 2026-09-13
   - [1f7fb84](https://github.com/drid-uniben/ibr-tetfund-server/commit/1f7fb8473199c7866c7dbb3f6d469a165a526440) Merge pull request #16 from drid-uniben/second-call - 2026-09-04
   - [34195aa](https://github.com/drid-uniben/ibr-tetfund-server/commit/34195aa5b1820583ef305d8b8fe1802cb884f4de) feat(faculty): add Institute for Child Health (ICH) to academic units - 2026-09-04
   - [ca0faad](https://github.com/drid-uniben/ibr-tetfund-server/commit/ca0faadfab2e5df5f4c580961969d346e73e885e) Merge pull request #15 from drid-uniben/second-call - 2026-08-19
@@ -404,7 +408,9 @@ Commits:
   - [82cb7d7](https://github.com/drid-uniben/ubjsti-server/commit/82cb7d7b81a25f200cacb76f37d46229f2440acf) feat(reviews): Fallback to manual assignment if auto-assign fails - 2025-12-03
   - [81b7b3a](https://github.com/drid-uniben/ubjsti-server/commit/81b7b3afddd953e776183a3d359231fa778ce59e) Made important changes to server and updated the email templates - 2025-11-13
   - [1136814](https://github.com/drid-uniben/ubjsti-server/commit/113681484ded89c68304081f97339761eb9bcd3b) Adapted the server to serve the Uniben Journal of Science, Technology and Innovation - 2025-11-06
-- ibr-tetfund-client (25 commits)
+- ibr-tetfund-client (27 commits)
+  - [1577598](https://github.com/drid-uniben/ibr-tetfund-client/commit/157759821a079f4e340d2c505abfc73c205a7ce8) Merge pull request #15 from drid-uniben/second-call - 2026-09-13
+  - [787c22a](https://github.com/drid-uniben/ibr-tetfund-client/commit/787c22a17c2061edc3035b0a68db2e5cec24f3e0) strip empty optional fields before sending, in handleAddReviewer (client src/app/admin/invitations/page.tsx) - 2026-09-13
   - [a9b6857](https://github.com/drid-uniben/ibr-tetfund-client/commit/a9b6857e9697dcd899b598b24b7edc7d1f45af45) Merge pull request #14 from drid-uniben/second-call - 2026-08-25
   - [43db46c](https://github.com/drid-uniben/ibr-tetfund-client/commit/43db46c8661220de8617be3117428c26641ec1c2) made a change to the department enforcement - 2026-08-25
   - [8489cb0](https://github.com/drid-uniben/ibr-tetfund-client/commit/8489cb0b52c83624a12a5d92e241d4d0349b0c0a) Merge pull request #13 from drid-uniben/second-call - 2026-08-05
@@ -442,7 +448,7 @@ Commits:
   - [6e9c0d0](https://github.com/drid-uniben/drid-uniben.org/commit/6e9c0d053df0f8b9bbf9bb7216404e2f6611fe25) Merge pull request #4 from drid-uniben/design - 2026-07-23
   - [c8a9af3](https://github.com/drid-uniben/drid-uniben.org/commit/c8a9af336f3bce3ae8d1e7f093f883dfee346ed9) Aligns hero media and tightens layout - 2026-07-23
   - [a4a9098](https://github.com/drid-uniben/drid-uniben.org/commit/a4a9098e8a6f472a349ed700058e09649f1ad603) feat: build DRID landing page with official branding and motion - 2026-07-23
-- research-diploma-client (10 commits)
+- research-diploma-client (8 commits)
   - [a9f0074](https://github.com/drid-uniben/research-diploma-client/commit/a9f00747b61b815d04138ec9c3cedfdd3331641f) Merge pull request #3 from unibeninterns/wait - 2026-01-23
   - [3f2fa79](https://github.com/drid-uniben/research-diploma-client/commit/3f2fa79c2aa06ab39f9bfdceba7f96263f85810e) Revamps registration flow with waitlist forms and UI tweaks - 2026-01-23
   - [37ff0b1](https://github.com/drid-uniben/research-diploma-client/commit/37ff0b12520b3baeaafbf2c55e024cbe1f6742ac) Merge branch 'main' of https://github.com/unibeninterns/client-lms - 2026-01-22
@@ -451,8 +457,6 @@ Commits:
   - [142d91f](https://github.com/drid-uniben/research-diploma-client/commit/142d91fdd02fee1a50eda8355ecf857e1200bd0b) Did the SEO for the site and other changes - 2026-01-21
   - [288b029](https://github.com/drid-uniben/research-diploma-client/commit/288b029b9f2687c6dc1235e55f8d41a3c0d37247) feat(student): Refactor classroom layout into components - 2025-09-14
   - [eb231a8](https://github.com/drid-uniben/research-diploma-client/commit/eb231a8df5a90538ce0aee765bfd1b2a86fa6d4d) feat(classroom): implement responsive mobile layout - 2025-09-14
-  - [b88de32](https://github.com/drid-uniben/research-diploma-client/commit/b88de3261c82be73b611df4dce2555a5e792b36b) Added student classroom layout with module sidebar and toast notifications - 2025-09-13
-  - [321deef](https://github.com/drid-uniben/research-diploma-client/commit/321deef83952f23808328fdc5f34691a814ca8d2) update - 2025-09-08
 - ubjh (5 commits)
   - [f4668cf](https://github.com/drid-uniben/ubjh/commit/f4668cf2a316aa672712a11d155bd93a1a102469) Merge pull request #6 from drid-uniben/deadline - 2026-05-10
   - [4a2d82d](https://github.com/drid-uniben/ubjh/commit/4a2d82d6a887c365e375c16b80e21b50ab909659) Disable manuscript submissions and show closure notice - 2026-05-10
@@ -478,8 +482,6 @@ Commits:
   - [7dceb53](https://github.com/drid-uniben/.github/commit/7dceb531a383d75aa7c6c9d026e1499ab8f2abca) Merge pull request #1 from Osalotioman/fix/readme - 2025-12-17
 - research-diploma-server (1 commit)
   - [32fad68](https://github.com/drid-uniben/research-diploma-server/commit/32fad6847332e4d82ebaed722e35f9235172e009) feat(auth): implement HTML email for OTP verification - 2025-09-15
-- research-server (1 commit)
-  - [3b698d2](https://github.com/drid-uniben/research-server/commit/3b698d21f9023137623424f406c65bd7d1ea69d3) feat(brevo): Use Nodemailer for email sending - 2025-09-11
 
 PRs:
 - ubjh-client (23 PRs)
@@ -544,6 +546,21 @@ PRs:
   - [#7](https://github.com/drid-uniben/ubjh-server/pull/7) Merging to main - merged, updated 2026-04-11
   - [#6](https://github.com/drid-uniben/ubjh-server/pull/6) Making the Submission email work - merged, updated 2026-04-11
   - [#3](https://github.com/drid-uniben/ubjh-server/pull/3) Added multiple origins for the server - merged, updated 2026-04-11
+- ibr-tetfund-server (14 PRs)
+  - [#18](https://github.com/drid-uniben/ibr-tetfund-server/pull/18) made the alternative email zod schema more flexible to accept empty s… - merged, updated 2026-09-13
+  - [#17](https://github.com/drid-uniben/ibr-tetfund-server/pull/17) fix(reviewer): correct facultyId/departmentId field mismatch and impr… - merged, updated 2026-09-13
+  - [#16](https://github.com/drid-uniben/ibr-tetfund-server/pull/16) feat(faculty): add Institute for Child Health (ICH) to academic units - merged, updated 2026-09-04
+  - [#15](https://github.com/drid-uniben/ibr-tetfund-server/pull/15) fix(types): cast req.params values to string for @types/express v5 co… - merged, updated 2026-08-19
+  - [#14](https://github.com/drid-uniben/ibr-tetfund-server/pull/14) Added the institute of education and physiology - merged, updated 2026-08-19
+  - [#13](https://github.com/drid-uniben/ibr-tetfund-server/pull/13) Made faculty and department edits - merged, updated 2026-08-05
+  - [#12](https://github.com/drid-uniben/ibr-tetfund-server/pull/12) made fixes - merged, updated 2026-08-04
+  - [#11](https://github.com/drid-uniben/ibr-tetfund-server/pull/11) fix(validators): replace .max() char limits with word-count refine fo… - merged, updated 2026-07-29
+  - [#10](https://github.com/drid-uniben/ibr-tetfund-server/pull/10) Second call - merged, updated 2026-07-25
+  - [#9](https://github.com/drid-uniben/ibr-tetfund-server/pull/9) fix(build): resolve ObjectId cast and duplicate mongodb type errors - merged, updated 2026-07-24
+  - [#8](https://github.com/drid-uniben/ibr-tetfund-server/pull/8) fix(review): safe second-call fixes + 10MB initial upload limit - merged, updated 2026-07-24
+  - [#7](https://github.com/drid-uniben/ibr-tetfund-server/pull/7) style(emails): align templates with warm aubergine + gold palette - merged, updated 2026-07-24
+  - [#6](https://github.com/drid-uniben/ibr-tetfund-server/pull/6) Second call - merged, updated 2026-07-24
+  - [#5](https://github.com/drid-uniben/ibr-tetfund-server/pull/5) Second call - merged, updated 2026-07-23
 - ubjsti-server (13 PRs)
   - [#18](https://github.com/drid-uniben/ubjsti-server/pull/18) Merging to main - merged, updated 2026-07-23
   - [#17](https://github.com/drid-uniben/ubjsti-server/pull/17) Scope refresh cookie to the API host instead of the frontend domain - merged, updated 2026-07-23
@@ -558,19 +575,6 @@ PRs:
   - [#5](https://github.com/drid-uniben/ubjsti-server/pull/5) Merging to main - merged, updated 2026-04-11
   - [#4](https://github.com/drid-uniben/ubjsti-server/pull/4) Making the Submission email work - merged, updated 2026-04-11
   - [#2](https://github.com/drid-uniben/ubjsti-server/pull/2) Added ability to accept multiple origins - merged, updated 2026-04-11
-- ibr-tetfund-server (12 PRs)
-  - [#16](https://github.com/drid-uniben/ibr-tetfund-server/pull/16) feat(faculty): add Institute for Child Health (ICH) to academic units - merged, updated 2026-09-04
-  - [#15](https://github.com/drid-uniben/ibr-tetfund-server/pull/15) fix(types): cast req.params values to string for @types/express v5 co… - merged, updated 2026-08-19
-  - [#14](https://github.com/drid-uniben/ibr-tetfund-server/pull/14) Added the institute of education and physiology - merged, updated 2026-08-19
-  - [#13](https://github.com/drid-uniben/ibr-tetfund-server/pull/13) Made faculty and department edits - merged, updated 2026-08-05
-  - [#12](https://github.com/drid-uniben/ibr-tetfund-server/pull/12) made fixes - merged, updated 2026-08-04
-  - [#11](https://github.com/drid-uniben/ibr-tetfund-server/pull/11) fix(validators): replace .max() char limits with word-count refine fo… - merged, updated 2026-07-29
-  - [#10](https://github.com/drid-uniben/ibr-tetfund-server/pull/10) Second call - merged, updated 2026-07-25
-  - [#9](https://github.com/drid-uniben/ibr-tetfund-server/pull/9) fix(build): resolve ObjectId cast and duplicate mongodb type errors - merged, updated 2026-07-24
-  - [#8](https://github.com/drid-uniben/ibr-tetfund-server/pull/8) fix(review): safe second-call fixes + 10MB initial upload limit - merged, updated 2026-07-24
-  - [#7](https://github.com/drid-uniben/ibr-tetfund-server/pull/7) style(emails): align templates with warm aubergine + gold palette - merged, updated 2026-07-24
-  - [#6](https://github.com/drid-uniben/ibr-tetfund-server/pull/6) Second call - merged, updated 2026-07-24
-  - [#5](https://github.com/drid-uniben/ibr-tetfund-server/pull/5) Second call - merged, updated 2026-07-23
 - drid-con-ticket (11 PRs)
   - [#19](https://github.com/drid-uniben/drid-con-ticket/pull/19) Adds optional pre-conference ticket flow for Researcher Premium - merged, updated 2026-01-16
   - [#18](https://github.com/drid-uniben/drid-con-ticket/pull/18) Adds referral code support to registration and admin dashboard - merged, updated 2026-01-15
@@ -583,7 +587,8 @@ PRs:
   - [#11](https://github.com/drid-uniben/drid-con-ticket/pull/11) Adds session-based approval and check-in tracking - merged, updated 2026-01-06
   - [#10](https://github.com/drid-uniben/drid-con-ticket/pull/10) Add Lecturer Premium ticket with dual-session support - merged, updated 2026-01-05
   - [#7](https://github.com/drid-uniben/drid-con-ticket/pull/7) Saving the QR code as an image in the uploads first before sending it… - merged, updated 2025-12-08
-- ibr-tetfund-client (9 PRs)
+- ibr-tetfund-client (10 PRs)
+  - [#15](https://github.com/drid-uniben/ibr-tetfund-client/pull/15) strip empty optional fields before sending, in handleAddReviewer (cli… - merged, updated 2026-09-13
   - [#14](https://github.com/drid-uniben/ibr-tetfund-client/pull/14) made a change to the department enforcement - merged, updated 2026-08-25
   - [#13](https://github.com/drid-uniben/ibr-tetfund-client/pull/13) added validation to the title field - merged, updated 2026-08-05
   - [#12](https://github.com/drid-uniben/ibr-tetfund-client/pull/12) Second call - merged, updated 2026-07-26
@@ -609,7 +614,7 @@ PRs:
   - [#3](https://github.com/drid-uniben/research-diploma-client/pull/3) Revamps registration flow with waitlist forms and UI tweaks - merged, updated 2026-01-23
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
-Total commits: 308
+Total commits: 309
 Total PRs: 55
 
 Commits:
@@ -688,7 +693,8 @@ Commits:
   - [1640501](https://github.com/drid-uniben/drid-intern/commit/1640501d44804536051e60646ad8b86329cdefcb) init: Scaffold backend - 2026-02-20
   - [7d5c6b2](https://github.com/drid-uniben/drid-intern/commit/7d5c6b23b8ce6456ada864513495ff1919e8f53b) ci: CI workflow to build and lint frontend/backend - 2026-02-20
   - [bb8089d](https://github.com/drid-uniben/drid-intern/commit/bb8089d85b5bc36e7f4750695ecb22f810b7487f) init: Scaffold frontend - 2026-02-20
-- org-structure (69 commits)
+- org-structure (70 commits)
+  - [ea9a7f0](https://github.com/drid-uniben/org-structure/commit/ea9a7f0db48543caa7de0c3067e4ea68dc9e4e6d) chore(report): update weekly intern progress - 2026-09-07
   - [7366f9d](https://github.com/drid-uniben/org-structure/commit/7366f9d692d0e65100fa3b586648d7a012fe4cc7) chore(report): update weekly intern progress - 2026-08-31
   - [6eca27b](https://github.com/drid-uniben/org-structure/commit/6eca27bf7c7436b2f7345c687d06f56c9d8b92b6) chore(report): update weekly intern progress - 2026-08-24
   - [55b23a1](https://github.com/drid-uniben/org-structure/commit/55b23a1b0b96e097ca2564197cf3bcb9e91265a1) chore(report): update weekly intern progress - 2026-08-17
@@ -1015,25 +1021,10 @@ PRs:
   - [#12](https://github.com/drid-uniben/research-diploma-server/pull/12) chore: Add Apache License 2.0 - merged, updated 2026-03-12
 
 ### Light Ebube (@Lyteking)
-Total commits: 40
+Total commits: 37
 Total PRs: 4
 
 Commits:
-- research_frontend (14 commits)
-  - [dd0efe9](https://github.com/drid-uniben/research_frontend/commit/dd0efe960f5ef2ed95d216bd69dbf62977e8db52) Addition of more modals - 2025-09-26
-  - [34d3767](https://github.com/drid-uniben/research_frontend/commit/34d3767b8eec0b3692bc13c3cad40164e10b926c) Addition of more modals - 2025-09-26
-  - [411aa8f](https://github.com/drid-uniben/research_frontend/commit/411aa8f920b4e951f79b928989eb5741390ba4e9) Addition of Announcement and Upload Resource Modals - 2025-09-23
-  - [c5c529d](https://github.com/drid-uniben/research_frontend/commit/c5c529d0ec7555cf88e64b2d9db854eda979a9e5) Updated auth layout - 2025-09-22
-  - [bd8e616](https://github.com/drid-uniben/research_frontend/commit/bd8e61670832b61e40c15555074689851de5bcb0) Updated auth layout - 2025-09-22
-  - [437873b](https://github.com/drid-uniben/research_frontend/commit/437873b39a305f5192bb470d0b8125118f613774) Update of sign up and login pages design - 2025-09-16
-  - [1ae291e](https://github.com/drid-uniben/research_frontend/commit/1ae291ec70f4ba6fc7c157b731ab2cacddb4066f) Verify email design update - 2025-09-15
-  - [ffe87d5](https://github.com/drid-uniben/research_frontend/commit/ffe87d53a8a4fad3d5385eabbaff166f0bedd72d) Verify email design update - 2025-09-15
-  - [40da679](https://github.com/drid-uniben/research_frontend/commit/40da679457d2e14e222c59f100f640a7e24f7bf4) Verify email design update - 2025-09-15
-  - [6b6fcc8](https://github.com/drid-uniben/research_frontend/commit/6b6fcc8d16dc4b0b3c00f898a385d3a75a80eaf5) Verify email design update - 2025-09-15
-  - [6c25dc5](https://github.com/drid-uniben/research_frontend/commit/6c25dc5b058487e639785be077e6f8d9c2af82b4) Auth functionalities added - 2025-09-14
-  - [16b1037](https://github.com/drid-uniben/research_frontend/commit/16b1037c5e266ec2e9d3b7e548fca58f4eeb50f3) Addition of Tutor Management page and fixed type error - 2025-09-07
-  - [565fce9](https://github.com/drid-uniben/research_frontend/commit/565fce9dc442e815b688f620c1d78d3ce325e0e0) Addition of Tutor Management page and fixed type error - 2025-09-07
-  - [97bb8c9](https://github.com/drid-uniben/research_frontend/commit/97bb8c925b67dc3812433403be87cc150a3b380a) Addition of Tutor Management page and fixed type error - 2025-09-07
 - ubjh-client (13 commits)
   - [dbaaf18](https://github.com/drid-uniben/ubjh-client/commit/dbaaf18ec00e205f4f2a2c313efa14b1b67f214e) Fixed type error in article route - 2025-11-11
   - [b89f683](https://github.com/drid-uniben/ubjh-client/commit/b89f683144c9ddd8625374726cac7458a77a8b2c) Added the search page and modified the header - 2025-11-04
@@ -1048,6 +1039,18 @@ Commits:
   - [aff1a72](https://github.com/drid-uniben/ubjh-client/commit/aff1a72de24a83f8026cf9e64b2351cc52b35e7c) Mobile view updted - 2025-10-23
   - [eacfcdb](https://github.com/drid-uniben/ubjh-client/commit/eacfcdb952793001dca819de942a1755d394f0d5) Design Updated - 2025-10-22
   - [97a9e4c](https://github.com/drid-uniben/ubjh-client/commit/97a9e4ca14e48b61fd016e1928b8242f25702875) Updated the designs - 2025-10-18
+- research_frontend (11 commits)
+  - [dd0efe9](https://github.com/drid-uniben/research_frontend/commit/dd0efe960f5ef2ed95d216bd69dbf62977e8db52) Addition of more modals - 2025-09-26
+  - [34d3767](https://github.com/drid-uniben/research_frontend/commit/34d3767b8eec0b3692bc13c3cad40164e10b926c) Addition of more modals - 2025-09-26
+  - [411aa8f](https://github.com/drid-uniben/research_frontend/commit/411aa8f920b4e951f79b928989eb5741390ba4e9) Addition of Announcement and Upload Resource Modals - 2025-09-23
+  - [c5c529d](https://github.com/drid-uniben/research_frontend/commit/c5c529d0ec7555cf88e64b2d9db854eda979a9e5) Updated auth layout - 2025-09-22
+  - [bd8e616](https://github.com/drid-uniben/research_frontend/commit/bd8e61670832b61e40c15555074689851de5bcb0) Updated auth layout - 2025-09-22
+  - [437873b](https://github.com/drid-uniben/research_frontend/commit/437873b39a305f5192bb470d0b8125118f613774) Update of sign up and login pages design - 2025-09-16
+  - [1ae291e](https://github.com/drid-uniben/research_frontend/commit/1ae291ec70f4ba6fc7c157b731ab2cacddb4066f) Verify email design update - 2025-09-15
+  - [ffe87d5](https://github.com/drid-uniben/research_frontend/commit/ffe87d53a8a4fad3d5385eabbaff166f0bedd72d) Verify email design update - 2025-09-15
+  - [40da679](https://github.com/drid-uniben/research_frontend/commit/40da679457d2e14e222c59f100f640a7e24f7bf4) Verify email design update - 2025-09-15
+  - [6b6fcc8](https://github.com/drid-uniben/research_frontend/commit/6b6fcc8d16dc4b0b3c00f898a385d3a75a80eaf5) Verify email design update - 2025-09-15
+  - [6c25dc5](https://github.com/drid-uniben/research_frontend/commit/6c25dc5b058487e639785be077e6f8d9c2af82b4) Auth functionalities added - 2025-09-14
 - ubjsti-client (8 commits)
   - [568017c](https://github.com/drid-uniben/ubjsti-client/commit/568017ce55527860be71dddc0602c0696fb29444) Fixed Raymond's problems - 2025-11-11
   - [782655d](https://github.com/drid-uniben/ubjsti-client/commit/782655de10f9289667bf0f471a49ab28d97a201f) Fixed Raymond's problems - 2025-11-11
