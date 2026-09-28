@@ -1,7 +1,7 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-09-21
-Window: 2025-09-21 to 2026-09-21 (last 365 days)
+Generated: 2026-09-28
+Window: 2025-09-28 to 2026-09-28 (last 365 days)
 Organization: drid-uniben
 
 ## Summary
@@ -9,8 +9,8 @@ Organization: drid-uniben
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
 | Omoyakhi Raymond Eshikogie (@Raymond-engr) | 482 | 138 | 14 |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 310 | 55 | 19 |
-| Light Ebube (@Lyteking) | 31 | 4 | 5 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 311 | 55 | 19 |
+| Light Ebube (@Lyteking) | 26 | 4 | 4 |
 | Genesis Osasenaga Ighalo (@daves-hub) | 21 | 4 | 1 |
 | Ohenhen Isoken Glory (@Glorie27) | 2 | 3 | 2 |
 | Lucky Egho (@EGHO-LUCKY) | 1 | 2 | 2 |
@@ -674,7 +674,7 @@ PRs:
   - [#3](https://github.com/drid-uniben/research-diploma-client/pull/3) Revamps registration flow with waitlist forms and UI tweaks - merged, updated 2026-01-23
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
-Total commits: 310
+Total commits: 311
 Total PRs: 55
 
 Commits:
@@ -753,7 +753,8 @@ Commits:
   - [1640501](https://github.com/drid-uniben/drid-intern/commit/1640501d44804536051e60646ad8b86329cdefcb) init: Scaffold backend - 2026-02-20
   - [7d5c6b2](https://github.com/drid-uniben/drid-intern/commit/7d5c6b23b8ce6456ada864513495ff1919e8f53b) ci: CI workflow to build and lint frontend/backend - 2026-02-20
   - [bb8089d](https://github.com/drid-uniben/drid-intern/commit/bb8089d85b5bc36e7f4750695ecb22f810b7487f) init: Scaffold frontend - 2026-02-20
-- org-structure (71 commits)
+- org-structure (72 commits)
+  - [b287db3](https://github.com/drid-uniben/org-structure/commit/b287db338ec4eb81c2a556992111af166394dd37) chore(report): update weekly intern progress - 2026-09-21
   - [7d3fadf](https://github.com/drid-uniben/org-structure/commit/7d3fadfe27d52333f3e2ed85da0d6c5172c6aabb) chore(report): update weekly intern progress - 2026-09-14
   - [ea9a7f0](https://github.com/drid-uniben/org-structure/commit/ea9a7f0db48543caa7de0c3067e4ea68dc9e4e6d) chore(report): update weekly intern progress - 2026-09-07
   - [7366f9d](https://github.com/drid-uniben/org-structure/commit/7366f9d692d0e65100fa3b586648d7a012fe4cc7) chore(report): update weekly intern progress - 2026-08-31
@@ -1082,7 +1083,7 @@ PRs:
   - [#12](https://github.com/drid-uniben/research-diploma-server/pull/12) chore: Add Apache License 2.0 - merged, updated 2026-03-12
 
 ### Light Ebube (@Lyteking)
-Total commits: 31
+Total commits: 26
 Total PRs: 4
 
 Commits:
@@ -1115,12 +1116,6 @@ Commits:
   - [2cab393](https://github.com/drid-uniben/drid-con-ticket/commit/2cab393055cbb47621c2648ee493667c277d4421) Fixed the upload image field and modified not found page - 2025-12-07
   - [3b19d48](https://github.com/drid-uniben/drid-con-ticket/commit/3b19d486013642737b6919a73f76515df4d56947) Fixed some of the issues in the TODO.md file - 2025-12-07
   - [cea1c9f](https://github.com/drid-uniben/drid-con-ticket/commit/cea1c9f226829f8b89b8ba2622d44b9f82e2ccb0) Fixed some of the issues in the TODO.md file - 2025-12-06
-- research_frontend (5 commits)
-  - [dd0efe9](https://github.com/drid-uniben/research_frontend/commit/dd0efe960f5ef2ed95d216bd69dbf62977e8db52) Addition of more modals - 2025-09-26
-  - [34d3767](https://github.com/drid-uniben/research_frontend/commit/34d3767b8eec0b3692bc13c3cad40164e10b926c) Addition of more modals - 2025-09-26
-  - [411aa8f](https://github.com/drid-uniben/research_frontend/commit/411aa8f920b4e951f79b928989eb5741390ba4e9) Addition of Announcement and Upload Resource Modals - 2025-09-23
-  - [c5c529d](https://github.com/drid-uniben/research_frontend/commit/c5c529d0ec7555cf88e64b2d9db854eda979a9e5) Updated auth layout - 2025-09-22
-  - [bd8e616](https://github.com/drid-uniben/research_frontend/commit/bd8e61670832b61e40c15555074689851de5bcb0) Updated auth layout - 2025-09-22
 
 PRs:
 - drid-con-ticket (3 PRs)
