@@ -1,15 +1,15 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-10-05
-Window: 2025-10-05 to 2026-10-05 (last 365 days)
+Generated: 2026-10-12
+Window: 2025-10-12 to 2026-10-12 (last 365 days)
 Organization: drid-uniben
 
 ## Summary
 
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
-| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 482 | 138 | 14 |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 312 | 55 | 19 |
+| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 489 | 145 | 14 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 313 | 55 | 19 |
 | Light Ebube (@Lyteking) | 26 | 4 | 4 |
 | Genesis Osasenaga Ighalo (@daves-hub) | 21 | 4 | 1 |
 | Ohenhen Isoken Glory (@Glorie27) | 2 | 3 | 2 |
@@ -21,11 +21,11 @@ Organization: drid-uniben
 ## Detailed Activity (Commits First)
 
 ### Omoyakhi Raymond Eshikogie (@Raymond-engr)
-Total commits: 482
-Total PRs: 138
+Total commits: 489
+Total PRs: 145
 
 Commits:
-- ubjh-client (104 commits)
+- ubjh-client (100 commits)
   - [1165ce9](https://github.com/drid-uniben/ubjh-client/commit/1165ce9b15422a6a2b0d4011de965b329a9c9a5b) Merge pull request #25 from drid-uniben/author - 2026-07-24
   - [e3407b0](https://github.com/drid-uniben/ubjh-client/commit/e3407b079048250cf2c6bcf393b91060b288834f) feat: add context-aware custom 404 not-found page - 2026-07-24
   - [6337e08](https://github.com/drid-uniben/ubjh-client/commit/6337e08afff524ff9c0ddab00056f8dfa707323f) Merge pull request #24 from drid-uniben/author - 2026-06-19
@@ -126,11 +126,7 @@ Commits:
   - [78ffe31](https://github.com/drid-uniben/ubjh-client/commit/78ffe3128bae7efb8ba99c76aa9d8702213ab20b) Added info.md file with project specifics - 2025-10-15
   - [26be0d5](https://github.com/drid-uniben/ubjh-client/commit/26be0d5ad5f77b4dee3a4a27b37f8e41e235baa9) feat(auth): centralize auth logic and error handling in AuthContext - 2025-10-14
   - [9c6fb6f](https://github.com/drid-uniben/ubjh-client/commit/9c6fb6f7667e22b8fb99aed98f6d9494607a1c77) Added context - 2025-10-14
-  - [d7e4a36](https://github.com/drid-uniben/ubjh-client/commit/d7e4a3654defbf4d41dbc211784c1311cc67078b) Update on the favicon - 2025-10-11
-  - [ee6b151](https://github.com/drid-uniben/ubjh-client/commit/ee6b1519da97c0ce4f9f1a283b513a0e1c8f5809) refactor: Clean up components and enable Turbopack - 2025-10-11
-  - [607700c](https://github.com/drid-uniben/ubjh-client/commit/607700c4d88bf6bcd3c9e03057240c034bf974e5) First complete mockup of the Journals site for humanities, open to further adjustments in the future - 2025-10-11
-  - [1a4a5f5](https://github.com/drid-uniben/ubjh-client/commit/1a4a5f59cbe626a9b7951f42ecc8a9fea1592c32) Initial commit from Create Next App - 2025-10-09
-- ubjh-server (81 commits)
+- ubjh-server (80 commits)
   - [d5840a3](https://github.com/drid-uniben/ubjh-server/commit/d5840a3de6f02c2d57d606ce32bf5d4c22ad603b) Merge pull request #19 from drid-uniben/author - 2026-07-23
   - [33e1f9d](https://github.com/drid-uniben/ubjh-server/commit/33e1f9de804340be94f12f525e3669f36bbd4a51) increased ratelimit for authors - 2026-07-20
   - [c5e3e6b](https://github.com/drid-uniben/ubjh-server/commit/c5e3e6b9215294b633481735eec943e0f1923843) Scope refresh cookie to the API host instead of the frontend domain - 2026-07-20
@@ -211,7 +207,6 @@ Commits:
   - [b5698d6](https://github.com/drid-uniben/ubjh-server/commit/b5698d67c6a2979a44a83552bbcc6b64393a0146) refactor: Decouple article classification and enhance author data - 2025-10-14
   - [22972b8](https://github.com/drid-uniben/ubjh-server/commit/22972b82b49aeb0da8ba405b81579bd53f43068d) refactor(submission): Rename Proposal_Submission to Manuscript_Submission - 2025-10-14
   - [fcebc02](https://github.com/drid-uniben/ubjh-server/commit/fcebc027b9be40605a080bd09eaafdd4e475348b) refactor(emails): rename proposal status template to manuscript - 2025-10-14
-  - [bf4b5e2](https://github.com/drid-uniben/ubjh-server/commit/bf4b5e20de9a43f1956f41e51c7c25f4064e0c96) Starting with editing some core business logic of a partly similar implementation to save time - 2025-10-11
 - drid-con-ticket (68 commits)
   - [06583b5](https://github.com/drid-uniben/drid-con-ticket/commit/06583b5d4475c9317edc015ce648cbe77ecc8531) Adds attendee search and filtering to dashboard - 2026-01-20
   - [3d85a05](https://github.com/drid-uniben/drid-con-ticket/commit/3d85a054bc73710af08fb7334508eb385f00ea88) Merge pull request #20 from unibeninterns/feats/manual-check-in-and-other-stuff - 2026-01-20
@@ -281,7 +276,13 @@ Commits:
   - [90a6888](https://github.com/drid-uniben/drid-con-ticket/commit/90a68888c27e4d98332ceb2a58e6047ea3eabeee) Added a well structured PRD document - 2025-12-05
   - [1d662c9](https://github.com/drid-uniben/drid-con-ticket/commit/1d662c902a665650cf61d0c8a967b936cc440571) Added a well structured PRD document - 2025-12-05
   - [029a2bb](https://github.com/drid-uniben/drid-con-ticket/commit/029a2bb84060f33b8c191fadb3718c859f96f21a) first commit - 2025-12-05
-- ibr-tetfund-server (61 commits)
+- ibr-tetfund-server (67 commits)
+  - [1fa7980](https://github.com/drid-uniben/ibr-tetfund-server/commit/1fa79801b07d67ebb672352270191da04250a327) Merge pull request #34 from drid-uniben/second-call - 2026-10-07
+  - [392ae82](https://github.com/drid-uniben/ibr-tetfund-server/commit/392ae8239becc30d0fc6cc7ab93eeef8756493ec) fix(reviews): match faculty filter as string title in proposalReviews controller - 2026-10-07
+  - [dacee06](https://github.com/drid-uniben/ibr-tetfund-server/commit/dacee06bbdcec924ff1eee3fb92009b1cef88873) Merge pull request #33 from drid-uniben/second-call - 2026-10-06
+  - [978ecee](https://github.com/drid-uniben/ibr-tetfund-server/commit/978ecee71743f1ceea37203b202b0e47892df1a2) fix: conditional feedback copy in rejection email template - 2026-10-06
+  - [dc27a3a](https://github.com/drid-uniben/ibr-tetfund-server/commit/dc27a3a5cc58f913d77feabdba53bbd1cd3d5c82) Merge pull request #32 from drid-uniben/second-call - 2026-10-06
+  - [2a30921](https://github.com/drid-uniben/ibr-tetfund-server/commit/2a30921ff74210055be93ce651872bb0b40abf9e) feat: draft review, export to Word, search fix, notify count, and reject send-comments toggle for full proposals - 2026-10-06
   - [4cdf60d](https://github.com/drid-uniben/ibr-tetfund-server/commit/4cdf60d45c22194c7f63732d58c24738a1f52d5e) Merge pull request #31 from drid-uniben/second-call - 2026-09-21
   - [0ca955c](https://github.com/drid-uniben/ibr-tetfund-server/commit/0ca955caf6fd79eb142eb486eb5869563d431b45) fix: add server-side search, status guard, and deterministic sort to final decisions controller - 2026-09-21
   - [43f3027](https://github.com/drid-uniben/ibr-tetfund-server/commit/43f30278f7359922d17b7ea6dbc47cce2ab7fefc) fix: apply deterministic sort and backend-driven search filtering to decisions controller - 2026-09-21
@@ -405,7 +406,15 @@ Commits:
   - [bc97b52](https://github.com/drid-uniben/ubjsti-client/commit/bc97b522cbfcfa6b4f492c6b4e80fa3df2aa69ba) Update - 2025-11-05
   - [282b33a](https://github.com/drid-uniben/ubjsti-client/commit/282b33a85b75fe1efac5ffcce0e19807c6511aa0) Started the base setup of the repo - 2025-10-24
   - [6fe2e93](https://github.com/drid-uniben/ubjsti-client/commit/6fe2e93c1758bd086f468e903e83fb6a24fec2b0) Initial commit from Create Next App - 2025-10-24
-- ibr-tetfund-client (46 commits)
+- ibr-tetfund-client (54 commits)
+  - [836a94d](https://github.com/drid-uniben/ibr-tetfund-client/commit/836a94d61cc962c1be29752024e6e7da8e93b189) Merge pull request #27 from drid-uniben/second-call - 2026-10-07
+  - [0b6c8b0](https://github.com/drid-uniben/ibr-tetfund-client/commit/0b6c8b01301cd1e226b3f0d75b4cc899fa4af94f) fix(client): fix DecisionsPanelWrapper closure and add URL persistence to reviews page - 2026-10-07
+  - [cf7f087](https://github.com/drid-uniben/ibr-tetfund-client/commit/cf7f0872bb0a3c3c47e2868e31c052b138a448b9) Merge pull request #26 from drid-uniben/second-call - 2026-10-07
+  - [3813ba0](https://github.com/drid-uniben/ibr-tetfund-client/commit/3813ba029ff34e8f505377f7293cd411a5bbd581) fix(client): persist pagination and filters in URL and fix faculty filter - 2026-10-06
+  - [9c49580](https://github.com/drid-uniben/ibr-tetfund-client/commit/9c495807cdc5dda5f144bc6b793af1b84b6da68d) Merge pull request #25 from drid-uniben/second-call - 2026-10-06
+  - [c5926d3](https://github.com/drid-uniben/ibr-tetfund-client/commit/c5926d3f402c0cda3f4c8b008cab0e6e53bffa1e) style(analytics): align research funnel and summary cards with reference PDF design - 2026-10-06
+  - [886712a](https://github.com/drid-uniben/ibr-tetfund-client/commit/886712aa13a23bf6bfa60a1de0a9754c6b7d68dc) Merge pull request #24 from drid-uniben/second-call - 2026-10-06
+  - [c153551](https://github.com/drid-uniben/ibr-tetfund-client/commit/c153551cd93cc17a07150ea0f0678e75ea262dea) feat: draft review card, export to Word dialog, search fix, and reject send-comments toggle for full proposals - 2026-10-06
   - [393d747](https://github.com/drid-uniben/ibr-tetfund-client/commit/393d747d1e2292c1bb9ac939616a2da71149328a) Merge pull request #23 from drid-uniben/second-call - 2026-09-21
   - [f0fa052](https://github.com/drid-uniben/ibr-tetfund-client/commit/f0fa0528f33c9953858156140dc7a56e6dac75f2) fix: implement backend-driven search, status filter, and stable pagination for final decision panel - 2026-09-21
   - [07d38cb](https://github.com/drid-uniben/ibr-tetfund-client/commit/07d38cb10dc6c4c00ccc89ac8c0e973bb587bb8a) fix: implement backend-driven pagination, sorting, and search for decision tables - 2026-09-21
@@ -515,15 +524,16 @@ Commits:
   - [dec938e](https://github.com/drid-uniben/email-campaign/commit/dec938e156bd28c1fe50ccb5671b354d27dae8b6) Rebrands to Drid Admin Portal and improves search UX - 2026-02-22
   - [b5033c2](https://github.com/drid-uniben/email-campaign/commit/b5033c26875a7d92ef38563e642bfecbb7b43c32) Adding the client folder - 2026-02-22
   - [56b9af3](https://github.com/drid-uniben/email-campaign/commit/56b9af3b667fc2456aa4f8abf737b1e18188f4ee) feat: Implement unit management and email campaign systemThis commit introduces a comprehensive unit management and email campaign system, refactoring the application to focus exclusively on these features.Key changes include:Server-side:Simplified User model: Updated server/src/model/user.model.ts to remove journal-specific fields and add unit and isApproved fields.New Unit model: Introduced server/src/model/unit.model.ts for dynamic unit creation.Rewrote AdminController: Updated server/src/controllers/admin.controller.ts to manage users (CRUD, bulk add, status/unit updates).Created UnitController: Added server/src/controllers/admin/unit.controller.ts for unit CRUD operations.Updated DynamicEmailController: Integrated unit and approval status filters into server/src/controllers/admin/dynamicEmail.controller.ts and applied a new dark blue theme to emails.Refactored Routes: Updated server/src/routes/admin.routes.ts and server/src/routes/index.ts to align with the new system, removing all journal-related endpoints.Email Templates: Updated server/src/templates/emails/styles.ts and server/src/templates/emails/index.ts for consistent branding.Extensive Cleanup: Removed irrelevant folders and files (e.g., Manuscript_Submission, Review_System, Publication).Client-side:API Integrations: Updated client/services/api.ts with new endpoints for Unit and User management.Reworked AdminLayout: Updated client/components/admin/AdminLayout.tsx with streamlined navigation ('Units', 'Users', 'Email Campaign') and new branding.Enhanced EmailCampaignPage: Added unit and approval status filters and a refreshed dark blue UI to client/app/admin/email-campaign/page.tsx.New AdminUnitsPage: Developed client/app/admin/units/page.tsx for unit creation, renaming, and deletion.Created AdminUsersPage: Added client/app/admin/users/page.tsx for comprehensive user management, including bulk addition, approval workflows, and unit assignment.Authentication: Implemented a dedicated login page at client/app/login/page.tsx and a redirect from the homepage (client/app/page.tsx).Global Updates: Updated metadata in client/app/layout.tsx and removed irrelevant public assets. - 2026-02-22
-- client (3 commits)
-  - [2696fc6](https://github.com/drid-uniben/client/commit/2696fc60ba87670099ee4697f2d8b54321ed5b72) fix(dashboard): Keep parent navigation item active on sub-pages - 2025-10-20
-  - [8aaa15a](https://github.com/drid-uniben/client/commit/8aaa15ac92cf409cf015160828bbbe3b213be448) feat(ui): Add nav links and optimize hero images with Next/Image - 2025-10-07
-  - [e54f221](https://github.com/drid-uniben/client/commit/e54f2214dfdf849953ceeefe4eb5397565c78d3a) refactor(article): Migrate article detail page to Server Component - 2025-10-07
 - .github (1 commit)
   - [7dceb53](https://github.com/drid-uniben/.github/commit/7dceb531a383d75aa7c6c9d026e1499ab8f2abca) Merge pull request #1 from Osalotioman/fix/readme - 2025-12-17
+- client (1 commit)
+  - [2696fc6](https://github.com/drid-uniben/client/commit/2696fc60ba87670099ee4697f2d8b54321ed5b72) fix(dashboard): Keep parent navigation item active on sub-pages - 2025-10-20
 
 PRs:
-- ibr-tetfund-server (27 PRs)
+- ibr-tetfund-server (30 PRs)
+  - [#34](https://github.com/drid-uniben/ibr-tetfund-server/pull/34) fix(reviews): match faculty filter as string title in proposalReviews… - merged, updated 2026-10-07
+  - [#33](https://github.com/drid-uniben/ibr-tetfund-server/pull/33) fix: conditional feedback copy in rejection email template - merged, updated 2026-10-06
+  - [#32](https://github.com/drid-uniben/ibr-tetfund-server/pull/32) feat: draft review, export to Word, search fix, notify count, and rej… - merged, updated 2026-10-06
   - [#31](https://github.com/drid-uniben/ibr-tetfund-server/pull/31) Second call - merged, updated 2026-09-21
   - [#30](https://github.com/drid-uniben/ibr-tetfund-server/pull/30) fix: copy static assets to dist on build - merged, updated 2026-09-21
   - [#29](https://github.com/drid-uniben/ibr-tetfund-server/pull/29) fix: deadline null handling and approval email adjustments - merged, updated 2026-09-20
@@ -575,6 +585,29 @@ PRs:
   - [#5](https://github.com/drid-uniben/ubjh-client/pull/5) Main - merged, updated 2026-04-11
   - [#4](https://github.com/drid-uniben/ubjh-client/pull/4) Making the CoAuthors fields required - merged, updated 2026-04-11
   - [#1](https://github.com/drid-uniben/ubjh-client/pull/1) Updated the design - merged, updated 2025-10-31
+- ibr-tetfund-client (22 PRs)
+  - [#27](https://github.com/drid-uniben/ibr-tetfund-client/pull/27) fix(client): fix DecisionsPanelWrapper closure and add URL persistenc… - merged, updated 2026-10-07
+  - [#26](https://github.com/drid-uniben/ibr-tetfund-client/pull/26) fix(client): persist pagination and filters in URL and fix faculty fi… - merged, updated 2026-10-07
+  - [#25](https://github.com/drid-uniben/ibr-tetfund-client/pull/25) style(analytics): align research funnel and summary cards with refere… - merged, updated 2026-10-06
+  - [#24](https://github.com/drid-uniben/ibr-tetfund-client/pull/24) feat: draft review card, export to Word dialog, search fix, and rejec… - merged, updated 2026-10-06
+  - [#23](https://github.com/drid-uniben/ibr-tetfund-client/pull/23) Second call - merged, updated 2026-09-21
+  - [#22](https://github.com/drid-uniben/ibr-tetfund-client/pull/22) fix: resolve null deadline rendering issues on researcher dashboards - merged, updated 2026-09-21
+  - [#21](https://github.com/drid-uniben/ibr-tetfund-client/pull/21) Second call - merged, updated 2026-09-20
+  - [#20](https://github.com/drid-uniben/ibr-tetfund-client/pull/20) feat: add budget template download to full proposal guidelines - merged, updated 2026-09-20
+  - [#19](https://github.com/drid-uniben/ibr-tetfund-client/pull/19) feat: solo reviewer feedback prefill - merged, updated 2026-09-20
+  - [#18](https://github.com/drid-uniben/ibr-tetfund-client/pull/18) feat: update scoring criteria to 8-point rubric - merged, updated 2026-09-19
+  - [#17](https://github.com/drid-uniben/ibr-tetfund-client/pull/17) fix: resolve solo reviewer assignment UI freeze and availability issues - merged, updated 2026-09-19
+  - [#16](https://github.com/drid-uniben/ibr-tetfund-client/pull/16) feat: implement solo reviewer bypass flow UI - merged, updated 2026-09-18
+  - [#15](https://github.com/drid-uniben/ibr-tetfund-client/pull/15) strip empty optional fields before sending, in handleAddReviewer (cli… - merged, updated 2026-09-13
+  - [#14](https://github.com/drid-uniben/ibr-tetfund-client/pull/14) made a change to the department enforcement - merged, updated 2026-08-25
+  - [#13](https://github.com/drid-uniben/ibr-tetfund-client/pull/13) added validation to the title field - merged, updated 2026-08-05
+  - [#12](https://github.com/drid-uniben/ibr-tetfund-client/pull/12) Second call - merged, updated 2026-07-26
+  - [#11](https://github.com/drid-uniben/ibr-tetfund-client/pull/11) Second call - merged, updated 2026-07-25
+  - [#10](https://github.com/drid-uniben/ibr-tetfund-client/pull/10) content+fix(submission): guideline note, uniform 10MB limit, email no… - merged, updated 2026-07-24
+  - [#9](https://github.com/drid-uniben/ibr-tetfund-client/pull/9) Second call - merged, updated 2026-07-24
+  - [#8](https://github.com/drid-uniben/ibr-tetfund-client/pull/8) Second call - merged, updated 2026-07-24
+  - [#7](https://github.com/drid-uniben/ibr-tetfund-client/pull/7) fix(lint): remove unused variable in staff proposal submit - merged, updated 2026-07-23
+  - [#6](https://github.com/drid-uniben/ibr-tetfund-client/pull/6) fix: Enable page scroll and re-open TETFund IBR application - merged, updated 2026-07-23
 - ubjsti-client (20 PRs)
   - [#22](https://github.com/drid-uniben/ubjsti-client/pull/22) feat: add context-aware custom 404 not-found page - merged, updated 2026-07-24
   - [#20](https://github.com/drid-uniben/ubjsti-client/pull/20) did the author's dashboard - merged, updated 2026-06-19
@@ -596,25 +629,6 @@ PRs:
   - [#4](https://github.com/drid-uniben/ubjsti-client/pull/4) Fixing the content of the confirmation success page and making the in… - merged, updated 2026-04-11
   - [#3](https://github.com/drid-uniben/ubjsti-client/pull/3) Merging to main - merged, updated 2026-04-11
   - [#2](https://github.com/drid-uniben/ubjsti-client/pull/2) Making the coAithor field there  required - merged, updated 2026-04-11
-- ibr-tetfund-client (18 PRs)
-  - [#23](https://github.com/drid-uniben/ibr-tetfund-client/pull/23) Second call - merged, updated 2026-09-21
-  - [#22](https://github.com/drid-uniben/ibr-tetfund-client/pull/22) fix: resolve null deadline rendering issues on researcher dashboards - merged, updated 2026-09-21
-  - [#21](https://github.com/drid-uniben/ibr-tetfund-client/pull/21) Second call - merged, updated 2026-09-20
-  - [#20](https://github.com/drid-uniben/ibr-tetfund-client/pull/20) feat: add budget template download to full proposal guidelines - merged, updated 2026-09-20
-  - [#19](https://github.com/drid-uniben/ibr-tetfund-client/pull/19) feat: solo reviewer feedback prefill - merged, updated 2026-09-20
-  - [#18](https://github.com/drid-uniben/ibr-tetfund-client/pull/18) feat: update scoring criteria to 8-point rubric - merged, updated 2026-09-19
-  - [#17](https://github.com/drid-uniben/ibr-tetfund-client/pull/17) fix: resolve solo reviewer assignment UI freeze and availability issues - merged, updated 2026-09-19
-  - [#16](https://github.com/drid-uniben/ibr-tetfund-client/pull/16) feat: implement solo reviewer bypass flow UI - merged, updated 2026-09-18
-  - [#15](https://github.com/drid-uniben/ibr-tetfund-client/pull/15) strip empty optional fields before sending, in handleAddReviewer (cli… - merged, updated 2026-09-13
-  - [#14](https://github.com/drid-uniben/ibr-tetfund-client/pull/14) made a change to the department enforcement - merged, updated 2026-08-25
-  - [#13](https://github.com/drid-uniben/ibr-tetfund-client/pull/13) added validation to the title field - merged, updated 2026-08-05
-  - [#12](https://github.com/drid-uniben/ibr-tetfund-client/pull/12) Second call - merged, updated 2026-07-26
-  - [#11](https://github.com/drid-uniben/ibr-tetfund-client/pull/11) Second call - merged, updated 2026-07-25
-  - [#10](https://github.com/drid-uniben/ibr-tetfund-client/pull/10) content+fix(submission): guideline note, uniform 10MB limit, email no… - merged, updated 2026-07-24
-  - [#9](https://github.com/drid-uniben/ibr-tetfund-client/pull/9) Second call - merged, updated 2026-07-24
-  - [#8](https://github.com/drid-uniben/ibr-tetfund-client/pull/8) Second call - merged, updated 2026-07-24
-  - [#7](https://github.com/drid-uniben/ibr-tetfund-client/pull/7) fix(lint): remove unused variable in staff proposal submit - merged, updated 2026-07-23
-  - [#6](https://github.com/drid-uniben/ibr-tetfund-client/pull/6) fix: Enable page scroll and re-open TETFund IBR application - merged, updated 2026-07-23
 - ubjh-server (16 PRs)
   - [#20](https://github.com/drid-uniben/ubjh-server/pull/20) Merging to main - merged, updated 2026-07-23
   - [#19](https://github.com/drid-uniben/ubjh-server/pull/19) Author - merged, updated 2026-07-23
@@ -674,10 +688,85 @@ PRs:
   - [#3](https://github.com/drid-uniben/research-diploma-client/pull/3) Revamps registration flow with waitlist forms and UI tweaks - merged, updated 2026-01-23
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
-Total commits: 312
+Total commits: 313
 Total PRs: 55
 
 Commits:
+- org-structure (74 commits)
+  - [ed37114](https://github.com/drid-uniben/org-structure/commit/ed371144ef04d96582db724514cf42e5eee89a3f) chore(report): update weekly intern progress - 2026-10-05
+  - [fd47e60](https://github.com/drid-uniben/org-structure/commit/fd47e603dffb6fa3e6a517d5f24b4048ca4daf26) chore(report): update weekly intern progress - 2026-09-28
+  - [b287db3](https://github.com/drid-uniben/org-structure/commit/b287db338ec4eb81c2a556992111af166394dd37) chore(report): update weekly intern progress - 2026-09-21
+  - [7d3fadf](https://github.com/drid-uniben/org-structure/commit/7d3fadfe27d52333f3e2ed85da0d6c5172c6aabb) chore(report): update weekly intern progress - 2026-09-14
+  - [ea9a7f0](https://github.com/drid-uniben/org-structure/commit/ea9a7f0db48543caa7de0c3067e4ea68dc9e4e6d) chore(report): update weekly intern progress - 2026-09-07
+  - [7366f9d](https://github.com/drid-uniben/org-structure/commit/7366f9d692d0e65100fa3b586648d7a012fe4cc7) chore(report): update weekly intern progress - 2026-08-31
+  - [6eca27b](https://github.com/drid-uniben/org-structure/commit/6eca27bf7c7436b2f7345c687d06f56c9d8b92b6) chore(report): update weekly intern progress - 2026-08-24
+  - [55b23a1](https://github.com/drid-uniben/org-structure/commit/55b23a1b0b96e097ca2564197cf3bcb9e91265a1) chore(report): update weekly intern progress - 2026-08-17
+  - [972b61c](https://github.com/drid-uniben/org-structure/commit/972b61c33cb7f827f1fbbd75a5a58a75d7239288) chore(report): update weekly intern progress - 2026-08-10
+  - [1e2c930](https://github.com/drid-uniben/org-structure/commit/1e2c930bd894d63bc520aa2ab1409e21d79e2b37) chore(report): update weekly intern progress - 2026-08-03
+  - [094bc73](https://github.com/drid-uniben/org-structure/commit/094bc732db3b250dcff628be13ea236984074dbf) chore(report): update weekly intern progress - 2026-07-27
+  - [8ff755f](https://github.com/drid-uniben/org-structure/commit/8ff755f0272ae5d02e264aa3fb672e8bab703d2e) chore(report): update weekly intern progress - 2026-07-20
+  - [5bf3f87](https://github.com/drid-uniben/org-structure/commit/5bf3f87864caa29b529da01c9d04fbfb50d6282c) chore(report): update weekly intern progress - 2026-07-13
+  - [7926cd9](https://github.com/drid-uniben/org-structure/commit/7926cd9c0977a2fcfa189f74f870574f5c285153) chore(report): update weekly intern progress - 2026-07-06
+  - [7ef6853](https://github.com/drid-uniben/org-structure/commit/7ef685311695c610502f8b24eb169bc73e78e5a5) chore(report): update weekly intern progress - 2026-06-29
+  - [88627bc](https://github.com/drid-uniben/org-structure/commit/88627bc310758bfe860db0621eb63d575a370ae8) chore(report): update weekly intern progress - 2026-06-23
+  - [5f2e261](https://github.com/drid-uniben/org-structure/commit/5f2e26132e7eb47046e0538730245c5c039504d6) Update weekly-intern-progress.yml (#9) - 2026-06-23
+  - [7e9f939](https://github.com/drid-uniben/org-structure/commit/7e9f939f6fe0cb2a7f9e872539f2be91928a48db) chore(report): update weekly intern progress - 2026-06-22
+  - [48c240d](https://github.com/drid-uniben/org-structure/commit/48c240dc192d03e17ebc4e3b4d36a666f64b4055) chore(report): update weekly intern progress - 2026-06-15
+  - [d115f0c](https://github.com/drid-uniben/org-structure/commit/d115f0c3b8631c677a5b8c6b52511b63d428912f) chore(report): update weekly intern progress - 2026-06-08
+  - [ff9223c](https://github.com/drid-uniben/org-structure/commit/ff9223c314d3890e71b252337a4b496968a2b69b) chore(report): update weekly intern progress - 2026-06-01
+  - [39d2512](https://github.com/drid-uniben/org-structure/commit/39d2512453d1c8b0ec8dc0590291f9f6388d0457) chore: Remove Afahakan Precious from interns.json (#8) - 2026-05-28
+  - [7083c90](https://github.com/drid-uniben/org-structure/commit/7083c90f9d6f5e5673ed9cb890aea506cae9dc4f) chore(report): update weekly intern progress - 2026-05-25
+  - [0811f87](https://github.com/drid-uniben/org-structure/commit/0811f87bb226d43b9abe39dd75fe82d2fbd62868) chore(report): update weekly intern progress - 2026-05-18
+  - [1fdb9de](https://github.com/drid-uniben/org-structure/commit/1fdb9de441756adf4be7156052304dc3b39e23df) chore(report): update weekly intern progress - 2026-05-11
+  - [02e0952](https://github.com/drid-uniben/org-structure/commit/02e095264539b85ff799b271a7edf478a88d7880) chore(report): update weekly intern progress - 2026-05-04
+  - [e62369f](https://github.com/drid-uniben/org-structure/commit/e62369f2db92f6c1154d495f5020fcc34875470f) chore(report): update weekly intern progress - 2026-04-27
+  - [dded0dc](https://github.com/drid-uniben/org-structure/commit/dded0dc6d8705d995f1f3773cb9192e5252f5eaf) chore(report): update weekly intern progress - 2026-04-25
+  - [e8a53c9](https://github.com/drid-uniben/org-structure/commit/e8a53c9ac0b49d6e2ba5727947ea12a6d38e05e1) chore(report): update weekly intern progress - 2026-04-22
+  - [1523363](https://github.com/drid-uniben/org-structure/commit/1523363d0b65efc7d82c7d1bdcee1453646c37af) chore(report): update weekly intern progress - 2026-04-22
+  - [8f1b759](https://github.com/drid-uniben/org-structure/commit/8f1b759546fc1f0bf9da490fe4576a814face9c0) chore(report): update weekly intern progress - 2026-04-22
+  - [2cd7230](https://github.com/drid-uniben/org-structure/commit/2cd72302d8c0879d24acfc0a989d867d60594076) chore(report): update weekly intern progress - 2026-04-20
+  - [dd428c5](https://github.com/drid-uniben/org-structure/commit/dd428c5e0cf9c1062049dc03cd4cdbde3ef4674e) chore(report): enhance weekly intern activity report to include commit tracking - 2026-04-20
+  - [9fff9a4](https://github.com/drid-uniben/org-structure/commit/9fff9a4a4adc604895eb3c91148a53d01b2779f6) chore(report): update weekly intern progress - 2026-04-20
+  - [9e45d31](https://github.com/drid-uniben/org-structure/commit/9e45d31dcee56b30e98b671f66a905f370d90006) chore: Add interns.json and create weekly intern progress workflow (#7) - 2026-04-20
+  - [6784ca1](https://github.com/drid-uniben/org-structure/commit/6784ca10c4659db71b2e45c5ca9212f592a23e95) chore: Rename Past-Member section to Honorary Technology and Product Unit Lead - 2026-04-17
+  - [88b091d](https://github.com/drid-uniben/org-structure/commit/88b091d5dafef4d998c5e47768560e564a4d9491) cleanup: Remove Augustine Edwin from the members list in interns.md - 2026-04-11
+  - [0755c8b](https://github.com/drid-uniben/org-structure/commit/0755c8bc5cc31fb07e5baa1b0fa8aa4d57ba83a3) chore: Update Emmanuel Osalotioman Osazuwa's role and responsibilities in Service Platform section and add links to projects. - 2026-04-11
+  - [daa526f](https://github.com/drid-uniben/org-structure/commit/daa526fb812d8f0a75dd2c2f249622c2fcdc0247) chore: Update interns.md to remove redundant entries and reorganize project sections (#6) - 2026-04-11
+  - [6cabc86](https://github.com/drid-uniben/org-structure/commit/6cabc86f8bcda9b465053fa2f927289bb9b774b2) cleanup: Remove Auztin from members of the Research Diploma project - 2026-04-10
+  - [087b017](https://github.com/drid-uniben/org-structure/commit/087b017615031ca97f49a2e8d6bcbfdbc20a185b) chore: Update Emmanuel Osalotioman Osazuwa's role from backend+devops to fullstack+devops (#5) - 2026-03-22
+  - [fcf2f60](https://github.com/drid-uniben/org-structure/commit/fcf2f60e7372ceae36e282662bc5b9db705778ef) Merge pull request #4 from drid-uniben/Precious-Afahakan-patch-1 - 2026-03-13
+  - [f86678c](https://github.com/drid-uniben/org-structure/commit/f86678cf93e3bbe47e240c2746afe5fd9f630610) chore: Correct repository link for DRID web page implementation - 2026-03-10
+  - [348e432](https://github.com/drid-uniben/org-structure/commit/348e4320dc6b1de4502d12ed25ba76344efc98e3) chore: Take Raymond out of services projects - 2026-03-10
+  - [6812d6c](https://github.com/drid-uniben/org-structure/commit/6812d6c496b9d9c18072454dffced673e494be6b) chore: Update design team member Osawaru Osamede's Figma profile link - 2026-03-09
+  - [6e18f17](https://github.com/drid-uniben/org-structure/commit/6e18f1766175ee2ea9dbc61bdcb967e405a23b8f) chore: Update design team members and add figma profile links - 2026-03-09
+  - [86816ff](https://github.com/drid-uniben/org-structure/commit/86816ffb9c612010f4e6fade18873961c5fd41aa) chore: Add design tasks for web pages and update project refurbishments - 2026-03-09
+  - [b2d8a7a](https://github.com/drid-uniben/org-structure/commit/b2d8a7a9dc071ae915999d20b82578d6c0da5703) chore: Add projects for DRID Intern and Staff Profile, and update maintenance list - 2026-03-09
+  - [5ab344c](https://github.com/drid-uniben/org-structure/commit/5ab344c08a95a11df17fe521ae0558e92abc68a7) chore: Update intern details and add project teams section - 2026-03-09
+  - [853c8bf](https://github.com/drid-uniben/org-structure/commit/853c8bf0f19ec74204c90fe7415451bf553b44de) chore: Remove oma01234 from the list - 2026-03-08
+  - [2b01715](https://github.com/drid-uniben/org-structure/commit/2b01715aad554f9fae8232323085e4b5b1757238) chore: Add two backend devs - 2026-03-08
+  - [7b4152b](https://github.com/drid-uniben/org-structure/commit/7b4152b9c19c96935db2e16ffa39a36a7b7436c1) chore: Fix intern list order - 2026-03-08
+  - [8b8194d](https://github.com/drid-uniben/org-structure/commit/8b8194d6f63663a2a2511ca32e6b073cdb43376f) chore: Fix intern link - 2026-03-08
+  - [6d19049](https://github.com/drid-uniben/org-structure/commit/6d19049a8197c876a7b21b193f95150470b9b988) chore: add interns list with GitHub links to documentation - 2026-03-08
+  - [7b10187](https://github.com/drid-uniben/org-structure/commit/7b10187c02c7dc406ad0c2329b102c53448bc424) chore: update progress report with completion status and new tasks - 2026-03-06
+  - [56f8ca2](https://github.com/drid-uniben/org-structure/commit/56f8ca26ca54d018070dc27e4bf3b52896316f7b) chore: update progress report and remove deleted repositories from documentation - 2026-03-05
+  - [79466a5](https://github.com/drid-uniben/org-structure/commit/79466a5f93bdb24d3bb039af8ef17013533f5bde) chore: update repository list and remove deleted repos from documentation - 2026-03-05
+  - [2abc02d](https://github.com/drid-uniben/org-structure/commit/2abc02d5f6e276dc4ad532eb7d2f0101d5fbb8a8) chore: update repository names and clarify phased out repos in documentation - 2026-03-05
+  - [09108a8](https://github.com/drid-uniben/org-structure/commit/09108a87102283d5b52772157e78413f5a89ec53) chore: restructure project documentation and remove obsolete files - 2026-03-05
+  - [2838b86](https://github.com/drid-uniben/org-structure/commit/2838b8681da59498b64b08cb36fa71d90fa7f18b) chore: update progress report - 2026-03-05
+  - [d1a9a17](https://github.com/drid-uniben/org-structure/commit/d1a9a17b160684c06cfe6b6a3ee7a193877cbe4f) chore: Update progress report with completion status and branch protection rules - 2026-03-04
+  - [f74480d](https://github.com/drid-uniben/org-structure/commit/f74480ded1d56f5b63d378c0eb5cee22eeb2cacb) chore: Update progress report with repo renaming and workflow additions - 2026-03-04
+  - [cdd4714](https://github.com/drid-uniben/org-structure/commit/cdd47145fae7949e63f49c8a4c06a3cd0fe971c7) chore: Add dreams snippets so the fork can be deleted - 2026-03-01
+  - [2155d79](https://github.com/drid-uniben/org-structure/commit/2155d7992bc9c9bc21a7e5d1a14b12f45067dd7b) chore: Update progress - 2026-02-10
+  - [45c1e5e](https://github.com/drid-uniben/org-structure/commit/45c1e5eaf44bedd752c6a88de781cf030c92f14f) chore: Add devops document. - 2026-02-10
+  - [804a306](https://github.com/drid-uniben/org-structure/commit/804a306d2267f96ce17338478041462c346f4762) chore: Update readme with current info, improve formatting, and update progress report in current project being worked on - 2026-02-09
+  - [4d39ff8](https://github.com/drid-uniben/org-structure/commit/4d39ff87b5e98b32538cfbf506aedbb60ac42bf0) chore: Add file to track ibr tetfund review system project setup - 2026-02-09
+  - [e2ab976](https://github.com/drid-uniben/org-structure/commit/e2ab976055cef81826bf2659bb6a86692129dd3f) chore: Add clarification on IBR acronym in project documentation - 2026-02-06
+  - [210e4db](https://github.com/drid-uniben/org-structure/commit/210e4db5c0f69a348e9e5ddea89d74b8d2dee567) Merge pull request #2 from drid-uniben/Raymond-engr-patch-1 - 2026-02-06
+  - [05abacc](https://github.com/drid-uniben/org-structure/commit/05abacccb04a4e083279db99413e3744d078ce65) Merge pull request #3 from drid-uniben/Raymond-engr-patch-2 - 2026-02-06
+  - [ba9a8ad](https://github.com/drid-uniben/org-structure/commit/ba9a8adc47b922340bc3e0f6a3339b3957ad9021) chore: Add info on update remote origin - 2026-02-05
+  - [4170ed7](https://github.com/drid-uniben/org-structure/commit/4170ed7c7c239ffc9abbbd2c099881b2fcf86075) chore: Add file extension. - 2026-02-05
+  - [eb42c3b](https://github.com/drid-uniben/org-structure/commit/eb42c3b8500123f043f98420ef4ef893219a9bc9) feat: Update README and add track-repo-rename documentation for repo restructuring - 2026-02-05
+  - [6a58b64](https://github.com/drid-uniben/org-structure/commit/6a58b64e8a57e04767a3d62c85d9068d1d358536) Initial commit - 2026-02-05
 - drid-intern (74 commits)
   - [0c25652](https://github.com/drid-uniben/drid-intern/commit/0c256526827a06c8d9c019a9723655201e9675d8) Merge pull request #34 from drid-uniben/dependabot/npm_and_yarn/backend/nodemailer-9.0.1 - 2026-06-23
   - [c94bc4f](https://github.com/drid-uniben/drid-intern/commit/c94bc4f59a6e1db82de4e93e920f7fbfc052a04c) Merge pull request #26 from drid-uniben/dependabot/npm_and_yarn/frontend/next-16.2.6 - 2026-05-16
@@ -753,80 +842,6 @@ Commits:
   - [1640501](https://github.com/drid-uniben/drid-intern/commit/1640501d44804536051e60646ad8b86329cdefcb) init: Scaffold backend - 2026-02-20
   - [7d5c6b2](https://github.com/drid-uniben/drid-intern/commit/7d5c6b23b8ce6456ada864513495ff1919e8f53b) ci: CI workflow to build and lint frontend/backend - 2026-02-20
   - [bb8089d](https://github.com/drid-uniben/drid-intern/commit/bb8089d85b5bc36e7f4750695ecb22f810b7487f) init: Scaffold frontend - 2026-02-20
-- org-structure (73 commits)
-  - [fd47e60](https://github.com/drid-uniben/org-structure/commit/fd47e603dffb6fa3e6a517d5f24b4048ca4daf26) chore(report): update weekly intern progress - 2026-09-28
-  - [b287db3](https://github.com/drid-uniben/org-structure/commit/b287db338ec4eb81c2a556992111af166394dd37) chore(report): update weekly intern progress - 2026-09-21
-  - [7d3fadf](https://github.com/drid-uniben/org-structure/commit/7d3fadfe27d52333f3e2ed85da0d6c5172c6aabb) chore(report): update weekly intern progress - 2026-09-14
-  - [ea9a7f0](https://github.com/drid-uniben/org-structure/commit/ea9a7f0db48543caa7de0c3067e4ea68dc9e4e6d) chore(report): update weekly intern progress - 2026-09-07
-  - [7366f9d](https://github.com/drid-uniben/org-structure/commit/7366f9d692d0e65100fa3b586648d7a012fe4cc7) chore(report): update weekly intern progress - 2026-08-31
-  - [6eca27b](https://github.com/drid-uniben/org-structure/commit/6eca27bf7c7436b2f7345c687d06f56c9d8b92b6) chore(report): update weekly intern progress - 2026-08-24
-  - [55b23a1](https://github.com/drid-uniben/org-structure/commit/55b23a1b0b96e097ca2564197cf3bcb9e91265a1) chore(report): update weekly intern progress - 2026-08-17
-  - [972b61c](https://github.com/drid-uniben/org-structure/commit/972b61c33cb7f827f1fbbd75a5a58a75d7239288) chore(report): update weekly intern progress - 2026-08-10
-  - [1e2c930](https://github.com/drid-uniben/org-structure/commit/1e2c930bd894d63bc520aa2ab1409e21d79e2b37) chore(report): update weekly intern progress - 2026-08-03
-  - [094bc73](https://github.com/drid-uniben/org-structure/commit/094bc732db3b250dcff628be13ea236984074dbf) chore(report): update weekly intern progress - 2026-07-27
-  - [8ff755f](https://github.com/drid-uniben/org-structure/commit/8ff755f0272ae5d02e264aa3fb672e8bab703d2e) chore(report): update weekly intern progress - 2026-07-20
-  - [5bf3f87](https://github.com/drid-uniben/org-structure/commit/5bf3f87864caa29b529da01c9d04fbfb50d6282c) chore(report): update weekly intern progress - 2026-07-13
-  - [7926cd9](https://github.com/drid-uniben/org-structure/commit/7926cd9c0977a2fcfa189f74f870574f5c285153) chore(report): update weekly intern progress - 2026-07-06
-  - [7ef6853](https://github.com/drid-uniben/org-structure/commit/7ef685311695c610502f8b24eb169bc73e78e5a5) chore(report): update weekly intern progress - 2026-06-29
-  - [88627bc](https://github.com/drid-uniben/org-structure/commit/88627bc310758bfe860db0621eb63d575a370ae8) chore(report): update weekly intern progress - 2026-06-23
-  - [5f2e261](https://github.com/drid-uniben/org-structure/commit/5f2e26132e7eb47046e0538730245c5c039504d6) Update weekly-intern-progress.yml (#9) - 2026-06-23
-  - [7e9f939](https://github.com/drid-uniben/org-structure/commit/7e9f939f6fe0cb2a7f9e872539f2be91928a48db) chore(report): update weekly intern progress - 2026-06-22
-  - [48c240d](https://github.com/drid-uniben/org-structure/commit/48c240dc192d03e17ebc4e3b4d36a666f64b4055) chore(report): update weekly intern progress - 2026-06-15
-  - [d115f0c](https://github.com/drid-uniben/org-structure/commit/d115f0c3b8631c677a5b8c6b52511b63d428912f) chore(report): update weekly intern progress - 2026-06-08
-  - [ff9223c](https://github.com/drid-uniben/org-structure/commit/ff9223c314d3890e71b252337a4b496968a2b69b) chore(report): update weekly intern progress - 2026-06-01
-  - [39d2512](https://github.com/drid-uniben/org-structure/commit/39d2512453d1c8b0ec8dc0590291f9f6388d0457) chore: Remove Afahakan Precious from interns.json (#8) - 2026-05-28
-  - [7083c90](https://github.com/drid-uniben/org-structure/commit/7083c90f9d6f5e5673ed9cb890aea506cae9dc4f) chore(report): update weekly intern progress - 2026-05-25
-  - [0811f87](https://github.com/drid-uniben/org-structure/commit/0811f87bb226d43b9abe39dd75fe82d2fbd62868) chore(report): update weekly intern progress - 2026-05-18
-  - [1fdb9de](https://github.com/drid-uniben/org-structure/commit/1fdb9de441756adf4be7156052304dc3b39e23df) chore(report): update weekly intern progress - 2026-05-11
-  - [02e0952](https://github.com/drid-uniben/org-structure/commit/02e095264539b85ff799b271a7edf478a88d7880) chore(report): update weekly intern progress - 2026-05-04
-  - [e62369f](https://github.com/drid-uniben/org-structure/commit/e62369f2db92f6c1154d495f5020fcc34875470f) chore(report): update weekly intern progress - 2026-04-27
-  - [dded0dc](https://github.com/drid-uniben/org-structure/commit/dded0dc6d8705d995f1f3773cb9192e5252f5eaf) chore(report): update weekly intern progress - 2026-04-25
-  - [e8a53c9](https://github.com/drid-uniben/org-structure/commit/e8a53c9ac0b49d6e2ba5727947ea12a6d38e05e1) chore(report): update weekly intern progress - 2026-04-22
-  - [1523363](https://github.com/drid-uniben/org-structure/commit/1523363d0b65efc7d82c7d1bdcee1453646c37af) chore(report): update weekly intern progress - 2026-04-22
-  - [8f1b759](https://github.com/drid-uniben/org-structure/commit/8f1b759546fc1f0bf9da490fe4576a814face9c0) chore(report): update weekly intern progress - 2026-04-22
-  - [2cd7230](https://github.com/drid-uniben/org-structure/commit/2cd72302d8c0879d24acfc0a989d867d60594076) chore(report): update weekly intern progress - 2026-04-20
-  - [dd428c5](https://github.com/drid-uniben/org-structure/commit/dd428c5e0cf9c1062049dc03cd4cdbde3ef4674e) chore(report): enhance weekly intern activity report to include commit tracking - 2026-04-20
-  - [9fff9a4](https://github.com/drid-uniben/org-structure/commit/9fff9a4a4adc604895eb3c91148a53d01b2779f6) chore(report): update weekly intern progress - 2026-04-20
-  - [9e45d31](https://github.com/drid-uniben/org-structure/commit/9e45d31dcee56b30e98b671f66a905f370d90006) chore: Add interns.json and create weekly intern progress workflow (#7) - 2026-04-20
-  - [6784ca1](https://github.com/drid-uniben/org-structure/commit/6784ca10c4659db71b2e45c5ca9212f592a23e95) chore: Rename Past-Member section to Honorary Technology and Product Unit Lead - 2026-04-17
-  - [88b091d](https://github.com/drid-uniben/org-structure/commit/88b091d5dafef4d998c5e47768560e564a4d9491) cleanup: Remove Augustine Edwin from the members list in interns.md - 2026-04-11
-  - [0755c8b](https://github.com/drid-uniben/org-structure/commit/0755c8bc5cc31fb07e5baa1b0fa8aa4d57ba83a3) chore: Update Emmanuel Osalotioman Osazuwa's role and responsibilities in Service Platform section and add links to projects. - 2026-04-11
-  - [daa526f](https://github.com/drid-uniben/org-structure/commit/daa526fb812d8f0a75dd2c2f249622c2fcdc0247) chore: Update interns.md to remove redundant entries and reorganize project sections (#6) - 2026-04-11
-  - [6cabc86](https://github.com/drid-uniben/org-structure/commit/6cabc86f8bcda9b465053fa2f927289bb9b774b2) cleanup: Remove Auztin from members of the Research Diploma project - 2026-04-10
-  - [087b017](https://github.com/drid-uniben/org-structure/commit/087b017615031ca97f49a2e8d6bcbfdbc20a185b) chore: Update Emmanuel Osalotioman Osazuwa's role from backend+devops to fullstack+devops (#5) - 2026-03-22
-  - [fcf2f60](https://github.com/drid-uniben/org-structure/commit/fcf2f60e7372ceae36e282662bc5b9db705778ef) Merge pull request #4 from drid-uniben/Precious-Afahakan-patch-1 - 2026-03-13
-  - [f86678c](https://github.com/drid-uniben/org-structure/commit/f86678cf93e3bbe47e240c2746afe5fd9f630610) chore: Correct repository link for DRID web page implementation - 2026-03-10
-  - [348e432](https://github.com/drid-uniben/org-structure/commit/348e4320dc6b1de4502d12ed25ba76344efc98e3) chore: Take Raymond out of services projects - 2026-03-10
-  - [6812d6c](https://github.com/drid-uniben/org-structure/commit/6812d6c496b9d9c18072454dffced673e494be6b) chore: Update design team member Osawaru Osamede's Figma profile link - 2026-03-09
-  - [6e18f17](https://github.com/drid-uniben/org-structure/commit/6e18f1766175ee2ea9dbc61bdcb967e405a23b8f) chore: Update design team members and add figma profile links - 2026-03-09
-  - [86816ff](https://github.com/drid-uniben/org-structure/commit/86816ffb9c612010f4e6fade18873961c5fd41aa) chore: Add design tasks for web pages and update project refurbishments - 2026-03-09
-  - [b2d8a7a](https://github.com/drid-uniben/org-structure/commit/b2d8a7a9dc071ae915999d20b82578d6c0da5703) chore: Add projects for DRID Intern and Staff Profile, and update maintenance list - 2026-03-09
-  - [5ab344c](https://github.com/drid-uniben/org-structure/commit/5ab344c08a95a11df17fe521ae0558e92abc68a7) chore: Update intern details and add project teams section - 2026-03-09
-  - [853c8bf](https://github.com/drid-uniben/org-structure/commit/853c8bf0f19ec74204c90fe7415451bf553b44de) chore: Remove oma01234 from the list - 2026-03-08
-  - [2b01715](https://github.com/drid-uniben/org-structure/commit/2b01715aad554f9fae8232323085e4b5b1757238) chore: Add two backend devs - 2026-03-08
-  - [7b4152b](https://github.com/drid-uniben/org-structure/commit/7b4152b9c19c96935db2e16ffa39a36a7b7436c1) chore: Fix intern list order - 2026-03-08
-  - [8b8194d](https://github.com/drid-uniben/org-structure/commit/8b8194d6f63663a2a2511ca32e6b073cdb43376f) chore: Fix intern link - 2026-03-08
-  - [6d19049](https://github.com/drid-uniben/org-structure/commit/6d19049a8197c876a7b21b193f95150470b9b988) chore: add interns list with GitHub links to documentation - 2026-03-08
-  - [7b10187](https://github.com/drid-uniben/org-structure/commit/7b10187c02c7dc406ad0c2329b102c53448bc424) chore: update progress report with completion status and new tasks - 2026-03-06
-  - [56f8ca2](https://github.com/drid-uniben/org-structure/commit/56f8ca26ca54d018070dc27e4bf3b52896316f7b) chore: update progress report and remove deleted repositories from documentation - 2026-03-05
-  - [79466a5](https://github.com/drid-uniben/org-structure/commit/79466a5f93bdb24d3bb039af8ef17013533f5bde) chore: update repository list and remove deleted repos from documentation - 2026-03-05
-  - [2abc02d](https://github.com/drid-uniben/org-structure/commit/2abc02d5f6e276dc4ad532eb7d2f0101d5fbb8a8) chore: update repository names and clarify phased out repos in documentation - 2026-03-05
-  - [09108a8](https://github.com/drid-uniben/org-structure/commit/09108a87102283d5b52772157e78413f5a89ec53) chore: restructure project documentation and remove obsolete files - 2026-03-05
-  - [2838b86](https://github.com/drid-uniben/org-structure/commit/2838b8681da59498b64b08cb36fa71d90fa7f18b) chore: update progress report - 2026-03-05
-  - [d1a9a17](https://github.com/drid-uniben/org-structure/commit/d1a9a17b160684c06cfe6b6a3ee7a193877cbe4f) chore: Update progress report with completion status and branch protection rules - 2026-03-04
-  - [f74480d](https://github.com/drid-uniben/org-structure/commit/f74480ded1d56f5b63d378c0eb5cee22eeb2cacb) chore: Update progress report with repo renaming and workflow additions - 2026-03-04
-  - [cdd4714](https://github.com/drid-uniben/org-structure/commit/cdd47145fae7949e63f49c8a4c06a3cd0fe971c7) chore: Add dreams snippets so the fork can be deleted - 2026-03-01
-  - [2155d79](https://github.com/drid-uniben/org-structure/commit/2155d7992bc9c9bc21a7e5d1a14b12f45067dd7b) chore: Update progress - 2026-02-10
-  - [45c1e5e](https://github.com/drid-uniben/org-structure/commit/45c1e5eaf44bedd752c6a88de781cf030c92f14f) chore: Add devops document. - 2026-02-10
-  - [804a306](https://github.com/drid-uniben/org-structure/commit/804a306d2267f96ce17338478041462c346f4762) chore: Update readme with current info, improve formatting, and update progress report in current project being worked on - 2026-02-09
-  - [4d39ff8](https://github.com/drid-uniben/org-structure/commit/4d39ff87b5e98b32538cfbf506aedbb60ac42bf0) chore: Add file to track ibr tetfund review system project setup - 2026-02-09
-  - [e2ab976](https://github.com/drid-uniben/org-structure/commit/e2ab976055cef81826bf2659bb6a86692129dd3f) chore: Add clarification on IBR acronym in project documentation - 2026-02-06
-  - [210e4db](https://github.com/drid-uniben/org-structure/commit/210e4db5c0f69a348e9e5ddea89d74b8d2dee567) Merge pull request #2 from drid-uniben/Raymond-engr-patch-1 - 2026-02-06
-  - [05abacc](https://github.com/drid-uniben/org-structure/commit/05abacccb04a4e083279db99413e3744d078ce65) Merge pull request #3 from drid-uniben/Raymond-engr-patch-2 - 2026-02-06
-  - [ba9a8ad](https://github.com/drid-uniben/org-structure/commit/ba9a8adc47b922340bc3e0f6a3339b3957ad9021) chore: Add info on update remote origin - 2026-02-05
-  - [4170ed7](https://github.com/drid-uniben/org-structure/commit/4170ed7c7c239ffc9abbbd2c099881b2fcf86075) chore: Add file extension. - 2026-02-05
-  - [eb42c3b](https://github.com/drid-uniben/org-structure/commit/eb42c3b8500123f043f98420ef4ef893219a9bc9) feat: Update README and add track-repo-rename documentation for repo restructuring - 2026-02-05
-  - [6a58b64](https://github.com/drid-uniben/org-structure/commit/6a58b64e8a57e04767a3d62c85d9068d1d358536) Initial commit - 2026-02-05
 - drid-con-ticket (33 commits)
   - [9e90cf2](https://github.com/drid-uniben/drid-con-ticket/commit/9e90cf2eba8daa6a12be5c16312b59c7efa3d241) chore: Add security policy - 2026-02-16
   - [fc709a2](https://github.com/drid-uniben/drid-con-ticket/commit/fc709a25d459ad6a227a1cd4224e770dd2a1846f) chore: Delete no longer useful doc files since new contribution flow will be its successor - 2026-02-16
