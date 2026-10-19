@@ -1,16 +1,16 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-10-12
-Window: 2025-10-12 to 2026-10-12 (last 365 days)
+Generated: 2026-10-19
+Window: 2025-10-19 to 2026-10-19 (last 365 days)
 Organization: drid-uniben
 
 ## Summary
 
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
-| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 489 | 145 | 14 |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 313 | 55 | 19 |
-| Light Ebube (@Lyteking) | 26 | 4 | 4 |
+| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 475 | 145 | 14 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 314 | 55 | 19 |
+| Light Ebube (@Lyteking) | 25 | 4 | 4 |
 | Genesis Osasenaga Ighalo (@daves-hub) | 21 | 4 | 1 |
 | Ohenhen Isoken Glory (@Glorie27) | 2 | 3 | 2 |
 | Lucky Egho (@EGHO-LUCKY) | 1 | 2 | 2 |
@@ -21,11 +21,11 @@ Organization: drid-uniben
 ## Detailed Activity (Commits First)
 
 ### Omoyakhi Raymond Eshikogie (@Raymond-engr)
-Total commits: 489
+Total commits: 475
 Total PRs: 145
 
 Commits:
-- ubjh-client (100 commits)
+- ubjh-client (93 commits)
   - [1165ce9](https://github.com/drid-uniben/ubjh-client/commit/1165ce9b15422a6a2b0d4011de965b329a9c9a5b) Merge pull request #25 from drid-uniben/author - 2026-07-24
   - [e3407b0](https://github.com/drid-uniben/ubjh-client/commit/e3407b079048250cf2c6bcf393b91060b288834f) feat: add context-aware custom 404 not-found page - 2026-07-24
   - [6337e08](https://github.com/drid-uniben/ubjh-client/commit/6337e08afff524ff9c0ddab00056f8dfa707323f) Merge pull request #24 from drid-uniben/author - 2026-06-19
@@ -119,14 +119,7 @@ Commits:
   - [12604e9](https://github.com/drid-uniben/ubjh-client/commit/12604e95be7daf24cc1d7641fc1cbd2c8e2fcca6) feat(reviewer): Implement reviewer dashboard, invitations, and profile pages - 2025-10-21
   - [7146143](https://github.com/drid-uniben/ubjh-client/commit/7146143a727cec63c7e7f76f9e30ad33bae3ce2c) feat(admin, reviewer): Enhance portals with new navigation and APIs - 2025-10-20
   - [25c849a](https://github.com/drid-uniben/ubjh-client/commit/25c849ad89b0c25c013401d6d2638fb4dd623364) feat(submit): Refactor submission form with react-hook-form and zod - 2025-10-19
-  - [639cf29](https://github.com/drid-uniben/ubjh-client/commit/639cf2979342033b786ac167718e889d414e3e36) Added apiContext.ts file - 2025-10-18
-  - [9bcb7a3](https://github.com/drid-uniben/ubjh-client/commit/9bcb7a3f626d911022e2b8e670b3f52f9a9128cd) feat: Implement author dashboard and UI components - 2025-10-18
-  - [5e3fed9](https://github.com/drid-uniben/ubjh-client/commit/5e3fed9e0927cb7e2c952f50b4270b7edebafc3e) Adding an md file - 2025-10-17
-  - [f68831e](https://github.com/drid-uniben/ubjh-client/commit/f68831e7e90850a78d37e4990ee82b85d9e93940) feat(submission): Implement multi-step manuscript submission form - 2025-10-16
-  - [78ffe31](https://github.com/drid-uniben/ubjh-client/commit/78ffe3128bae7efb8ba99c76aa9d8702213ab20b) Added info.md file with project specifics - 2025-10-15
-  - [26be0d5](https://github.com/drid-uniben/ubjh-client/commit/26be0d5ad5f77b4dee3a4a27b37f8e41e235baa9) feat(auth): centralize auth logic and error handling in AuthContext - 2025-10-14
-  - [9c6fb6f](https://github.com/drid-uniben/ubjh-client/commit/9c6fb6f7667e22b8fb99aed98f6d9494607a1c77) Added context - 2025-10-14
-- ubjh-server (80 commits)
+- ubjh-server (73 commits)
   - [d5840a3](https://github.com/drid-uniben/ubjh-server/commit/d5840a3de6f02c2d57d606ce32bf5d4c22ad603b) Merge pull request #19 from drid-uniben/author - 2026-07-23
   - [33e1f9d](https://github.com/drid-uniben/ubjh-server/commit/33e1f9de804340be94f12f525e3669f36bbd4a51) increased ratelimit for authors - 2026-07-20
   - [c5e3e6b](https://github.com/drid-uniben/ubjh-server/commit/c5e3e6b9215294b633481735eec943e0f1923843) Scope refresh cookie to the API host instead of the frontend domain - 2026-07-20
@@ -200,13 +193,6 @@ Commits:
   - [db83e46](https://github.com/drid-uniben/ubjh-server/commit/db83e46819d6fef37bf4f3df684e13de925c856a) feat(routes): enable review system routes - 2025-10-21
   - [7a10f79](https://github.com/drid-uniben/ubjh-server/commit/7a10f79918e0fe84d707e126909d9a29f05c3fa4) refactor(routes): Rename researcher routes to author routes - 2025-10-19
   - [423e20b](https://github.com/drid-uniben/ubjh-server/commit/423e20b0cf264caafe53e96fce5c8742139feb0a) feat(submission): Refactor form parsing and strengthen validation - 2025-10-19
-  - [57b9fdb](https://github.com/drid-uniben/ubjh-server/commit/57b9fdb758f803104783b9d7a3f4af7020be9f93) refactor(user): extract user creation logic into a dedicated service - 2025-10-19
-  - [d2df3da](https://github.com/drid-uniben/ubjh-server/commit/d2df3da9f9367c91a7efea2e9ad765bdadb492b5) feat(reviewers): Overhaul reviewer management and add review statistics - 2025-10-18
-  - [eab5631](https://github.com/drid-uniben/ubjh-server/commit/eab56314a9b41d1c1716d605e085b0f6deb6286c) feat: Implement automated third-reviewer reconciliation - 2025-10-18
-  - [47ad3e8](https://github.com/drid-uniben/ubjh-server/commit/47ad3e8bc2552089e78c8d49144c0f424c0052a1) feat(submission): Handle FormData and add server-side validation - 2025-10-17
-  - [b5698d6](https://github.com/drid-uniben/ubjh-server/commit/b5698d67c6a2979a44a83552bbcc6b64393a0146) refactor: Decouple article classification and enhance author data - 2025-10-14
-  - [22972b8](https://github.com/drid-uniben/ubjh-server/commit/22972b82b49aeb0da8ba405b81579bd53f43068d) refactor(submission): Rename Proposal_Submission to Manuscript_Submission - 2025-10-14
-  - [fcebc02](https://github.com/drid-uniben/ubjh-server/commit/fcebc027b9be40605a080bd09eaafdd4e475348b) refactor(emails): rename proposal status template to manuscript - 2025-10-14
 - drid-con-ticket (68 commits)
   - [06583b5](https://github.com/drid-uniben/drid-con-ticket/commit/06583b5d4475c9317edc015ce648cbe77ecc8531) Adds attendee search and filtering to dashboard - 2026-01-20
   - [3d85a05](https://github.com/drid-uniben/drid-con-ticket/commit/3d85a054bc73710af08fb7334508eb385f00ea88) Merge pull request #20 from unibeninterns/feats/manual-check-in-and-other-stuff - 2026-01-20
@@ -688,11 +674,12 @@ PRs:
   - [#3](https://github.com/drid-uniben/research-diploma-client/pull/3) Revamps registration flow with waitlist forms and UI tweaks - merged, updated 2026-01-23
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
-Total commits: 313
+Total commits: 314
 Total PRs: 55
 
 Commits:
-- org-structure (74 commits)
+- org-structure (75 commits)
+  - [a22282c](https://github.com/drid-uniben/org-structure/commit/a22282c58bee036f4a5d2822c3928856a7158d52) chore(report): update weekly intern progress - 2026-10-12
   - [ed37114](https://github.com/drid-uniben/org-structure/commit/ed371144ef04d96582db724514cf42e5eee89a3f) chore(report): update weekly intern progress - 2026-10-05
   - [fd47e60](https://github.com/drid-uniben/org-structure/commit/fd47e603dffb6fa3e6a517d5f24b4048ca4daf26) chore(report): update weekly intern progress - 2026-09-28
   - [b287db3](https://github.com/drid-uniben/org-structure/commit/b287db338ec4eb81c2a556992111af166394dd37) chore(report): update weekly intern progress - 2026-09-21
@@ -1099,11 +1086,11 @@ PRs:
   - [#12](https://github.com/drid-uniben/research-diploma-server/pull/12) chore: Add Apache License 2.0 - merged, updated 2026-03-12
 
 ### Light Ebube (@Lyteking)
-Total commits: 26
+Total commits: 25
 Total PRs: 4
 
 Commits:
-- ubjh-client (13 commits)
+- ubjh-client (12 commits)
   - [dbaaf18](https://github.com/drid-uniben/ubjh-client/commit/dbaaf18ec00e205f4f2a2c313efa14b1b67f214e) Fixed type error in article route - 2025-11-11
   - [b89f683](https://github.com/drid-uniben/ubjh-client/commit/b89f683144c9ddd8625374726cac7458a77a8b2c) Added the search page and modified the header - 2025-11-04
   - [0b7d3ab](https://github.com/drid-uniben/ubjh-client/commit/0b7d3ab6205bb2f33f8a2f7daa3c41c94959a6a2) Added the search page and modified the header - 2025-11-04
@@ -1116,7 +1103,6 @@ Commits:
   - [6fb571e](https://github.com/drid-uniben/ubjh-client/commit/6fb571e25591f4284fe399f907d2e905dc861a62) Mobile view updted - 2025-10-23
   - [aff1a72](https://github.com/drid-uniben/ubjh-client/commit/aff1a72de24a83f8026cf9e64b2351cc52b35e7c) Mobile view updted - 2025-10-23
   - [eacfcdb](https://github.com/drid-uniben/ubjh-client/commit/eacfcdb952793001dca819de942a1755d394f0d5) Design Updated - 2025-10-22
-  - [97a9e4c](https://github.com/drid-uniben/ubjh-client/commit/97a9e4ca14e48b61fd016e1928b8242f25702875) Updated the designs - 2025-10-18
 - ubjsti-client (8 commits)
   - [568017c](https://github.com/drid-uniben/ubjsti-client/commit/568017ce55527860be71dddc0602c0696fb29444) Fixed Raymond's problems - 2025-11-11
   - [782655d](https://github.com/drid-uniben/ubjsti-client/commit/782655de10f9289667bf0f471a49ab28d97a201f) Fixed Raymond's problems - 2025-11-11
