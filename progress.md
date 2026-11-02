@@ -1,17 +1,17 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-10-26
-Window: 2025-10-26 to 2026-10-26 (last 365 days)
+Generated: 2026-11-02
+Window: 2025-11-02 to 2026-11-02 (last 365 days)
 Organization: drid-uniben
 
 ## Summary
 
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
-| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 456 | 147 | 13 |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 315 | 55 | 19 |
+| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 434 | 146 | 13 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 316 | 55 | 19 |
 | Genesis Osasenaga Ighalo (@daves-hub) | 21 | 4 | 1 |
-| Light Ebube (@Lyteking) | 15 | 4 | 4 |
+| Light Ebube (@Lyteking) | 12 | 4 | 4 |
 | Ohenhen Isoken Glory (@Glorie27) | 2 | 3 | 2 |
 | Lucky Egho (@EGHO-LUCKY) | 1 | 2 | 2 |
 | Ameh Isaac Favour (@Isaac-Ameh) | 1 | 1 | 1 |
@@ -21,89 +21,10 @@ Organization: drid-uniben
 ## Detailed Activity (Commits First)
 
 ### Omoyakhi Raymond Eshikogie (@Raymond-engr)
-Total commits: 456
-Total PRs: 147
+Total commits: 434
+Total PRs: 146
 
 Commits:
-- ubjh-client (78 commits)
-  - [1165ce9](https://github.com/drid-uniben/ubjh-client/commit/1165ce9b15422a6a2b0d4011de965b329a9c9a5b) Merge pull request #25 from drid-uniben/author - 2026-07-24
-  - [e3407b0](https://github.com/drid-uniben/ubjh-client/commit/e3407b079048250cf2c6bcf393b91060b288834f) feat: add context-aware custom 404 not-found page - 2026-07-24
-  - [6337e08](https://github.com/drid-uniben/ubjh-client/commit/6337e08afff524ff9c0ddab00056f8dfa707323f) Merge pull request #24 from drid-uniben/author - 2026-06-19
-  - [1a4702c](https://github.com/drid-uniben/ubjh-client/commit/1a4702ca9359b1c3e6a2eb1ff982c16e0e79a538) made similar change done to the reviewer assignment to the admin assignment - 2026-06-19
-  - [fc1a04e](https://github.com/drid-uniben/ubjh-client/commit/fc1a04e117b7e2fc1b7b402721573d5f4860d8a5) Merge pull request #22 from drid-uniben/author - 2026-06-19
-  - [8597606](https://github.com/drid-uniben/ubjh-client/commit/859760613d5f06ccb80e6d837b5969d5eb41d54f) Made fixes - 2026-06-19
-  - [d6da269](https://github.com/drid-uniben/ubjh-client/commit/d6da269a1da28f014e70fd9b1cc83363a3cc4076) Merge pull request #20 from drid-uniben/main - 2026-06-19
-  - [3642ee9](https://github.com/drid-uniben/ubjh-client/commit/3642ee9d078c1f34af906c5dc754ae4a678583ee) Merge pull request #19 from drid-uniben/author - 2026-06-19
-  - [e5ef03f](https://github.com/drid-uniben/ubjh-client/commit/e5ef03f47580997fd036bd2f589ce1b32e5cf220) did the author dashboard - 2026-06-19
-  - [77d99a2](https://github.com/drid-uniben/ubjh-client/commit/77d99a25f7500a302202b53db9ed393bb313ca81) Merge pull request #18 from drid-uniben/staging - 2026-05-12
-  - [1fdba19](https://github.com/drid-uniben/ubjh-client/commit/1fdba191eabca69da08aafdbacd88a02ed11a474) Merge pull request #17 from drid-uniben/deadline - 2026-05-12
-  - [db04614](https://github.com/drid-uniben/ubjh-client/commit/db04614c464b50bfecb6e60ee6bd63f766663b76) Restore manuscript submission form and enable submissions - 2026-05-11
-  - [115ff0a](https://github.com/drid-uniben/ubjh-client/commit/115ff0a455f3667625a91231117a102e6c153c83) Disable manuscript submissions and show closure notice - 2026-05-11
-  - [0117a9c](https://github.com/drid-uniben/ubjh-client/commit/0117a9cd18bb031b35a90c07e2a4d253e439eaf4) Merge pull request #16 from drid-uniben/staging - 2026-05-11
-  - [2afe832](https://github.com/drid-uniben/ubjh-client/commit/2afe8326ead68b96abb5be60cd5289d81320ca69) Merge pull request #15 from drid-uniben/staging - 2026-05-11
-  - [ebec8bb](https://github.com/drid-uniben/ubjh-client/commit/ebec8bb8af85456c086009817baf12a75eff7a20) Merge pull request #14 from drid-uniben/remove_deadline - 2026-05-11
-  - [2dbda1b](https://github.com/drid-uniben/ubjh-client/commit/2dbda1b64ae81e628b04022d6d8ffbeda3820ca1) Reopens manuscript submission with new form - 2026-05-11
-  - [10a2d24](https://github.com/drid-uniben/ubjh-client/commit/10a2d24b5e25796e2a790f99b1650f6b6d87f812) Merge pull request #13 from drid-uniben/staging - 2026-05-11
-  - [864bf54](https://github.com/drid-uniben/ubjh-client/commit/864bf5446507b6756336f2583ab2e6bfbb1abda5) Merge pull request #12 from drid-uniben/main - 2026-05-11
-  - [90fd665](https://github.com/drid-uniben/ubjh-client/commit/90fd6650b2dc27b07624f30d44c26d51eca9d0db) Merge pull request #11 from drid-uniben/deadline - 2026-05-11
-  - [d5d41dd](https://github.com/drid-uniben/ubjh-client/commit/d5d41dd898cea3c8d9ff2a73527215e506d0340a) Disable manuscript submissions and show closure notice - 2026-05-11
-  - [f085208](https://github.com/drid-uniben/ubjh-client/commit/f08520863877d4abe0f34a06e54ca3e33a41dc8b) Merge pull request #10 from drid-uniben/staging - 2026-05-10
-  - [05f4011](https://github.com/drid-uniben/ubjh-client/commit/05f4011de24b4e9acf85f6d24c7088610c276b26) Merge pull request #9 from drid-uniben/deadline - 2026-05-10
-  - [a4fe51c](https://github.com/drid-uniben/ubjh-client/commit/a4fe51ca04ddd26833c81370daaea0495696a81d) Disable manuscript submissions and show closure notice - 2026-05-10
-  - [1239c91](https://github.com/drid-uniben/ubjh-client/commit/1239c91e4fe779dcd7166e0c181101b71ffd1a92) Merge pull request #8 from drid-uniben/main - 2026-05-10
-  - [b6f91b5](https://github.com/drid-uniben/ubjh-client/commit/b6f91b516ed10caaef6a6a49c41e17c90958260c) Merge pull request #7 from drid-uniben/staging - 2026-04-11
-  - [6862658](https://github.com/drid-uniben/ubjh-client/commit/686265848a58b5344a82914f62e3cf4d6619bf3c) Merge pull request #6 from drid-uniben/confirm_fix - 2026-04-11
-  - [817da5b](https://github.com/drid-uniben/ubjh-client/commit/817da5bec29a4a33ce34b8759215f39120792682) Fixing the content of the confirmation success page and making the initial review time flexible not defined - 2026-04-11
-  - [e6eeee5](https://github.com/drid-uniben/ubjh-client/commit/e6eeee569c7720271df62a474f791dc1262b21b5) Merge pull request #5 from drid-uniben/main - 2026-04-11
-  - [7e63b6e](https://github.com/drid-uniben/ubjh-client/commit/7e63b6e3335ba5b37bd6e8a5e8473389c5f8656c) Made changes - 2026-04-11
-  - [569fc6c](https://github.com/drid-uniben/ubjh-client/commit/569fc6c20914ce412995e090e815d3135964d43f) Made fixes - 2026-04-11
-  - [61ae211](https://github.com/drid-uniben/ubjh-client/commit/61ae21103d0cd1ebe604016d0e0ca30d519c9810) Merge pull request #4 from drid-uniben/main - 2026-04-11
-  - [7a4e36e](https://github.com/drid-uniben/ubjh-client/commit/7a4e36ebc20595e73aecd7cca1658d32d3232bbc) Making the CoAuthors fields required - 2026-04-11
-  - [c370c93](https://github.com/drid-uniben/ubjh-client/commit/c370c934c4b2f58a44a35a640b09f5b5e6a0626d) feat(publication): increase fetch limits and add search for manual/pending articles - 2026-03-01
-  - [03052e5](https://github.com/drid-uniben/ubjh-client/commit/03052e5f2ee10304c5b5922286f0579578c9375d) fixed the minimum year for creating a volume? - 2026-02-27
-  - [2e4cc44](https://github.com/drid-uniben/ubjh-client/commit/2e4cc44fdb257b13a8e8311d5c96844cfdcff659) Adds manual article management and dual volume cover support - 2026-02-21
-  - [c3a07bf](https://github.com/drid-uniben/ubjh-client/commit/c3a07bfdd1d56ae82136777c56cb9db4dbb2cacb) Used the correct contact emails - 2026-02-16
-  - [f6c3fdf](https://github.com/drid-uniben/ubjh-client/commit/f6c3fdff8a74858da283f722577bfc869d6d28bb) feat: add brand color variables and tailwind theme mappings to globals.css - 2026-02-16
-  - [edecea7](https://github.com/drid-uniben/ubjh-client/commit/edecea7cd9fd15249241497b6db1eb5562047dd3) chore: Comprehensive frontend-backend alignment and production hardening - 2026-02-16
-  - [1a9c667](https://github.com/drid-uniben/ubjh-client/commit/1a9c667be6dde2a7d7d608e259238b9f18b7921d) Adding author dashboard context - 2026-02-13
-  - [3811bf8](https://github.com/drid-uniben/ubjh-client/commit/3811bf84bccba61b74f2790bf5e5c517b4ddc445) adding context - 2026-02-10
-  - [d8cffcd](https://github.com/drid-uniben/ubjh-client/commit/d8cffcdcecf5db215c13daa4e362b0cb761b76d2) made fixes - 2026-02-03
-  - [8bfd4fa](https://github.com/drid-uniben/ubjh-client/commit/8bfd4fa2482ab27dee48044302286f7dbd4239f9) added the override section to the admin dashboard UI - 2026-02-03
-  - [add27b3](https://github.com/drid-uniben/ubjh-client/commit/add27b34192795fd5ae11f5d99f97e6617b62124) Adds pagination and filter persistence for admin manuscripts - 2026-02-03
-  - [86c3b87](https://github.com/drid-uniben/ubjh-client/commit/86c3b873297a56ce364fef2a71a05e696c2c4053) Added the search bar - 2026-02-03
-  - [7597c62](https://github.com/drid-uniben/ubjh-client/commit/7597c625fa17fdff5c6bedd246fbdc05ff255a51) Added Rich text editor - 2026-02-03
-  - [942e9b8](https://github.com/drid-uniben/ubjh-client/commit/942e9b8de674623e9bc14cd6c9b736b022dce283) Added the ISSN for e print - 2026-02-02
-  - [7646176](https://github.com/drid-uniben/ubjh-client/commit/7646176709f52f30429d7bbd5969bfd1b391bf29) update - 2026-01-30
-  - [99a93c1](https://github.com/drid-uniben/ubjh-client/commit/99a93c14ce30ec7269f62fdb78446f694af6a2ff) Adds email campaign attachment support - 2026-01-30
-  - [046f6f0](https://github.com/drid-uniben/ubjh-client/commit/046f6f097a4783f4380e6aabc71b13a05ec1127f) Adds admin email campaign support and API integration - 2026-01-30
-  - [9e3bed3](https://github.com/drid-uniben/ubjh-client/commit/9e3bed3b38fdc2d86d2daf11e9778e7017ca7b13) increased font size if uniben - 2026-01-27
-  - [3a9a41a](https://github.com/drid-uniben/ubjh-client/commit/3a9a41aac9943ef6e63a10d07c892fd7d8305f74) Refines journal branding and header layout - 2026-01-27
-  - [05880bf](https://github.com/drid-uniben/ubjh-client/commit/05880bfa839a6f0d08ab53491d067bb3ff05340b) updated the editorial board in the about page - 2026-01-09
-  - [17ad7cc](https://github.com/drid-uniben/ubjh-client/commit/17ad7cc2cd4f38024594ac46a38fc9ba5d8f1294) update - 2026-01-07
-  - [6efd4a6](https://github.com/drid-uniben/ubjh-client/commit/6efd4a6bacfde759858a2718df617ae023a9478a) librarian UI update - 2026-01-07
-  - [fa31184](https://github.com/drid-uniben/ubjh-client/commit/fa311843a503e890fec25037aef54ecfaa096797) update - 2026-01-07
-  - [d44254a](https://github.com/drid-uniben/ubjh-client/commit/d44254a726b2ec6af4c71ba93efcfd6c45e914a3) update - 2026-01-07
-  - [1613501](https://github.com/drid-uniben/ubjh-client/commit/1613501bae70ed18e583902c545ebaefa3f74c17) Editorial board UI updates - 2026-01-07
-  - [e91c985](https://github.com/drid-uniben/ubjh-client/commit/e91c985812b72b167191c2576c73e4389dd40c6d) Added more articles - 2026-01-07
-  - [1f36069](https://github.com/drid-uniben/ubjh-client/commit/1f3606961a9e45de8bfbbb1dd7e66f11d77fd96a) I added the optional phoneNumber and areaOfSpecialization fields to both the reviewer invitation and acceptance forms. - 2025-12-11
-  - [659adaf](https://github.com/drid-uniben/ubjh-client/commit/659adaf2591b84ca0c4574ca2dcd57b99e90c5bb) fixes - 2025-12-03
-  - [12ea61f](https://github.com/drid-uniben/ubjh-client/commit/12ea61f237192f13c17a8e54976a07aa389e5a8e) chore(data): Update dummy article PDF filenames - 2025-11-18
-  - [0ab4ec1](https://github.com/drid-uniben/ubjh-client/commit/0ab4ec15ceba91cc84aaea84996a81bb96e2c318) Made the coAuthors fields optional - 2025-11-13
-  - [48e98a5](https://github.com/drid-uniben/ubjh-client/commit/48e98a5f68f6670cb703f711cf68c99a0cbb99f4) Update - 2025-11-11
-  - [defc194](https://github.com/drid-uniben/ubjh-client/commit/defc194e6cc40f3326744f4fa2bd15b9fe93a578) Merge branch 'main' of https://github.com/unibeninterns/ubjh_client - 2025-11-11
-  - [f3506bb](https://github.com/drid-uniben/ubjh-client/commit/f3506bbcba5c222846419b1e9859f38d796fd195) refactor(articles): Convert article detail page to Server Component - 2025-11-11
-  - [cc8f944](https://github.com/drid-uniben/ubjh-client/commit/cc8f944f05506d017bc000455f9a475cb0f66397) update - 2025-11-02
-  - [5581a3e](https://github.com/drid-uniben/ubjh-client/commit/5581a3eab6215ce9cb9e0910d16c92d6df0ce92f) feat(admin): Allow editing of revised manuscript files - 2025-10-31
-  - [4aabb86](https://github.com/drid-uniben/ubjh-client/commit/4aabb86e84eb2b0690bbe7eb762e9f47ec4d6aea) feat(admin): Implement manuscript file editing and refactor jobs page - 2025-10-31
-  - [7a3a699](https://github.com/drid-uniben/ubjh-client/commit/7a3a699a811c1b621443c4563e5b07833333ffb9) feat: Improve error and not-found handling for articles - 2025-10-31
-  - [96dc274](https://github.com/drid-uniben/ubjh-client/commit/96dc27469b971190804a7edd307cac6c0b8d7667) refactor(archives): Convert page to Server Component for data fetching - 2025-10-31
-  - [5bea877](https://github.com/drid-uniben/ubjh-client/commit/5bea87782dd4f7c4e7845d8471803de1ab3e70e9) refactor(submission): Enforce DOCX format and remove DOI/ORCID - 2025-10-31
-  - [d8deda6](https://github.com/drid-uniben/ubjh-client/commit/d8deda6c91af8be272f1ab948bb6cf10400d9574) Merge pull request #1 from unibeninterns/prod - 2025-10-31
-  - [63fb187](https://github.com/drid-uniben/ubjh-client/commit/63fb1877d70259ff5089eb938621c2d03d1be24f) feat(ui): Implement full-width layout and fix overflow - 2025-10-30
-  - [5b8c792](https://github.com/drid-uniben/ubjh-client/commit/5b8c792404f8f06c4fcf138436dcc7e8f7c051cd) feat(admin): Implement article publication management page - 2025-10-30
-  - [f7fcd01](https://github.com/drid-uniben/ubjh-client/commit/f7fcd0117ea391ac52c068fb24ae9361ac442405) feat(admin): Improve decisions UI and assignment navigation - 2025-10-28
-  - [c2a8c78](https://github.com/drid-uniben/ubjh-client/commit/c2a8c78fb1a9cd5f023737afa23a28b0253d9034) feat(admin): Add context for revised and reconciliation reviews - 2025-10-27
-  - [f5338e8](https://github.com/drid-uniben/ubjh-client/commit/f5338e8b49fe7f65a206c31dadd159a0046f8dde) feat(admin): create manuscript review and submission page - 2025-10-26
 - ibr-tetfund-server (69 commits)
   - [918b838](https://github.com/drid-uniben/ibr-tetfund-server/commit/918b8381cd818d398ccb67fcecf577b6ba7c8ecd) Merge pull request #35 from drid-uniben/second-call - 2026-10-20
   - [3db57ee](https://github.com/drid-uniben/ibr-tetfund-server/commit/3db57ee03fb4d5f6eb5eb83189bf5104008c27d2) feat(export): add estimated budget fallback and landscape table layout to full proposal docx export - 2026-10-20
@@ -174,75 +95,6 @@ Commits:
   - [69389a6](https://github.com/drid-uniben/ibr-tetfund-server/commit/69389a6ec834cf2f50c4061ec5f759bc84a29b0d) Merge pull request #5 from drid-uniben/second-call - 2026-07-23
   - [b2ac521](https://github.com/drid-uniben/ibr-tetfund-server/commit/b2ac5211f581cc0df755a248264b0531db843655) changes from first call for submisions/paper - 2026-07-23
   - [c1168b1](https://github.com/drid-uniben/ibr-tetfund-server/commit/c1168b1d37d377d3f6797b1fbc1b71d9a4f88061) Scope refresh cookie to the API host instead of the frontend domain - 2026-07-23
-- ubjh-server (68 commits)
-  - [d5840a3](https://github.com/drid-uniben/ubjh-server/commit/d5840a3de6f02c2d57d606ce32bf5d4c22ad603b) Merge pull request #19 from drid-uniben/author - 2026-07-23
-  - [33e1f9d](https://github.com/drid-uniben/ubjh-server/commit/33e1f9de804340be94f12f525e3669f36bbd4a51) increased ratelimit for authors - 2026-07-20
-  - [c5e3e6b](https://github.com/drid-uniben/ubjh-server/commit/c5e3e6b9215294b633481735eec943e0f1923843) Scope refresh cookie to the API host instead of the frontend domain - 2026-07-20
-  - [c28d2b3](https://github.com/drid-uniben/ubjh-server/commit/c28d2b3fdca1e0863a3bab3a6d0dc91a6fba1d8e) Merge pull request #17 from drid-uniben/author - 2026-06-19
-  - [038b587](https://github.com/drid-uniben/ubjh-server/commit/038b587fded1f1a4bb94b745e85b04e4c1b95bbe) Made fixes - 2026-06-19
-  - [7ce97d4](https://github.com/drid-uniben/ubjh-server/commit/7ce97d4cc6924e53bcd107cd50578ddd92583837) Merge pull request #15 from drid-uniben/main - 2026-06-19
-  - [adfe06a](https://github.com/drid-uniben/ubjh-server/commit/adfe06ab90da20385263f3eb28926552e637f4da) Merge pull request #14 from drid-uniben/author - 2026-06-19
-  - [8857ec0](https://github.com/drid-uniben/ubjh-server/commit/8857ec053548387cd6c4310e7c4d40cf7d96e11e) did the author dashboard - 2026-06-19
-  - [3e10a82](https://github.com/drid-uniben/ubjh-server/commit/3e10a82d7134c74426ac2953f23cff57a37a282b) Merge pull request #13 from drid-uniben/author - 2026-06-19
-  - [35f757e](https://github.com/drid-uniben/ubjh-server/commit/35f757e2d98848efb8bf6ed7edb6ee5ddb74109a) added author context - 2026-06-19
-  - [ad98037](https://github.com/drid-uniben/ubjh-server/commit/ad98037cc7536aa55b50c9f7ebd3ad842ebeafd4) Merge pull request #12 from drid-uniben/origins - 2026-06-18
-  - [0d230da](https://github.com/drid-uniben/ubjh-server/commit/0d230da120c51a86a848a87e6f63e8bb4c4a7c81) adjusted ratelimiting - 2026-06-18
-  - [1d11a57](https://github.com/drid-uniben/ubjh-server/commit/1d11a57cdf9ee5889a26dd1fbe15596fa7b5969e) Merge pull request #11 from drid-uniben/staging - 2026-04-11
-  - [12265ec](https://github.com/drid-uniben/ubjh-server/commit/12265ecd7171aad3781b3c63fc2a14005097bd7f) Merge pull request #10 from drid-uniben/origins - 2026-04-11
-  - [d299368](https://github.com/drid-uniben/ubjh-server/commit/d2993686d6408f58270a0f400ad65549bd8fb0d2) Merge pull request #9 from drid-uniben/staging - 2026-04-11
-  - [95ae143](https://github.com/drid-uniben/ubjh-server/commit/95ae143a10f793ba90dd1c61657a18ba6e85386a) Merge pull request #8 from drid-uniben/main - 2026-04-11
-  - [9e05f3f](https://github.com/drid-uniben/ubjh-server/commit/9e05f3f36a8bd94407bd848dcca89ac61beb10bb) Fixing the email - 2026-04-11
-  - [bc7ac06](https://github.com/drid-uniben/ubjh-server/commit/bc7ac067195597851c0e2d306d9cdcff976d0faf) Merge pull request #7 from drid-uniben/staging - 2026-04-11
-  - [e50617c](https://github.com/drid-uniben/ubjh-server/commit/e50617ce8ac20ca36b8d1ad3d1156e9ca4539589) Merge pull request #6 from drid-uniben/origins - 2026-04-11
-  - [ae5187b](https://github.com/drid-uniben/ubjh-server/commit/ae5187b0d8170f037585b2f15322a389bff68ab1) Making the Submission email work - 2026-04-11
-  - [023a00a](https://github.com/drid-uniben/ubjh-server/commit/023a00a6814b6db22be5126ad5b783d5ebbd05c9) Added multiple origins for the server - 2026-04-10
-  - [c8d035c](https://github.com/drid-uniben/ubjh-server/commit/c8d035cdd8743b273e6853e8dd2f44e3f5caa66f) Merge pull request #1 from drid-uniben/feat/contribution-workflows - 2026-03-05
-  - [afb94d4](https://github.com/drid-uniben/ubjh-server/commit/afb94d4f01905b234dd1593a993275fa723256fd) feat(publication): increase fetch limits and improve manuscriptId querying - 2026-03-01
-  - [b53c1db](https://github.com/drid-uniben/ubjh-server/commit/b53c1dba53a37b5d0e1c71c81b1a8a50415853ce) Migrating Articles - 2026-02-28
-  - [072efd8](https://github.com/drid-uniben/ubjh-server/commit/072efd819c62a1f66610b3cac9c39448287f10fa) Migrating Articles - 2026-02-28
-  - [3b74699](https://github.com/drid-uniben/ubjh-server/commit/3b74699c8c231057afabe1e8a96f52a9d9692641) fixed the minimum date for creating a volume - 2026-02-27
-  - [e0760e3](https://github.com/drid-uniben/ubjh-server/commit/e0760e3d1c4f054a351f37d39e9930b9f8785cb7) Migrating articles - 2026-02-27
-  - [eed5c55](https://github.com/drid-uniben/ubjh-server/commit/eed5c55cbfa0636569e7da7a3d3a74bc9f8f9bff) Migrating articles - 2026-02-27
-  - [afb71ce](https://github.com/drid-uniben/ubjh-server/commit/afb71cefd5606b51b90e0655f0733cc63cd90a33) Migrating articles - 2026-02-27
-  - [aeeb790](https://github.com/drid-uniben/ubjh-server/commit/aeeb790d3eb7f16efbfba38f791322b3b36a9850) Migrating articles - 2026-02-27
-  - [6928e2d](https://github.com/drid-uniben/ubjh-server/commit/6928e2d6046621dc08bb00424531a5f20ed4cf6e) Migrating articles - 2026-02-27
-  - [9833b8c](https://github.com/drid-uniben/ubjh-server/commit/9833b8cf14994072198b02e0dfe6b9d5d046c5f1) Migration articles - 2026-02-26
-  - [d75f0d0](https://github.com/drid-uniben/ubjh-server/commit/d75f0d0fac6da8786810b0c2cc0d02c82fb61b6c) Migrating articles - 2026-02-26
-  - [1831a8f](https://github.com/drid-uniben/ubjh-server/commit/1831a8fe2a70e4a10f03480df9e588b6410310a5) Migrating articles - 2026-02-26
-  - [0f86756](https://github.com/drid-uniben/ubjh-server/commit/0f867564796b99450ab88702a279600a329d685a) Migrating articles - 2026-02-26
-  - [1498b69](https://github.com/drid-uniben/ubjh-server/commit/1498b69d13e675d000477de9ce84d059549c85c8) migrating articles - 2026-02-26
-  - [347ebdb](https://github.com/drid-uniben/ubjh-server/commit/347ebdb5dd85ea75456c106e865bca4103dd6674) Adds manual article admin endpoints, improves volume/issue handling - 2026-02-21
-  - [1e68d3f](https://github.com/drid-uniben/ubjh-server/commit/1e68d3ff2d16a3447ef5f96384eb7491ca67f9b7) Enhances article search with advanced filtering - 2026-02-16
-  - [67506e8](https://github.com/drid-uniben/ubjh-server/commit/67506e8766115166a5a680d91c86c201f44f1bbc) chore: Comprehensive frontend-backend alignment and production hardening - 2026-02-15
-  - [e5402c3](https://github.com/drid-uniben/ubjh-server/commit/e5402c31c4ba7e40fd802b2298d65b2d05be5f42) adding author dashboard context - 2026-02-13
-  - [b4da101](https://github.com/drid-uniben/ubjh-server/commit/b4da101e7259ae9a0a410213ebbc71ac24baad08) adding context - 2026-02-10
-  - [aed5d4d](https://github.com/drid-uniben/ubjh-server/commit/aed5d4da113744c3dd74463e9f49db77bd62cd92) Improves recipient ID handling and adds route registration - 2026-02-03
-  - [e7a05a5](https://github.com/drid-uniben/ubjh-server/commit/e7a05a5634eebfa1a7d07d8140d70e38cb31c60d) update - 2026-02-03
-  - [134b7a0](https://github.com/drid-uniben/ubjh-server/commit/134b7a0742661ceaba15d03ebd4c0c58566b3097) update - 2026-02-03
-  - [90c8daf](https://github.com/drid-uniben/ubjh-server/commit/90c8daf558cee49852887317c8d06b2b9bcae70c) Added the search bar - 2026-02-03
-  - [9875e6b](https://github.com/drid-uniben/ubjh-server/commit/9875e6b6907aa7ac34fbb99e0369a512b6a4ec92) updates - 2026-02-03
-  - [5b2e91a](https://github.com/drid-uniben/ubjh-server/commit/5b2e91a518f842475f1b7ccf3b344b50330fa7e9) update - 2026-02-02
-  - [e5be7b8](https://github.com/drid-uniben/ubjh-server/commit/e5be7b822c50755981ec1573ad77b891d680d9ba) removing sumission email - 2026-01-30
-  - [f9d5777](https://github.com/drid-uniben/ubjh-server/commit/f9d577753409d050d84f4fe8c09b418dc7ac2b02) update - 2026-01-30
-  - [8f0e8ea](https://github.com/drid-uniben/ubjh-server/commit/8f0e8eaab5d3075ceccb264298720449ea029ca8) update - 2026-01-30
-  - [124eb2e](https://github.com/drid-uniben/ubjh-server/commit/124eb2ea5b7dfc14583bbe85c07b542bf2a98594) update - 2026-01-30
-  - [248ff82](https://github.com/drid-uniben/ubjh-server/commit/248ff8287d170f71f2121c68d22e068d1f3534c4) update - 2025-12-18
-  - [1805e45](https://github.com/drid-uniben/ubjh-server/commit/1805e452183e4a43f6bab06cf5dbb2d8642af9dc) made a fix with the edit manuscript upload logic for prod - 2025-12-18
-  - [04bca06](https://github.com/drid-uniben/ubjh-server/commit/04bca0614f1845144486fe50ae1c8154e10db528) fixed build errors - 2025-12-12
-  - [dc5709e](https://github.com/drid-uniben/ubjh-server/commit/dc5709e8b37ddcfcb3451749a4ab394654ae458f) I updated reviewer.routes.ts for completeProfileSchema with optional phoneNumber and areaOfSpecialization. In reviewer.controller.ts, I ensured inviteReviewer remained original, and modified completeReviewerProfile, getInvitations, getAllReviewers, getReviewerById, and getReviewerDashboard to include the new fields. I also added phoneNumber and areaOfSpecialization to IUser and UserSchema in user.model.ts. For reAssignReviewer.controller.ts, I updated getExistingReviewers to select these fields and getEligibleReviewersForRevised to include them in EligibleReviewer objects and ensuring assignReview.controller.ts's assignReviewer and getEligibleReviewersForManuscript properly include them. - 2025-12-11
-  - [e5df93d](https://github.com/drid-uniben/ubjh-server/commit/e5df93d17eab6b9fa9b69fa7f16244568b042c12) feat(manuscripts): Implement manuscript archiving and unarchiving - 2025-12-04
-  - [3e8987f](https://github.com/drid-uniben/ubjh-server/commit/3e8987f173dc72bf3ea02de711f88737f281112a) made a fix for the asking for author privilege even when it's an admin route endpoint - 2025-12-03
-  - [a431def](https://github.com/drid-uniben/ubjh-server/commit/a431defdbe489640e8c1eb10f925f24510c36ca3) Made important updates for deployment - 2025-11-13
-  - [5a1a75e](https://github.com/drid-uniben/ubjh-server/commit/5a1a75e66beb6907a09353f175c7f7705af4b13d) feat(review): Decouple revision submission from reviewer assignment - 2025-10-31
-  - [00c344b](https://github.com/drid-uniben/ubjh-server/commit/00c344babfffc4c84e4c22116996e0803b9e117e) feat: Implement duplicate sorting and update file submission type - 2025-10-31
-  - [62c2758](https://github.com/drid-uniben/ubjh-server/commit/62c27587085e3bd274add0eb3e700e7f63a426eb) refactor(doi): Switch from Zenodo to Crossref for registration - 2025-10-30
-  - [96597b7](https://github.com/drid-uniben/ubjh-server/commit/96597b73f54eb9120526710ba5692e1f05679dc9) feat(article): Add Crossref deposit status tracking to model - 2025-10-30
-  - [9720837](https://github.com/drid-uniben/ubjh-server/commit/97208373bb93f21d0551e8785c74d7a63ee37d29) update - 2025-10-29
-  - [1bb82e1](https://github.com/drid-uniben/ubjh-server/commit/1bb82e153a104fe1fd6dd6b3455577aef6f6222a) feat(articles): implement publication and indexing workflow - 2025-10-29
-  - [7f6db37](https://github.com/drid-uniben/ubjh-server/commit/7f6db37f51e488b663db63dd067bb335b032d9ec) feat(review): Update manuscript status after reconciliation - 2025-10-28
-  - [14f3ced](https://github.com/drid-uniben/ubjh-server/commit/14f3ced6e03e8a158bcc6bf52beaad11244901d6) Update - 2025-10-27
-  - [ee7567b](https://github.com/drid-uniben/ubjh-server/commit/ee7567bccf377e3d622943195940969c5e536f20) feat(review): Add context for revised and reconciliation reviews - 2025-10-27
-  - [8ac3315](https://github.com/drid-uniben/ubjh-server/commit/8ac3315f2146eab92bb73352c48387f8d8e6e9f8) feat: add worker script to package.json - 2025-10-26
 - drid-con-ticket (68 commits)
   - [06583b5](https://github.com/drid-uniben/drid-con-ticket/commit/06583b5d4475c9317edc015ce648cbe77ecc8531) Adds attendee search and filtering to dashboard - 2026-01-20
   - [3d85a05](https://github.com/drid-uniben/drid-con-ticket/commit/3d85a054bc73710af08fb7334508eb385f00ea88) Merge pull request #20 from unibeninterns/feats/manual-check-in-and-other-stuff - 2026-01-20
@@ -312,6 +164,73 @@ Commits:
   - [90a6888](https://github.com/drid-uniben/drid-con-ticket/commit/90a68888c27e4d98332ceb2a58e6047ea3eabeee) Added a well structured PRD document - 2025-12-05
   - [1d662c9](https://github.com/drid-uniben/drid-con-ticket/commit/1d662c902a665650cf61d0c8a967b936cc440571) Added a well structured PRD document - 2025-12-05
   - [029a2bb](https://github.com/drid-uniben/drid-con-ticket/commit/029a2bb84060f33b8c191fadb3718c859f96f21a) first commit - 2025-12-05
+- ubjh-client (66 commits)
+  - [1165ce9](https://github.com/drid-uniben/ubjh-client/commit/1165ce9b15422a6a2b0d4011de965b329a9c9a5b) Merge pull request #25 from drid-uniben/author - 2026-07-24
+  - [e3407b0](https://github.com/drid-uniben/ubjh-client/commit/e3407b079048250cf2c6bcf393b91060b288834f) feat: add context-aware custom 404 not-found page - 2026-07-24
+  - [6337e08](https://github.com/drid-uniben/ubjh-client/commit/6337e08afff524ff9c0ddab00056f8dfa707323f) Merge pull request #24 from drid-uniben/author - 2026-06-19
+  - [1a4702c](https://github.com/drid-uniben/ubjh-client/commit/1a4702ca9359b1c3e6a2eb1ff982c16e0e79a538) made similar change done to the reviewer assignment to the admin assignment - 2026-06-19
+  - [fc1a04e](https://github.com/drid-uniben/ubjh-client/commit/fc1a04e117b7e2fc1b7b402721573d5f4860d8a5) Merge pull request #22 from drid-uniben/author - 2026-06-19
+  - [8597606](https://github.com/drid-uniben/ubjh-client/commit/859760613d5f06ccb80e6d837b5969d5eb41d54f) Made fixes - 2026-06-19
+  - [d6da269](https://github.com/drid-uniben/ubjh-client/commit/d6da269a1da28f014e70fd9b1cc83363a3cc4076) Merge pull request #20 from drid-uniben/main - 2026-06-19
+  - [3642ee9](https://github.com/drid-uniben/ubjh-client/commit/3642ee9d078c1f34af906c5dc754ae4a678583ee) Merge pull request #19 from drid-uniben/author - 2026-06-19
+  - [e5ef03f](https://github.com/drid-uniben/ubjh-client/commit/e5ef03f47580997fd036bd2f589ce1b32e5cf220) did the author dashboard - 2026-06-19
+  - [77d99a2](https://github.com/drid-uniben/ubjh-client/commit/77d99a25f7500a302202b53db9ed393bb313ca81) Merge pull request #18 from drid-uniben/staging - 2026-05-12
+  - [1fdba19](https://github.com/drid-uniben/ubjh-client/commit/1fdba191eabca69da08aafdbacd88a02ed11a474) Merge pull request #17 from drid-uniben/deadline - 2026-05-12
+  - [db04614](https://github.com/drid-uniben/ubjh-client/commit/db04614c464b50bfecb6e60ee6bd63f766663b76) Restore manuscript submission form and enable submissions - 2026-05-11
+  - [115ff0a](https://github.com/drid-uniben/ubjh-client/commit/115ff0a455f3667625a91231117a102e6c153c83) Disable manuscript submissions and show closure notice - 2026-05-11
+  - [0117a9c](https://github.com/drid-uniben/ubjh-client/commit/0117a9cd18bb031b35a90c07e2a4d253e439eaf4) Merge pull request #16 from drid-uniben/staging - 2026-05-11
+  - [2afe832](https://github.com/drid-uniben/ubjh-client/commit/2afe8326ead68b96abb5be60cd5289d81320ca69) Merge pull request #15 from drid-uniben/staging - 2026-05-11
+  - [ebec8bb](https://github.com/drid-uniben/ubjh-client/commit/ebec8bb8af85456c086009817baf12a75eff7a20) Merge pull request #14 from drid-uniben/remove_deadline - 2026-05-11
+  - [2dbda1b](https://github.com/drid-uniben/ubjh-client/commit/2dbda1b64ae81e628b04022d6d8ffbeda3820ca1) Reopens manuscript submission with new form - 2026-05-11
+  - [10a2d24](https://github.com/drid-uniben/ubjh-client/commit/10a2d24b5e25796e2a790f99b1650f6b6d87f812) Merge pull request #13 from drid-uniben/staging - 2026-05-11
+  - [864bf54](https://github.com/drid-uniben/ubjh-client/commit/864bf5446507b6756336f2583ab2e6bfbb1abda5) Merge pull request #12 from drid-uniben/main - 2026-05-11
+  - [90fd665](https://github.com/drid-uniben/ubjh-client/commit/90fd6650b2dc27b07624f30d44c26d51eca9d0db) Merge pull request #11 from drid-uniben/deadline - 2026-05-11
+  - [d5d41dd](https://github.com/drid-uniben/ubjh-client/commit/d5d41dd898cea3c8d9ff2a73527215e506d0340a) Disable manuscript submissions and show closure notice - 2026-05-11
+  - [f085208](https://github.com/drid-uniben/ubjh-client/commit/f08520863877d4abe0f34a06e54ca3e33a41dc8b) Merge pull request #10 from drid-uniben/staging - 2026-05-10
+  - [05f4011](https://github.com/drid-uniben/ubjh-client/commit/05f4011de24b4e9acf85f6d24c7088610c276b26) Merge pull request #9 from drid-uniben/deadline - 2026-05-10
+  - [a4fe51c](https://github.com/drid-uniben/ubjh-client/commit/a4fe51ca04ddd26833c81370daaea0495696a81d) Disable manuscript submissions and show closure notice - 2026-05-10
+  - [1239c91](https://github.com/drid-uniben/ubjh-client/commit/1239c91e4fe779dcd7166e0c181101b71ffd1a92) Merge pull request #8 from drid-uniben/main - 2026-05-10
+  - [b6f91b5](https://github.com/drid-uniben/ubjh-client/commit/b6f91b516ed10caaef6a6a49c41e17c90958260c) Merge pull request #7 from drid-uniben/staging - 2026-04-11
+  - [6862658](https://github.com/drid-uniben/ubjh-client/commit/686265848a58b5344a82914f62e3cf4d6619bf3c) Merge pull request #6 from drid-uniben/confirm_fix - 2026-04-11
+  - [817da5b](https://github.com/drid-uniben/ubjh-client/commit/817da5bec29a4a33ce34b8759215f39120792682) Fixing the content of the confirmation success page and making the initial review time flexible not defined - 2026-04-11
+  - [e6eeee5](https://github.com/drid-uniben/ubjh-client/commit/e6eeee569c7720271df62a474f791dc1262b21b5) Merge pull request #5 from drid-uniben/main - 2026-04-11
+  - [7e63b6e](https://github.com/drid-uniben/ubjh-client/commit/7e63b6e3335ba5b37bd6e8a5e8473389c5f8656c) Made changes - 2026-04-11
+  - [569fc6c](https://github.com/drid-uniben/ubjh-client/commit/569fc6c20914ce412995e090e815d3135964d43f) Made fixes - 2026-04-11
+  - [61ae211](https://github.com/drid-uniben/ubjh-client/commit/61ae21103d0cd1ebe604016d0e0ca30d519c9810) Merge pull request #4 from drid-uniben/main - 2026-04-11
+  - [7a4e36e](https://github.com/drid-uniben/ubjh-client/commit/7a4e36ebc20595e73aecd7cca1658d32d3232bbc) Making the CoAuthors fields required - 2026-04-11
+  - [c370c93](https://github.com/drid-uniben/ubjh-client/commit/c370c934c4b2f58a44a35a640b09f5b5e6a0626d) feat(publication): increase fetch limits and add search for manual/pending articles - 2026-03-01
+  - [03052e5](https://github.com/drid-uniben/ubjh-client/commit/03052e5f2ee10304c5b5922286f0579578c9375d) fixed the minimum year for creating a volume? - 2026-02-27
+  - [2e4cc44](https://github.com/drid-uniben/ubjh-client/commit/2e4cc44fdb257b13a8e8311d5c96844cfdcff659) Adds manual article management and dual volume cover support - 2026-02-21
+  - [c3a07bf](https://github.com/drid-uniben/ubjh-client/commit/c3a07bfdd1d56ae82136777c56cb9db4dbb2cacb) Used the correct contact emails - 2026-02-16
+  - [f6c3fdf](https://github.com/drid-uniben/ubjh-client/commit/f6c3fdff8a74858da283f722577bfc869d6d28bb) feat: add brand color variables and tailwind theme mappings to globals.css - 2026-02-16
+  - [edecea7](https://github.com/drid-uniben/ubjh-client/commit/edecea7cd9fd15249241497b6db1eb5562047dd3) chore: Comprehensive frontend-backend alignment and production hardening - 2026-02-16
+  - [1a9c667](https://github.com/drid-uniben/ubjh-client/commit/1a9c667be6dde2a7d7d608e259238b9f18b7921d) Adding author dashboard context - 2026-02-13
+  - [3811bf8](https://github.com/drid-uniben/ubjh-client/commit/3811bf84bccba61b74f2790bf5e5c517b4ddc445) adding context - 2026-02-10
+  - [d8cffcd](https://github.com/drid-uniben/ubjh-client/commit/d8cffcdcecf5db215c13daa4e362b0cb761b76d2) made fixes - 2026-02-03
+  - [8bfd4fa](https://github.com/drid-uniben/ubjh-client/commit/8bfd4fa2482ab27dee48044302286f7dbd4239f9) added the override section to the admin dashboard UI - 2026-02-03
+  - [add27b3](https://github.com/drid-uniben/ubjh-client/commit/add27b34192795fd5ae11f5d99f97e6617b62124) Adds pagination and filter persistence for admin manuscripts - 2026-02-03
+  - [86c3b87](https://github.com/drid-uniben/ubjh-client/commit/86c3b873297a56ce364fef2a71a05e696c2c4053) Added the search bar - 2026-02-03
+  - [7597c62](https://github.com/drid-uniben/ubjh-client/commit/7597c625fa17fdff5c6bedd246fbdc05ff255a51) Added Rich text editor - 2026-02-03
+  - [942e9b8](https://github.com/drid-uniben/ubjh-client/commit/942e9b8de674623e9bc14cd6c9b736b022dce283) Added the ISSN for e print - 2026-02-02
+  - [7646176](https://github.com/drid-uniben/ubjh-client/commit/7646176709f52f30429d7bbd5969bfd1b391bf29) update - 2026-01-30
+  - [99a93c1](https://github.com/drid-uniben/ubjh-client/commit/99a93c14ce30ec7269f62fdb78446f694af6a2ff) Adds email campaign attachment support - 2026-01-30
+  - [046f6f0](https://github.com/drid-uniben/ubjh-client/commit/046f6f097a4783f4380e6aabc71b13a05ec1127f) Adds admin email campaign support and API integration - 2026-01-30
+  - [9e3bed3](https://github.com/drid-uniben/ubjh-client/commit/9e3bed3b38fdc2d86d2daf11e9778e7017ca7b13) increased font size if uniben - 2026-01-27
+  - [3a9a41a](https://github.com/drid-uniben/ubjh-client/commit/3a9a41aac9943ef6e63a10d07c892fd7d8305f74) Refines journal branding and header layout - 2026-01-27
+  - [05880bf](https://github.com/drid-uniben/ubjh-client/commit/05880bfa839a6f0d08ab53491d067bb3ff05340b) updated the editorial board in the about page - 2026-01-09
+  - [17ad7cc](https://github.com/drid-uniben/ubjh-client/commit/17ad7cc2cd4f38024594ac46a38fc9ba5d8f1294) update - 2026-01-07
+  - [6efd4a6](https://github.com/drid-uniben/ubjh-client/commit/6efd4a6bacfde759858a2718df617ae023a9478a) librarian UI update - 2026-01-07
+  - [fa31184](https://github.com/drid-uniben/ubjh-client/commit/fa311843a503e890fec25037aef54ecfaa096797) update - 2026-01-07
+  - [d44254a](https://github.com/drid-uniben/ubjh-client/commit/d44254a726b2ec6af4c71ba93efcfd6c45e914a3) update - 2026-01-07
+  - [1613501](https://github.com/drid-uniben/ubjh-client/commit/1613501bae70ed18e583902c545ebaefa3f74c17) Editorial board UI updates - 2026-01-07
+  - [e91c985](https://github.com/drid-uniben/ubjh-client/commit/e91c985812b72b167191c2576c73e4389dd40c6d) Added more articles - 2026-01-07
+  - [1f36069](https://github.com/drid-uniben/ubjh-client/commit/1f3606961a9e45de8bfbbb1dd7e66f11d77fd96a) I added the optional phoneNumber and areaOfSpecialization fields to both the reviewer invitation and acceptance forms. - 2025-12-11
+  - [659adaf](https://github.com/drid-uniben/ubjh-client/commit/659adaf2591b84ca0c4574ca2dcd57b99e90c5bb) fixes - 2025-12-03
+  - [12ea61f](https://github.com/drid-uniben/ubjh-client/commit/12ea61f237192f13c17a8e54976a07aa389e5a8e) chore(data): Update dummy article PDF filenames - 2025-11-18
+  - [0ab4ec1](https://github.com/drid-uniben/ubjh-client/commit/0ab4ec15ceba91cc84aaea84996a81bb96e2c318) Made the coAuthors fields optional - 2025-11-13
+  - [48e98a5](https://github.com/drid-uniben/ubjh-client/commit/48e98a5f68f6670cb703f711cf68c99a0cbb99f4) Update - 2025-11-11
+  - [defc194](https://github.com/drid-uniben/ubjh-client/commit/defc194e6cc40f3326744f4fa2bd15b9fe93a578) Merge branch 'main' of https://github.com/unibeninterns/ubjh_client - 2025-11-11
+  - [f3506bb](https://github.com/drid-uniben/ubjh-client/commit/f3506bbcba5c222846419b1e9859f38d796fd195) refactor(articles): Convert article detail page to Server Component - 2025-11-11
 - ubjsti-client (59 commits)
   - [9b8b831](https://github.com/drid-uniben/ubjsti-client/commit/9b8b8312553dd354168aa353be49b84736b5b10c) Merge pull request #22 from drid-uniben/deadline - 2026-07-24
   - [a23324a](https://github.com/drid-uniben/ubjsti-client/commit/a23324a2eba0575982aeb046f5a2955d847ad0f8) feat: add context-aware custom 404 not-found page - 2026-07-24
@@ -372,6 +291,65 @@ Commits:
   - [5469e21](https://github.com/drid-uniben/ubjsti-client/commit/5469e213e455ef3addb7a4de087dfbc8c519cd3c) Updated all features and pages - 2025-11-06
   - [987f750](https://github.com/drid-uniben/ubjsti-client/commit/987f7504694a04290fbf6ecee777fbb24f3d1d35) Update - 2025-11-05
   - [bc97b52](https://github.com/drid-uniben/ubjsti-client/commit/bc97b522cbfcfa6b4f492c6b4e80fa3df2aa69ba) Update - 2025-11-05
+- ubjh-server (58 commits)
+  - [d5840a3](https://github.com/drid-uniben/ubjh-server/commit/d5840a3de6f02c2d57d606ce32bf5d4c22ad603b) Merge pull request #19 from drid-uniben/author - 2026-07-23
+  - [33e1f9d](https://github.com/drid-uniben/ubjh-server/commit/33e1f9de804340be94f12f525e3669f36bbd4a51) increased ratelimit for authors - 2026-07-20
+  - [c5e3e6b](https://github.com/drid-uniben/ubjh-server/commit/c5e3e6b9215294b633481735eec943e0f1923843) Scope refresh cookie to the API host instead of the frontend domain - 2026-07-20
+  - [c28d2b3](https://github.com/drid-uniben/ubjh-server/commit/c28d2b3fdca1e0863a3bab3a6d0dc91a6fba1d8e) Merge pull request #17 from drid-uniben/author - 2026-06-19
+  - [038b587](https://github.com/drid-uniben/ubjh-server/commit/038b587fded1f1a4bb94b745e85b04e4c1b95bbe) Made fixes - 2026-06-19
+  - [7ce97d4](https://github.com/drid-uniben/ubjh-server/commit/7ce97d4cc6924e53bcd107cd50578ddd92583837) Merge pull request #15 from drid-uniben/main - 2026-06-19
+  - [adfe06a](https://github.com/drid-uniben/ubjh-server/commit/adfe06ab90da20385263f3eb28926552e637f4da) Merge pull request #14 from drid-uniben/author - 2026-06-19
+  - [8857ec0](https://github.com/drid-uniben/ubjh-server/commit/8857ec053548387cd6c4310e7c4d40cf7d96e11e) did the author dashboard - 2026-06-19
+  - [3e10a82](https://github.com/drid-uniben/ubjh-server/commit/3e10a82d7134c74426ac2953f23cff57a37a282b) Merge pull request #13 from drid-uniben/author - 2026-06-19
+  - [35f757e](https://github.com/drid-uniben/ubjh-server/commit/35f757e2d98848efb8bf6ed7edb6ee5ddb74109a) added author context - 2026-06-19
+  - [ad98037](https://github.com/drid-uniben/ubjh-server/commit/ad98037cc7536aa55b50c9f7ebd3ad842ebeafd4) Merge pull request #12 from drid-uniben/origins - 2026-06-18
+  - [0d230da](https://github.com/drid-uniben/ubjh-server/commit/0d230da120c51a86a848a87e6f63e8bb4c4a7c81) adjusted ratelimiting - 2026-06-18
+  - [1d11a57](https://github.com/drid-uniben/ubjh-server/commit/1d11a57cdf9ee5889a26dd1fbe15596fa7b5969e) Merge pull request #11 from drid-uniben/staging - 2026-04-11
+  - [12265ec](https://github.com/drid-uniben/ubjh-server/commit/12265ecd7171aad3781b3c63fc2a14005097bd7f) Merge pull request #10 from drid-uniben/origins - 2026-04-11
+  - [d299368](https://github.com/drid-uniben/ubjh-server/commit/d2993686d6408f58270a0f400ad65549bd8fb0d2) Merge pull request #9 from drid-uniben/staging - 2026-04-11
+  - [95ae143](https://github.com/drid-uniben/ubjh-server/commit/95ae143a10f793ba90dd1c61657a18ba6e85386a) Merge pull request #8 from drid-uniben/main - 2026-04-11
+  - [9e05f3f](https://github.com/drid-uniben/ubjh-server/commit/9e05f3f36a8bd94407bd848dcca89ac61beb10bb) Fixing the email - 2026-04-11
+  - [bc7ac06](https://github.com/drid-uniben/ubjh-server/commit/bc7ac067195597851c0e2d306d9cdcff976d0faf) Merge pull request #7 from drid-uniben/staging - 2026-04-11
+  - [e50617c](https://github.com/drid-uniben/ubjh-server/commit/e50617ce8ac20ca36b8d1ad3d1156e9ca4539589) Merge pull request #6 from drid-uniben/origins - 2026-04-11
+  - [ae5187b](https://github.com/drid-uniben/ubjh-server/commit/ae5187b0d8170f037585b2f15322a389bff68ab1) Making the Submission email work - 2026-04-11
+  - [023a00a](https://github.com/drid-uniben/ubjh-server/commit/023a00a6814b6db22be5126ad5b783d5ebbd05c9) Added multiple origins for the server - 2026-04-10
+  - [c8d035c](https://github.com/drid-uniben/ubjh-server/commit/c8d035cdd8743b273e6853e8dd2f44e3f5caa66f) Merge pull request #1 from drid-uniben/feat/contribution-workflows - 2026-03-05
+  - [afb94d4](https://github.com/drid-uniben/ubjh-server/commit/afb94d4f01905b234dd1593a993275fa723256fd) feat(publication): increase fetch limits and improve manuscriptId querying - 2026-03-01
+  - [b53c1db](https://github.com/drid-uniben/ubjh-server/commit/b53c1dba53a37b5d0e1c71c81b1a8a50415853ce) Migrating Articles - 2026-02-28
+  - [072efd8](https://github.com/drid-uniben/ubjh-server/commit/072efd819c62a1f66610b3cac9c39448287f10fa) Migrating Articles - 2026-02-28
+  - [3b74699](https://github.com/drid-uniben/ubjh-server/commit/3b74699c8c231057afabe1e8a96f52a9d9692641) fixed the minimum date for creating a volume - 2026-02-27
+  - [e0760e3](https://github.com/drid-uniben/ubjh-server/commit/e0760e3d1c4f054a351f37d39e9930b9f8785cb7) Migrating articles - 2026-02-27
+  - [eed5c55](https://github.com/drid-uniben/ubjh-server/commit/eed5c55cbfa0636569e7da7a3d3a74bc9f8f9bff) Migrating articles - 2026-02-27
+  - [afb71ce](https://github.com/drid-uniben/ubjh-server/commit/afb71cefd5606b51b90e0655f0733cc63cd90a33) Migrating articles - 2026-02-27
+  - [aeeb790](https://github.com/drid-uniben/ubjh-server/commit/aeeb790d3eb7f16efbfba38f791322b3b36a9850) Migrating articles - 2026-02-27
+  - [6928e2d](https://github.com/drid-uniben/ubjh-server/commit/6928e2d6046621dc08bb00424531a5f20ed4cf6e) Migrating articles - 2026-02-27
+  - [9833b8c](https://github.com/drid-uniben/ubjh-server/commit/9833b8cf14994072198b02e0dfe6b9d5d046c5f1) Migration articles - 2026-02-26
+  - [d75f0d0](https://github.com/drid-uniben/ubjh-server/commit/d75f0d0fac6da8786810b0c2cc0d02c82fb61b6c) Migrating articles - 2026-02-26
+  - [1831a8f](https://github.com/drid-uniben/ubjh-server/commit/1831a8fe2a70e4a10f03480df9e588b6410310a5) Migrating articles - 2026-02-26
+  - [0f86756](https://github.com/drid-uniben/ubjh-server/commit/0f867564796b99450ab88702a279600a329d685a) Migrating articles - 2026-02-26
+  - [1498b69](https://github.com/drid-uniben/ubjh-server/commit/1498b69d13e675d000477de9ce84d059549c85c8) migrating articles - 2026-02-26
+  - [347ebdb](https://github.com/drid-uniben/ubjh-server/commit/347ebdb5dd85ea75456c106e865bca4103dd6674) Adds manual article admin endpoints, improves volume/issue handling - 2026-02-21
+  - [1e68d3f](https://github.com/drid-uniben/ubjh-server/commit/1e68d3ff2d16a3447ef5f96384eb7491ca67f9b7) Enhances article search with advanced filtering - 2026-02-16
+  - [67506e8](https://github.com/drid-uniben/ubjh-server/commit/67506e8766115166a5a680d91c86c201f44f1bbc) chore: Comprehensive frontend-backend alignment and production hardening - 2026-02-15
+  - [e5402c3](https://github.com/drid-uniben/ubjh-server/commit/e5402c31c4ba7e40fd802b2298d65b2d05be5f42) adding author dashboard context - 2026-02-13
+  - [b4da101](https://github.com/drid-uniben/ubjh-server/commit/b4da101e7259ae9a0a410213ebbc71ac24baad08) adding context - 2026-02-10
+  - [aed5d4d](https://github.com/drid-uniben/ubjh-server/commit/aed5d4da113744c3dd74463e9f49db77bd62cd92) Improves recipient ID handling and adds route registration - 2026-02-03
+  - [e7a05a5](https://github.com/drid-uniben/ubjh-server/commit/e7a05a5634eebfa1a7d07d8140d70e38cb31c60d) update - 2026-02-03
+  - [134b7a0](https://github.com/drid-uniben/ubjh-server/commit/134b7a0742661ceaba15d03ebd4c0c58566b3097) update - 2026-02-03
+  - [90c8daf](https://github.com/drid-uniben/ubjh-server/commit/90c8daf558cee49852887317c8d06b2b9bcae70c) Added the search bar - 2026-02-03
+  - [9875e6b](https://github.com/drid-uniben/ubjh-server/commit/9875e6b6907aa7ac34fbb99e0369a512b6a4ec92) updates - 2026-02-03
+  - [5b2e91a](https://github.com/drid-uniben/ubjh-server/commit/5b2e91a518f842475f1b7ccf3b344b50330fa7e9) update - 2026-02-02
+  - [e5be7b8](https://github.com/drid-uniben/ubjh-server/commit/e5be7b822c50755981ec1573ad77b891d680d9ba) removing sumission email - 2026-01-30
+  - [f9d5777](https://github.com/drid-uniben/ubjh-server/commit/f9d577753409d050d84f4fe8c09b418dc7ac2b02) update - 2026-01-30
+  - [8f0e8ea](https://github.com/drid-uniben/ubjh-server/commit/8f0e8eaab5d3075ceccb264298720449ea029ca8) update - 2026-01-30
+  - [124eb2e](https://github.com/drid-uniben/ubjh-server/commit/124eb2ea5b7dfc14583bbe85c07b542bf2a98594) update - 2026-01-30
+  - [248ff82](https://github.com/drid-uniben/ubjh-server/commit/248ff8287d170f71f2121c68d22e068d1f3534c4) update - 2025-12-18
+  - [1805e45](https://github.com/drid-uniben/ubjh-server/commit/1805e452183e4a43f6bab06cf5dbb2d8642af9dc) made a fix with the edit manuscript upload logic for prod - 2025-12-18
+  - [04bca06](https://github.com/drid-uniben/ubjh-server/commit/04bca0614f1845144486fe50ae1c8154e10db528) fixed build errors - 2025-12-12
+  - [dc5709e](https://github.com/drid-uniben/ubjh-server/commit/dc5709e8b37ddcfcb3451749a4ab394654ae458f) I updated reviewer.routes.ts for completeProfileSchema with optional phoneNumber and areaOfSpecialization. In reviewer.controller.ts, I ensured inviteReviewer remained original, and modified completeReviewerProfile, getInvitations, getAllReviewers, getReviewerById, and getReviewerDashboard to include the new fields. I also added phoneNumber and areaOfSpecialization to IUser and UserSchema in user.model.ts. For reAssignReviewer.controller.ts, I updated getExistingReviewers to select these fields and getEligibleReviewersForRevised to include them in EligibleReviewer objects and ensuring assignReview.controller.ts's assignReviewer and getEligibleReviewersForManuscript properly include them. - 2025-12-11
+  - [e5df93d](https://github.com/drid-uniben/ubjh-server/commit/e5df93d17eab6b9fa9b69fa7f16244568b042c12) feat(manuscripts): Implement manuscript archiving and unarchiving - 2025-12-04
+  - [3e8987f](https://github.com/drid-uniben/ubjh-server/commit/3e8987f173dc72bf3ea02de711f88737f281112a) made a fix for the asking for author privilege even when it's an admin route endpoint - 2025-12-03
+  - [a431def](https://github.com/drid-uniben/ubjh-server/commit/a431defdbe489640e8c1eb10f925f24510c36ca3) Made important updates for deployment - 2025-11-13
 - ibr-tetfund-client (56 commits)
   - [4ca7446](https://github.com/drid-uniben/ibr-tetfund-client/commit/4ca74463d0aa9930742fda4c0ed8bab69d5cf09a) Merge pull request #28 from drid-uniben/second-call - 2026-10-20
   - [8efc890](https://github.com/drid-uniben/ibr-tetfund-client/commit/8efc89091435ca5de0fab9a060ca85ddb185b31e) feat(export): add layout and link style options to full proposal word export dialog - 2026-10-20
@@ -552,7 +530,7 @@ PRs:
   - [#8](https://github.com/drid-uniben/ibr-tetfund-client/pull/8) Second call - merged, updated 2026-07-24
   - [#7](https://github.com/drid-uniben/ibr-tetfund-client/pull/7) fix(lint): remove unused variable in staff proposal submit - merged, updated 2026-07-23
   - [#6](https://github.com/drid-uniben/ibr-tetfund-client/pull/6) fix: Enable page scroll and re-open TETFund IBR application - merged, updated 2026-07-23
-- ubjh-client (23 PRs)
+- ubjh-client (22 PRs)
   - [#25](https://github.com/drid-uniben/ubjh-client/pull/25) feat: add context-aware custom 404 not-found page - merged, updated 2026-07-24
   - [#24](https://github.com/drid-uniben/ubjh-client/pull/24) made similar change done to the reviewer assignment to the admin assi… - merged, updated 2026-06-19
   - [#23](https://github.com/drid-uniben/ubjh-client/pull/23) Merging to main - merged, updated 2026-06-19
@@ -575,7 +553,6 @@ PRs:
   - [#6](https://github.com/drid-uniben/ubjh-client/pull/6) Fixing the content of the confirmation success page and making the in… - merged, updated 2026-04-11
   - [#5](https://github.com/drid-uniben/ubjh-client/pull/5) Main - merged, updated 2026-04-11
   - [#4](https://github.com/drid-uniben/ubjh-client/pull/4) Making the CoAuthors fields required - merged, updated 2026-04-11
-  - [#1](https://github.com/drid-uniben/ubjh-client/pull/1) Updated the design - merged, updated 2025-10-31
 - ubjsti-client (20 PRs)
   - [#22](https://github.com/drid-uniben/ubjsti-client/pull/22) feat: add context-aware custom 404 not-found page - merged, updated 2026-07-24
   - [#20](https://github.com/drid-uniben/ubjsti-client/pull/20) did the author's dashboard - merged, updated 2026-06-19
@@ -656,11 +633,12 @@ PRs:
   - [#3](https://github.com/drid-uniben/research-diploma-client/pull/3) Revamps registration flow with waitlist forms and UI tweaks - merged, updated 2026-01-23
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
-Total commits: 315
+Total commits: 316
 Total PRs: 55
 
 Commits:
-- org-structure (76 commits)
+- org-structure (77 commits)
+  - [27af17f](https://github.com/drid-uniben/org-structure/commit/27af17fc9d1f42d53f37b52b97c99ce2a16b1adc) chore(report): update weekly intern progress - 2026-10-26
   - [0b16753](https://github.com/drid-uniben/org-structure/commit/0b167531adc369c8b52f08cca7627c836b9f6b5d) chore(report): update weekly intern progress - 2026-10-19
   - [a22282c](https://github.com/drid-uniben/org-structure/commit/a22282c58bee036f4a5d2822c3928856a7158d52) chore(report): update weekly intern progress - 2026-10-12
   - [ed37114](https://github.com/drid-uniben/org-structure/commit/ed371144ef04d96582db724514cf42e5eee89a3f) chore(report): update weekly intern progress - 2026-10-05
@@ -1106,24 +1084,21 @@ feat: Enhance challenge description handling with markdown link validation and r
   - [#5](https://github.com/drid-uniben/drid-intern/pull/5) [WIP] Modern UI/UX - merged, updated 2026-02-21
 
 ### Light Ebube (@Lyteking)
-Total commits: 15
+Total commits: 12
 Total PRs: 4
 
 Commits:
-- ubjsti-client (7 commits)
-  - [568017c](https://github.com/drid-uniben/ubjsti-client/commit/568017ce55527860be71dddc0602c0696fb29444) Fixed Raymond's problems - 2025-11-11
-  - [782655d](https://github.com/drid-uniben/ubjsti-client/commit/782655de10f9289667bf0f471a49ab28d97a201f) Fixed Raymond's problems - 2025-11-11
-  - [0386549](https://github.com/drid-uniben/ubjsti-client/commit/03865498fb80bcc60c8b143cbec4460d301a0b56) Added the search page and modified the header - 2025-11-04
-  - [73a37db](https://github.com/drid-uniben/ubjsti-client/commit/73a37dbcb604f2e7370b0b1288931e44e155fb97) Added the index in the footer - 2025-11-04
-  - [caf607c](https://github.com/drid-uniben/ubjsti-client/commit/caf607cd4977becb9258fb51c46dc124a353a43e) Updated the color scheme - 2025-10-31
-  - [f1187d6](https://github.com/drid-uniben/ubjsti-client/commit/f1187d6148012b5c4bf45fa8f96fb447f9d355ab) Updated the color scheme - 2025-10-31
-  - [2605892](https://github.com/drid-uniben/ubjsti-client/commit/2605892009b3b17280085d6cd2d9afe3963a26fa) Updated the color scheme - 2025-10-31
 - drid-con-ticket (5 commits)
   - [2883fec](https://github.com/drid-uniben/drid-con-ticket/commit/2883fecca312070429783f7a2eea88bc031a735c) Fixed the logo on the registration page and handled error logs properly in the login page - 2025-12-10
   - [baa2dc6](https://github.com/drid-uniben/drid-con-ticket/commit/baa2dc62527f7336d32315becbfd41a6f4e81584) Added the QR scanner in the Agent page - 2025-12-09
   - [2cab393](https://github.com/drid-uniben/drid-con-ticket/commit/2cab393055cbb47621c2648ee493667c277d4421) Fixed the upload image field and modified not found page - 2025-12-07
   - [3b19d48](https://github.com/drid-uniben/drid-con-ticket/commit/3b19d486013642737b6919a73f76515df4d56947) Fixed some of the issues in the TODO.md file - 2025-12-07
   - [cea1c9f](https://github.com/drid-uniben/drid-con-ticket/commit/cea1c9f226829f8b89b8ba2622d44b9f82e2ccb0) Fixed some of the issues in the TODO.md file - 2025-12-06
+- ubjsti-client (4 commits)
+  - [568017c](https://github.com/drid-uniben/ubjsti-client/commit/568017ce55527860be71dddc0602c0696fb29444) Fixed Raymond's problems - 2025-11-11
+  - [782655d](https://github.com/drid-uniben/ubjsti-client/commit/782655de10f9289667bf0f471a49ab28d97a201f) Fixed Raymond's problems - 2025-11-11
+  - [0386549](https://github.com/drid-uniben/ubjsti-client/commit/03865498fb80bcc60c8b143cbec4460d301a0b56) Added the search page and modified the header - 2025-11-04
+  - [73a37db](https://github.com/drid-uniben/ubjsti-client/commit/73a37dbcb604f2e7370b0b1288931e44e155fb97) Added the index in the footer - 2025-11-04
 - ubjh-client (3 commits)
   - [dbaaf18](https://github.com/drid-uniben/ubjh-client/commit/dbaaf18ec00e205f4f2a2c313efa14b1b67f214e) Fixed type error in article route - 2025-11-11
   - [b89f683](https://github.com/drid-uniben/ubjh-client/commit/b89f683144c9ddd8625374726cac7458a77a8b2c) Added the search page and modified the header - 2025-11-04
