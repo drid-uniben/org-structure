@@ -1,17 +1,17 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-11-02
-Window: 2025-11-02 to 2026-11-02 (last 365 days)
+Generated: 2026-11-09
+Window: 2025-11-09 to 2026-11-09 (last 365 days)
 Organization: drid-uniben
 
 ## Summary
 
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
-| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 434 | 146 | 13 |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 316 | 55 | 19 |
+| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 451 | 157 | 13 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 317 | 55 | 19 |
 | Genesis Osasenaga Ighalo (@daves-hub) | 21 | 4 | 1 |
-| Light Ebube (@Lyteking) | 12 | 4 | 4 |
+| Light Ebube (@Lyteking) | 8 | 4 | 4 |
 | Ohenhen Isoken Glory (@Glorie27) | 2 | 3 | 2 |
 | Lucky Egho (@EGHO-LUCKY) | 1 | 2 | 2 |
 | Ameh Isaac Favour (@Isaac-Ameh) | 1 | 1 | 1 |
@@ -21,11 +21,19 @@ Organization: drid-uniben
 ## Detailed Activity (Commits First)
 
 ### Omoyakhi Raymond Eshikogie (@Raymond-engr)
-Total commits: 434
-Total PRs: 146
+Total commits: 451
+Total PRs: 157
 
 Commits:
-- ibr-tetfund-server (69 commits)
+- ibr-tetfund-server (77 commits)
+  - [f79fdac](https://github.com/drid-uniben/ibr-tetfund-server/commit/f79fdac4a69bbebb34e4b5daf488391c7eab3f17) Merge pull request #39 from drid-uniben/second-call - 2026-11-09
+  - [50264ef](https://github.com/drid-uniben/ibr-tetfund-server/commit/50264ef0c53440bd4975fb518e0d827d04af73c6) feat(email): update final submission reminder email for physical-only submission by Friday 13th Nov - 2026-11-09
+  - [2cd8ef9](https://github.com/drid-uniben/ibr-tetfund-server/commit/2cd8ef91fbb5827fc8fc23b78275a3cbff211dca) Merge pull request #38 from drid-uniben/second-call - 2026-11-07
+  - [e2ec599](https://github.com/drid-uniben/ibr-tetfund-server/commit/e2ec599136104f248bb79c9919b7a147b1181990) feat(decisions_2): add final_submitted and final_pending status filters and project submission fields - 2026-11-07
+  - [e2ddd06](https://github.com/drid-uniben/ibr-tetfund-server/commit/e2ddd0643b4cb924e7a56e3f13dac85b7eab8d83) Merge pull request #37 from drid-uniben/second-call - 2026-11-07
+  - [23ac4b4](https://github.com/drid-uniben/ibr-tetfund-server/commit/23ac4b4c1373d29bd44d524c443a5ea209a0e34e) fix(auth): return 429 for rate limit, separate login/refresh buckets, and add refresh token rotation grace window - 2026-11-07
+  - [4f909ab](https://github.com/drid-uniben/ibr-tetfund-server/commit/4f909abb398f7c0ef433a87e8a4722ca8daaf94f) Merge pull request #36 from drid-uniben/second-call - 2026-11-04
+  - [6a09a65](https://github.com/drid-uniben/ibr-tetfund-server/commit/6a09a651631a4945ba148399905bf5f0a754dda4) feat(notifications): add configurable notify modes for full proposal feedback and final submission - 2026-11-04
   - [918b838](https://github.com/drid-uniben/ibr-tetfund-server/commit/918b8381cd818d398ccb67fcecf577b6ba7c8ecd) Merge pull request #35 from drid-uniben/second-call - 2026-10-20
   - [3db57ee](https://github.com/drid-uniben/ibr-tetfund-server/commit/3db57ee03fb4d5f6eb5eb83189bf5104008c27d2) feat(export): add estimated budget fallback and landscape table layout to full proposal docx export - 2026-10-20
   - [1fa7980](https://github.com/drid-uniben/ibr-tetfund-server/commit/1fa79801b07d67ebb672352270191da04250a327) Merge pull request #34 from drid-uniben/second-call - 2026-10-07
@@ -95,6 +103,75 @@ Commits:
   - [69389a6](https://github.com/drid-uniben/ibr-tetfund-server/commit/69389a6ec834cf2f50c4061ec5f759bc84a29b0d) Merge pull request #5 from drid-uniben/second-call - 2026-07-23
   - [b2ac521](https://github.com/drid-uniben/ibr-tetfund-server/commit/b2ac5211f581cc0df755a248264b0531db843655) changes from first call for submisions/paper - 2026-07-23
   - [c1168b1](https://github.com/drid-uniben/ibr-tetfund-server/commit/c1168b1d37d377d3f6797b1fbc1b71d9a4f88061) Scope refresh cookie to the API host instead of the frontend domain - 2026-07-23
+- ubjh-client (68 commits)
+  - [115b711](https://github.com/drid-uniben/ubjh-client/commit/115b711af65a6de28c61ca51dfc1d5aa5d951d6a) Merge pull request #26 from drid-uniben/author - 2026-11-07
+  - [c414d2a](https://github.com/drid-uniben/ubjh-client/commit/c414d2a98c17233a22bfbcaec1af6430b8ed408e) fix(auth): prevent circular wait on refresh token failure and ignore transient errors - 2026-11-07
+  - [1165ce9](https://github.com/drid-uniben/ubjh-client/commit/1165ce9b15422a6a2b0d4011de965b329a9c9a5b) Merge pull request #25 from drid-uniben/author - 2026-07-24
+  - [e3407b0](https://github.com/drid-uniben/ubjh-client/commit/e3407b079048250cf2c6bcf393b91060b288834f) feat: add context-aware custom 404 not-found page - 2026-07-24
+  - [6337e08](https://github.com/drid-uniben/ubjh-client/commit/6337e08afff524ff9c0ddab00056f8dfa707323f) Merge pull request #24 from drid-uniben/author - 2026-06-19
+  - [1a4702c](https://github.com/drid-uniben/ubjh-client/commit/1a4702ca9359b1c3e6a2eb1ff982c16e0e79a538) made similar change done to the reviewer assignment to the admin assignment - 2026-06-19
+  - [fc1a04e](https://github.com/drid-uniben/ubjh-client/commit/fc1a04e117b7e2fc1b7b402721573d5f4860d8a5) Merge pull request #22 from drid-uniben/author - 2026-06-19
+  - [8597606](https://github.com/drid-uniben/ubjh-client/commit/859760613d5f06ccb80e6d837b5969d5eb41d54f) Made fixes - 2026-06-19
+  - [d6da269](https://github.com/drid-uniben/ubjh-client/commit/d6da269a1da28f014e70fd9b1cc83363a3cc4076) Merge pull request #20 from drid-uniben/main - 2026-06-19
+  - [3642ee9](https://github.com/drid-uniben/ubjh-client/commit/3642ee9d078c1f34af906c5dc754ae4a678583ee) Merge pull request #19 from drid-uniben/author - 2026-06-19
+  - [e5ef03f](https://github.com/drid-uniben/ubjh-client/commit/e5ef03f47580997fd036bd2f589ce1b32e5cf220) did the author dashboard - 2026-06-19
+  - [77d99a2](https://github.com/drid-uniben/ubjh-client/commit/77d99a25f7500a302202b53db9ed393bb313ca81) Merge pull request #18 from drid-uniben/staging - 2026-05-12
+  - [1fdba19](https://github.com/drid-uniben/ubjh-client/commit/1fdba191eabca69da08aafdbacd88a02ed11a474) Merge pull request #17 from drid-uniben/deadline - 2026-05-12
+  - [db04614](https://github.com/drid-uniben/ubjh-client/commit/db04614c464b50bfecb6e60ee6bd63f766663b76) Restore manuscript submission form and enable submissions - 2026-05-11
+  - [115ff0a](https://github.com/drid-uniben/ubjh-client/commit/115ff0a455f3667625a91231117a102e6c153c83) Disable manuscript submissions and show closure notice - 2026-05-11
+  - [0117a9c](https://github.com/drid-uniben/ubjh-client/commit/0117a9cd18bb031b35a90c07e2a4d253e439eaf4) Merge pull request #16 from drid-uniben/staging - 2026-05-11
+  - [2afe832](https://github.com/drid-uniben/ubjh-client/commit/2afe8326ead68b96abb5be60cd5289d81320ca69) Merge pull request #15 from drid-uniben/staging - 2026-05-11
+  - [ebec8bb](https://github.com/drid-uniben/ubjh-client/commit/ebec8bb8af85456c086009817baf12a75eff7a20) Merge pull request #14 from drid-uniben/remove_deadline - 2026-05-11
+  - [2dbda1b](https://github.com/drid-uniben/ubjh-client/commit/2dbda1b64ae81e628b04022d6d8ffbeda3820ca1) Reopens manuscript submission with new form - 2026-05-11
+  - [10a2d24](https://github.com/drid-uniben/ubjh-client/commit/10a2d24b5e25796e2a790f99b1650f6b6d87f812) Merge pull request #13 from drid-uniben/staging - 2026-05-11
+  - [864bf54](https://github.com/drid-uniben/ubjh-client/commit/864bf5446507b6756336f2583ab2e6bfbb1abda5) Merge pull request #12 from drid-uniben/main - 2026-05-11
+  - [90fd665](https://github.com/drid-uniben/ubjh-client/commit/90fd6650b2dc27b07624f30d44c26d51eca9d0db) Merge pull request #11 from drid-uniben/deadline - 2026-05-11
+  - [d5d41dd](https://github.com/drid-uniben/ubjh-client/commit/d5d41dd898cea3c8d9ff2a73527215e506d0340a) Disable manuscript submissions and show closure notice - 2026-05-11
+  - [f085208](https://github.com/drid-uniben/ubjh-client/commit/f08520863877d4abe0f34a06e54ca3e33a41dc8b) Merge pull request #10 from drid-uniben/staging - 2026-05-10
+  - [05f4011](https://github.com/drid-uniben/ubjh-client/commit/05f4011de24b4e9acf85f6d24c7088610c276b26) Merge pull request #9 from drid-uniben/deadline - 2026-05-10
+  - [a4fe51c](https://github.com/drid-uniben/ubjh-client/commit/a4fe51ca04ddd26833c81370daaea0495696a81d) Disable manuscript submissions and show closure notice - 2026-05-10
+  - [1239c91](https://github.com/drid-uniben/ubjh-client/commit/1239c91e4fe779dcd7166e0c181101b71ffd1a92) Merge pull request #8 from drid-uniben/main - 2026-05-10
+  - [b6f91b5](https://github.com/drid-uniben/ubjh-client/commit/b6f91b516ed10caaef6a6a49c41e17c90958260c) Merge pull request #7 from drid-uniben/staging - 2026-04-11
+  - [6862658](https://github.com/drid-uniben/ubjh-client/commit/686265848a58b5344a82914f62e3cf4d6619bf3c) Merge pull request #6 from drid-uniben/confirm_fix - 2026-04-11
+  - [817da5b](https://github.com/drid-uniben/ubjh-client/commit/817da5bec29a4a33ce34b8759215f39120792682) Fixing the content of the confirmation success page and making the initial review time flexible not defined - 2026-04-11
+  - [e6eeee5](https://github.com/drid-uniben/ubjh-client/commit/e6eeee569c7720271df62a474f791dc1262b21b5) Merge pull request #5 from drid-uniben/main - 2026-04-11
+  - [7e63b6e](https://github.com/drid-uniben/ubjh-client/commit/7e63b6e3335ba5b37bd6e8a5e8473389c5f8656c) Made changes - 2026-04-11
+  - [569fc6c](https://github.com/drid-uniben/ubjh-client/commit/569fc6c20914ce412995e090e815d3135964d43f) Made fixes - 2026-04-11
+  - [61ae211](https://github.com/drid-uniben/ubjh-client/commit/61ae21103d0cd1ebe604016d0e0ca30d519c9810) Merge pull request #4 from drid-uniben/main - 2026-04-11
+  - [7a4e36e](https://github.com/drid-uniben/ubjh-client/commit/7a4e36ebc20595e73aecd7cca1658d32d3232bbc) Making the CoAuthors fields required - 2026-04-11
+  - [c370c93](https://github.com/drid-uniben/ubjh-client/commit/c370c934c4b2f58a44a35a640b09f5b5e6a0626d) feat(publication): increase fetch limits and add search for manual/pending articles - 2026-03-01
+  - [03052e5](https://github.com/drid-uniben/ubjh-client/commit/03052e5f2ee10304c5b5922286f0579578c9375d) fixed the minimum year for creating a volume? - 2026-02-27
+  - [2e4cc44](https://github.com/drid-uniben/ubjh-client/commit/2e4cc44fdb257b13a8e8311d5c96844cfdcff659) Adds manual article management and dual volume cover support - 2026-02-21
+  - [c3a07bf](https://github.com/drid-uniben/ubjh-client/commit/c3a07bfdd1d56ae82136777c56cb9db4dbb2cacb) Used the correct contact emails - 2026-02-16
+  - [f6c3fdf](https://github.com/drid-uniben/ubjh-client/commit/f6c3fdff8a74858da283f722577bfc869d6d28bb) feat: add brand color variables and tailwind theme mappings to globals.css - 2026-02-16
+  - [edecea7](https://github.com/drid-uniben/ubjh-client/commit/edecea7cd9fd15249241497b6db1eb5562047dd3) chore: Comprehensive frontend-backend alignment and production hardening - 2026-02-16
+  - [1a9c667](https://github.com/drid-uniben/ubjh-client/commit/1a9c667be6dde2a7d7d608e259238b9f18b7921d) Adding author dashboard context - 2026-02-13
+  - [3811bf8](https://github.com/drid-uniben/ubjh-client/commit/3811bf84bccba61b74f2790bf5e5c517b4ddc445) adding context - 2026-02-10
+  - [d8cffcd](https://github.com/drid-uniben/ubjh-client/commit/d8cffcdcecf5db215c13daa4e362b0cb761b76d2) made fixes - 2026-02-03
+  - [8bfd4fa](https://github.com/drid-uniben/ubjh-client/commit/8bfd4fa2482ab27dee48044302286f7dbd4239f9) added the override section to the admin dashboard UI - 2026-02-03
+  - [add27b3](https://github.com/drid-uniben/ubjh-client/commit/add27b34192795fd5ae11f5d99f97e6617b62124) Adds pagination and filter persistence for admin manuscripts - 2026-02-03
+  - [86c3b87](https://github.com/drid-uniben/ubjh-client/commit/86c3b873297a56ce364fef2a71a05e696c2c4053) Added the search bar - 2026-02-03
+  - [7597c62](https://github.com/drid-uniben/ubjh-client/commit/7597c625fa17fdff5c6bedd246fbdc05ff255a51) Added Rich text editor - 2026-02-03
+  - [942e9b8](https://github.com/drid-uniben/ubjh-client/commit/942e9b8de674623e9bc14cd6c9b736b022dce283) Added the ISSN for e print - 2026-02-02
+  - [7646176](https://github.com/drid-uniben/ubjh-client/commit/7646176709f52f30429d7bbd5969bfd1b391bf29) update - 2026-01-30
+  - [99a93c1](https://github.com/drid-uniben/ubjh-client/commit/99a93c14ce30ec7269f62fdb78446f694af6a2ff) Adds email campaign attachment support - 2026-01-30
+  - [046f6f0](https://github.com/drid-uniben/ubjh-client/commit/046f6f097a4783f4380e6aabc71b13a05ec1127f) Adds admin email campaign support and API integration - 2026-01-30
+  - [9e3bed3](https://github.com/drid-uniben/ubjh-client/commit/9e3bed3b38fdc2d86d2daf11e9778e7017ca7b13) increased font size if uniben - 2026-01-27
+  - [3a9a41a](https://github.com/drid-uniben/ubjh-client/commit/3a9a41aac9943ef6e63a10d07c892fd7d8305f74) Refines journal branding and header layout - 2026-01-27
+  - [05880bf](https://github.com/drid-uniben/ubjh-client/commit/05880bfa839a6f0d08ab53491d067bb3ff05340b) updated the editorial board in the about page - 2026-01-09
+  - [17ad7cc](https://github.com/drid-uniben/ubjh-client/commit/17ad7cc2cd4f38024594ac46a38fc9ba5d8f1294) update - 2026-01-07
+  - [6efd4a6](https://github.com/drid-uniben/ubjh-client/commit/6efd4a6bacfde759858a2718df617ae023a9478a) librarian UI update - 2026-01-07
+  - [fa31184](https://github.com/drid-uniben/ubjh-client/commit/fa311843a503e890fec25037aef54ecfaa096797) update - 2026-01-07
+  - [d44254a](https://github.com/drid-uniben/ubjh-client/commit/d44254a726b2ec6af4c71ba93efcfd6c45e914a3) update - 2026-01-07
+  - [1613501](https://github.com/drid-uniben/ubjh-client/commit/1613501bae70ed18e583902c545ebaefa3f74c17) Editorial board UI updates - 2026-01-07
+  - [e91c985](https://github.com/drid-uniben/ubjh-client/commit/e91c985812b72b167191c2576c73e4389dd40c6d) Added more articles - 2026-01-07
+  - [1f36069](https://github.com/drid-uniben/ubjh-client/commit/1f3606961a9e45de8bfbbb1dd7e66f11d77fd96a) I added the optional phoneNumber and areaOfSpecialization fields to both the reviewer invitation and acceptance forms. - 2025-12-11
+  - [659adaf](https://github.com/drid-uniben/ubjh-client/commit/659adaf2591b84ca0c4574ca2dcd57b99e90c5bb) fixes - 2025-12-03
+  - [12ea61f](https://github.com/drid-uniben/ubjh-client/commit/12ea61f237192f13c17a8e54976a07aa389e5a8e) chore(data): Update dummy article PDF filenames - 2025-11-18
+  - [0ab4ec1](https://github.com/drid-uniben/ubjh-client/commit/0ab4ec15ceba91cc84aaea84996a81bb96e2c318) Made the coAuthors fields optional - 2025-11-13
+  - [48e98a5](https://github.com/drid-uniben/ubjh-client/commit/48e98a5f68f6670cb703f711cf68c99a0cbb99f4) Update - 2025-11-11
+  - [defc194](https://github.com/drid-uniben/ubjh-client/commit/defc194e6cc40f3326744f4fa2bd15b9fe93a578) Merge branch 'main' of https://github.com/unibeninterns/ubjh_client - 2025-11-11
+  - [f3506bb](https://github.com/drid-uniben/ubjh-client/commit/f3506bbcba5c222846419b1e9859f38d796fd195) refactor(articles): Convert article detail page to Server Component - 2025-11-11
 - drid-con-ticket (68 commits)
   - [06583b5](https://github.com/drid-uniben/drid-con-ticket/commit/06583b5d4475c9317edc015ce648cbe77ecc8531) Adds attendee search and filtering to dashboard - 2026-01-20
   - [3d85a05](https://github.com/drid-uniben/drid-con-ticket/commit/3d85a054bc73710af08fb7334508eb385f00ea88) Merge pull request #20 from unibeninterns/feats/manual-check-in-and-other-stuff - 2026-01-20
@@ -164,134 +241,72 @@ Commits:
   - [90a6888](https://github.com/drid-uniben/drid-con-ticket/commit/90a68888c27e4d98332ceb2a58e6047ea3eabeee) Added a well structured PRD document - 2025-12-05
   - [1d662c9](https://github.com/drid-uniben/drid-con-ticket/commit/1d662c902a665650cf61d0c8a967b936cc440571) Added a well structured PRD document - 2025-12-05
   - [029a2bb](https://github.com/drid-uniben/drid-con-ticket/commit/029a2bb84060f33b8c191fadb3718c859f96f21a) first commit - 2025-12-05
-- ubjh-client (66 commits)
-  - [1165ce9](https://github.com/drid-uniben/ubjh-client/commit/1165ce9b15422a6a2b0d4011de965b329a9c9a5b) Merge pull request #25 from drid-uniben/author - 2026-07-24
-  - [e3407b0](https://github.com/drid-uniben/ubjh-client/commit/e3407b079048250cf2c6bcf393b91060b288834f) feat: add context-aware custom 404 not-found page - 2026-07-24
-  - [6337e08](https://github.com/drid-uniben/ubjh-client/commit/6337e08afff524ff9c0ddab00056f8dfa707323f) Merge pull request #24 from drid-uniben/author - 2026-06-19
-  - [1a4702c](https://github.com/drid-uniben/ubjh-client/commit/1a4702ca9359b1c3e6a2eb1ff982c16e0e79a538) made similar change done to the reviewer assignment to the admin assignment - 2026-06-19
-  - [fc1a04e](https://github.com/drid-uniben/ubjh-client/commit/fc1a04e117b7e2fc1b7b402721573d5f4860d8a5) Merge pull request #22 from drid-uniben/author - 2026-06-19
-  - [8597606](https://github.com/drid-uniben/ubjh-client/commit/859760613d5f06ccb80e6d837b5969d5eb41d54f) Made fixes - 2026-06-19
-  - [d6da269](https://github.com/drid-uniben/ubjh-client/commit/d6da269a1da28f014e70fd9b1cc83363a3cc4076) Merge pull request #20 from drid-uniben/main - 2026-06-19
-  - [3642ee9](https://github.com/drid-uniben/ubjh-client/commit/3642ee9d078c1f34af906c5dc754ae4a678583ee) Merge pull request #19 from drid-uniben/author - 2026-06-19
-  - [e5ef03f](https://github.com/drid-uniben/ubjh-client/commit/e5ef03f47580997fd036bd2f589ce1b32e5cf220) did the author dashboard - 2026-06-19
-  - [77d99a2](https://github.com/drid-uniben/ubjh-client/commit/77d99a25f7500a302202b53db9ed393bb313ca81) Merge pull request #18 from drid-uniben/staging - 2026-05-12
-  - [1fdba19](https://github.com/drid-uniben/ubjh-client/commit/1fdba191eabca69da08aafdbacd88a02ed11a474) Merge pull request #17 from drid-uniben/deadline - 2026-05-12
-  - [db04614](https://github.com/drid-uniben/ubjh-client/commit/db04614c464b50bfecb6e60ee6bd63f766663b76) Restore manuscript submission form and enable submissions - 2026-05-11
-  - [115ff0a](https://github.com/drid-uniben/ubjh-client/commit/115ff0a455f3667625a91231117a102e6c153c83) Disable manuscript submissions and show closure notice - 2026-05-11
-  - [0117a9c](https://github.com/drid-uniben/ubjh-client/commit/0117a9cd18bb031b35a90c07e2a4d253e439eaf4) Merge pull request #16 from drid-uniben/staging - 2026-05-11
-  - [2afe832](https://github.com/drid-uniben/ubjh-client/commit/2afe8326ead68b96abb5be60cd5289d81320ca69) Merge pull request #15 from drid-uniben/staging - 2026-05-11
-  - [ebec8bb](https://github.com/drid-uniben/ubjh-client/commit/ebec8bb8af85456c086009817baf12a75eff7a20) Merge pull request #14 from drid-uniben/remove_deadline - 2026-05-11
-  - [2dbda1b](https://github.com/drid-uniben/ubjh-client/commit/2dbda1b64ae81e628b04022d6d8ffbeda3820ca1) Reopens manuscript submission with new form - 2026-05-11
-  - [10a2d24](https://github.com/drid-uniben/ubjh-client/commit/10a2d24b5e25796e2a790f99b1650f6b6d87f812) Merge pull request #13 from drid-uniben/staging - 2026-05-11
-  - [864bf54](https://github.com/drid-uniben/ubjh-client/commit/864bf5446507b6756336f2583ab2e6bfbb1abda5) Merge pull request #12 from drid-uniben/main - 2026-05-11
-  - [90fd665](https://github.com/drid-uniben/ubjh-client/commit/90fd6650b2dc27b07624f30d44c26d51eca9d0db) Merge pull request #11 from drid-uniben/deadline - 2026-05-11
-  - [d5d41dd](https://github.com/drid-uniben/ubjh-client/commit/d5d41dd898cea3c8d9ff2a73527215e506d0340a) Disable manuscript submissions and show closure notice - 2026-05-11
-  - [f085208](https://github.com/drid-uniben/ubjh-client/commit/f08520863877d4abe0f34a06e54ca3e33a41dc8b) Merge pull request #10 from drid-uniben/staging - 2026-05-10
-  - [05f4011](https://github.com/drid-uniben/ubjh-client/commit/05f4011de24b4e9acf85f6d24c7088610c276b26) Merge pull request #9 from drid-uniben/deadline - 2026-05-10
-  - [a4fe51c](https://github.com/drid-uniben/ubjh-client/commit/a4fe51ca04ddd26833c81370daaea0495696a81d) Disable manuscript submissions and show closure notice - 2026-05-10
-  - [1239c91](https://github.com/drid-uniben/ubjh-client/commit/1239c91e4fe779dcd7166e0c181101b71ffd1a92) Merge pull request #8 from drid-uniben/main - 2026-05-10
-  - [b6f91b5](https://github.com/drid-uniben/ubjh-client/commit/b6f91b516ed10caaef6a6a49c41e17c90958260c) Merge pull request #7 from drid-uniben/staging - 2026-04-11
-  - [6862658](https://github.com/drid-uniben/ubjh-client/commit/686265848a58b5344a82914f62e3cf4d6619bf3c) Merge pull request #6 from drid-uniben/confirm_fix - 2026-04-11
-  - [817da5b](https://github.com/drid-uniben/ubjh-client/commit/817da5bec29a4a33ce34b8759215f39120792682) Fixing the content of the confirmation success page and making the initial review time flexible not defined - 2026-04-11
-  - [e6eeee5](https://github.com/drid-uniben/ubjh-client/commit/e6eeee569c7720271df62a474f791dc1262b21b5) Merge pull request #5 from drid-uniben/main - 2026-04-11
-  - [7e63b6e](https://github.com/drid-uniben/ubjh-client/commit/7e63b6e3335ba5b37bd6e8a5e8473389c5f8656c) Made changes - 2026-04-11
-  - [569fc6c](https://github.com/drid-uniben/ubjh-client/commit/569fc6c20914ce412995e090e815d3135964d43f) Made fixes - 2026-04-11
-  - [61ae211](https://github.com/drid-uniben/ubjh-client/commit/61ae21103d0cd1ebe604016d0e0ca30d519c9810) Merge pull request #4 from drid-uniben/main - 2026-04-11
-  - [7a4e36e](https://github.com/drid-uniben/ubjh-client/commit/7a4e36ebc20595e73aecd7cca1658d32d3232bbc) Making the CoAuthors fields required - 2026-04-11
-  - [c370c93](https://github.com/drid-uniben/ubjh-client/commit/c370c934c4b2f58a44a35a640b09f5b5e6a0626d) feat(publication): increase fetch limits and add search for manual/pending articles - 2026-03-01
-  - [03052e5](https://github.com/drid-uniben/ubjh-client/commit/03052e5f2ee10304c5b5922286f0579578c9375d) fixed the minimum year for creating a volume? - 2026-02-27
-  - [2e4cc44](https://github.com/drid-uniben/ubjh-client/commit/2e4cc44fdb257b13a8e8311d5c96844cfdcff659) Adds manual article management and dual volume cover support - 2026-02-21
-  - [c3a07bf](https://github.com/drid-uniben/ubjh-client/commit/c3a07bfdd1d56ae82136777c56cb9db4dbb2cacb) Used the correct contact emails - 2026-02-16
-  - [f6c3fdf](https://github.com/drid-uniben/ubjh-client/commit/f6c3fdff8a74858da283f722577bfc869d6d28bb) feat: add brand color variables and tailwind theme mappings to globals.css - 2026-02-16
-  - [edecea7](https://github.com/drid-uniben/ubjh-client/commit/edecea7cd9fd15249241497b6db1eb5562047dd3) chore: Comprehensive frontend-backend alignment and production hardening - 2026-02-16
-  - [1a9c667](https://github.com/drid-uniben/ubjh-client/commit/1a9c667be6dde2a7d7d608e259238b9f18b7921d) Adding author dashboard context - 2026-02-13
-  - [3811bf8](https://github.com/drid-uniben/ubjh-client/commit/3811bf84bccba61b74f2790bf5e5c517b4ddc445) adding context - 2026-02-10
-  - [d8cffcd](https://github.com/drid-uniben/ubjh-client/commit/d8cffcdcecf5db215c13daa4e362b0cb761b76d2) made fixes - 2026-02-03
-  - [8bfd4fa](https://github.com/drid-uniben/ubjh-client/commit/8bfd4fa2482ab27dee48044302286f7dbd4239f9) added the override section to the admin dashboard UI - 2026-02-03
-  - [add27b3](https://github.com/drid-uniben/ubjh-client/commit/add27b34192795fd5ae11f5d99f97e6617b62124) Adds pagination and filter persistence for admin manuscripts - 2026-02-03
-  - [86c3b87](https://github.com/drid-uniben/ubjh-client/commit/86c3b873297a56ce364fef2a71a05e696c2c4053) Added the search bar - 2026-02-03
-  - [7597c62](https://github.com/drid-uniben/ubjh-client/commit/7597c625fa17fdff5c6bedd246fbdc05ff255a51) Added Rich text editor - 2026-02-03
-  - [942e9b8](https://github.com/drid-uniben/ubjh-client/commit/942e9b8de674623e9bc14cd6c9b736b022dce283) Added the ISSN for e print - 2026-02-02
-  - [7646176](https://github.com/drid-uniben/ubjh-client/commit/7646176709f52f30429d7bbd5969bfd1b391bf29) update - 2026-01-30
-  - [99a93c1](https://github.com/drid-uniben/ubjh-client/commit/99a93c14ce30ec7269f62fdb78446f694af6a2ff) Adds email campaign attachment support - 2026-01-30
-  - [046f6f0](https://github.com/drid-uniben/ubjh-client/commit/046f6f097a4783f4380e6aabc71b13a05ec1127f) Adds admin email campaign support and API integration - 2026-01-30
-  - [9e3bed3](https://github.com/drid-uniben/ubjh-client/commit/9e3bed3b38fdc2d86d2daf11e9778e7017ca7b13) increased font size if uniben - 2026-01-27
-  - [3a9a41a](https://github.com/drid-uniben/ubjh-client/commit/3a9a41aac9943ef6e63a10d07c892fd7d8305f74) Refines journal branding and header layout - 2026-01-27
-  - [05880bf](https://github.com/drid-uniben/ubjh-client/commit/05880bfa839a6f0d08ab53491d067bb3ff05340b) updated the editorial board in the about page - 2026-01-09
-  - [17ad7cc](https://github.com/drid-uniben/ubjh-client/commit/17ad7cc2cd4f38024594ac46a38fc9ba5d8f1294) update - 2026-01-07
-  - [6efd4a6](https://github.com/drid-uniben/ubjh-client/commit/6efd4a6bacfde759858a2718df617ae023a9478a) librarian UI update - 2026-01-07
-  - [fa31184](https://github.com/drid-uniben/ubjh-client/commit/fa311843a503e890fec25037aef54ecfaa096797) update - 2026-01-07
-  - [d44254a](https://github.com/drid-uniben/ubjh-client/commit/d44254a726b2ec6af4c71ba93efcfd6c45e914a3) update - 2026-01-07
-  - [1613501](https://github.com/drid-uniben/ubjh-client/commit/1613501bae70ed18e583902c545ebaefa3f74c17) Editorial board UI updates - 2026-01-07
-  - [e91c985](https://github.com/drid-uniben/ubjh-client/commit/e91c985812b72b167191c2576c73e4389dd40c6d) Added more articles - 2026-01-07
-  - [1f36069](https://github.com/drid-uniben/ubjh-client/commit/1f3606961a9e45de8bfbbb1dd7e66f11d77fd96a) I added the optional phoneNumber and areaOfSpecialization fields to both the reviewer invitation and acceptance forms. - 2025-12-11
-  - [659adaf](https://github.com/drid-uniben/ubjh-client/commit/659adaf2591b84ca0c4574ca2dcd57b99e90c5bb) fixes - 2025-12-03
-  - [12ea61f](https://github.com/drid-uniben/ubjh-client/commit/12ea61f237192f13c17a8e54976a07aa389e5a8e) chore(data): Update dummy article PDF filenames - 2025-11-18
-  - [0ab4ec1](https://github.com/drid-uniben/ubjh-client/commit/0ab4ec15ceba91cc84aaea84996a81bb96e2c318) Made the coAuthors fields optional - 2025-11-13
-  - [48e98a5](https://github.com/drid-uniben/ubjh-client/commit/48e98a5f68f6670cb703f711cf68c99a0cbb99f4) Update - 2025-11-11
-  - [defc194](https://github.com/drid-uniben/ubjh-client/commit/defc194e6cc40f3326744f4fa2bd15b9fe93a578) Merge branch 'main' of https://github.com/unibeninterns/ubjh_client - 2025-11-11
-  - [f3506bb](https://github.com/drid-uniben/ubjh-client/commit/f3506bbcba5c222846419b1e9859f38d796fd195) refactor(articles): Convert article detail page to Server Component - 2025-11-11
-- ubjsti-client (59 commits)
-  - [9b8b831](https://github.com/drid-uniben/ubjsti-client/commit/9b8b8312553dd354168aa353be49b84736b5b10c) Merge pull request #22 from drid-uniben/deadline - 2026-07-24
-  - [a23324a](https://github.com/drid-uniben/ubjsti-client/commit/a23324a2eba0575982aeb046f5a2955d847ad0f8) feat: add context-aware custom 404 not-found page - 2026-07-24
-  - [442aed7](https://github.com/drid-uniben/ubjsti-client/commit/442aed743848d2c28f3b1afa3273386724f45c7f) Merge pull request #20 from drid-uniben/deadline - 2026-06-19
-  - [d8a919a](https://github.com/drid-uniben/ubjsti-client/commit/d8a919a59ecfd037c468a4b1ebbacf357e492473) did the author's dashboard - 2026-06-19
-  - [05c1db2](https://github.com/drid-uniben/ubjsti-client/commit/05c1db275d2b3d38c5c716c50c0eabba34cc58c7) Merge pull request #18 from drid-uniben/deadline - 2026-05-12
-  - [ee05c97](https://github.com/drid-uniben/ubjsti-client/commit/ee05c9723407e5c3af938b9028faad8eae9502ab) Disable manuscript submissions and show closure notice - 2026-05-11
-  - [bb9d8e4](https://github.com/drid-uniben/ubjsti-client/commit/bb9d8e45e35d6d07fce912a9d542d806cb2ef866) Merge pull request #17 from drid-uniben/staging - 2026-05-11
-  - [dd07398](https://github.com/drid-uniben/ubjsti-client/commit/dd073987036394ee2ee34bae03794cc1c03f9454) Merge pull request #15 from drid-uniben/main - 2026-05-11
-  - [bfa5ed5](https://github.com/drid-uniben/ubjsti-client/commit/bfa5ed5d8e781c1f837d270411992e2f6d7b619e) Merge pull request #14 from drid-uniben/staging - 2026-05-11
-  - [a39af41](https://github.com/drid-uniben/ubjsti-client/commit/a39af41df497d1006967a4dde26f230824b41b6c) Merge pull request #13 from drid-uniben/main - 2026-05-11
-  - [9481794](https://github.com/drid-uniben/ubjsti-client/commit/948179494393fedb1c5352714d8ddce198a68238) Merge pull request #12 from drid-uniben/staging - 2026-05-11
-  - [2a42c44](https://github.com/drid-uniben/ubjsti-client/commit/2a42c443f042a663c61e344da5e809ffb7b7891a) Merge pull request #11 from drid-uniben/remove_deadline - 2026-05-11
-  - [f36b7a9](https://github.com/drid-uniben/ubjsti-client/commit/f36b7a9277df39757d0723f0ffb74a8351c3fe4c) Reopens manuscript submission with new form - 2026-05-11
-  - [d22102c](https://github.com/drid-uniben/ubjsti-client/commit/d22102c1a06b2684114ea915edadb2a70431c065) Merge pull request #10 from drid-uniben/staging - 2026-05-10
-  - [645dcf1](https://github.com/drid-uniben/ubjsti-client/commit/645dcf154c2b282d7bbb1f3755db4eb5effcaa25) Merge pull request #9 from drid-uniben/main - 2026-05-10
-  - [c21e587](https://github.com/drid-uniben/ubjsti-client/commit/c21e587bccbea6f1974adf74b0dd0f015575a4c5) Merge pull request #8 from drid-uniben/deadline - 2026-05-10
-  - [4fd88d7](https://github.com/drid-uniben/ubjsti-client/commit/4fd88d7b32f8dc57a44f1301b55f7f7ba221a017) Disable manuscript submissions and show closure notice - 2026-05-10
-  - [ae741f4](https://github.com/drid-uniben/ubjsti-client/commit/ae741f437365666d8a1c7df89a1d5aa4dcdfb522) Merge pull request #7 from drid-uniben/staging - 2026-05-10
-  - [ac76e21](https://github.com/drid-uniben/ubjsti-client/commit/ac76e21f35805f795f66f59c9f672f293bd09263) Merge pull request #6 from drid-uniben/main - 2026-05-10
-  - [c9cdd12](https://github.com/drid-uniben/ubjsti-client/commit/c9cdd126bf6025d6d5dc6822edf272b35d5f0fe9) Merge pull request #5 from drid-uniben/staging - 2026-04-11
-  - [2ed3e51](https://github.com/drid-uniben/ubjsti-client/commit/2ed3e51e8751c87f3a7c7135039110824724f944) Merge pull request #4 from drid-uniben/confirm_fix - 2026-04-11
-  - [9651caa](https://github.com/drid-uniben/ubjsti-client/commit/9651caa978e1515626972659ec350e3070f176e5) Fixing the content of the confirmation success page and making the initial review time flexible not defined - 2026-04-11
-  - [ca62251](https://github.com/drid-uniben/ubjsti-client/commit/ca62251efd911ca4f2f2ddaa540a5517d4ac4a5a) Merge pull request #3 from drid-uniben/staging - 2026-04-11
-  - [5c680b7](https://github.com/drid-uniben/ubjsti-client/commit/5c680b7fd60282bbd04f6f3b19ff924e86592671) Made changes - 2026-04-11
-  - [a5fe0ff](https://github.com/drid-uniben/ubjsti-client/commit/a5fe0ffb34bd9143a7f584c5cbe3c541c2636cca) Merge pull request #2 from drid-uniben/main - 2026-04-11
-  - [fc41728](https://github.com/drid-uniben/ubjsti-client/commit/fc41728e8a27590bb26d71afa2a1790c1711d86a) Making the coAithor field there  required - 2026-04-11
-  - [3cbbd9a](https://github.com/drid-uniben/ubjsti-client/commit/3cbbd9ac7671a0207a55b370b6919832f14b6859) feat(publication): increase fetch limits and add search for manual/pending articles - 2026-03-01
-  - [b4bdbc1](https://github.com/drid-uniben/ubjsti-client/commit/b4bdbc1d4afa1f0ce2ae3cc1e511e2f268c4a132) Updated the minimum year for creating a volume - 2026-02-27
-  - [98421c5](https://github.com/drid-uniben/ubjsti-client/commit/98421c591f81407b8e55bfee118211d8f3e48e7c) Adds manual article management and dual volume cover support - 2026-02-21
-  - [cb967b4](https://github.com/drid-uniben/ubjsti-client/commit/cb967b4f7e9f944784fb857a6fffe589b28384c5) update - 2026-02-20
-  - [aed43bb](https://github.com/drid-uniben/ubjsti-client/commit/aed43bbd6d497babb9791b056bc87f94c4b305ab) fixed the colors not displaying - 2026-02-20
-  - [877a19b](https://github.com/drid-uniben/ubjsti-client/commit/877a19b0418582e0b2fd46ace9d12d791b1a2be5) used the variable styles from the global.css - 2026-02-17
-  - [9ce0e55](https://github.com/drid-uniben/ubjsti-client/commit/9ce0e558c4af6df51a46d82f014539b8071d4998) chore: Comprehensive frontend-backend alignment and production hardening - 2026-02-16
-  - [131b3b6](https://github.com/drid-uniben/ubjsti-client/commit/131b3b6bf71ff3ab24b6dfffda3bfe8572cb1395) feat: add brand color variables and tailwind theme mappings to globals.css - 2026-02-16
-  - [7adef84](https://github.com/drid-uniben/ubjsti-client/commit/7adef84c1ddcd8d71d2f8347494c4249aaa801fd) Adds admin email campaign, override decision & improves search - 2026-02-04
-  - [22e68dd](https://github.com/drid-uniben/ubjsti-client/commit/22e68dd4313e3e21419f8b99f8059e278956871e) update - 2026-02-02
-  - [ee2eaf1](https://github.com/drid-uniben/ubjsti-client/commit/ee2eaf1d248d0460c46a882b282ee9345a8e8099) Added ISSN - 2026-02-02
-  - [af8ae72](https://github.com/drid-uniben/ubjsti-client/commit/af8ae7287420bcf357b216e23b5cb22109d02559) fixing lint error - 2026-01-27
-  - [3fd9d97](https://github.com/drid-uniben/ubjsti-client/commit/3fd9d976621fea0ba8c0e78e0d397f112ace30d0) fixing lint error - 2026-01-27
-  - [537004c](https://github.com/drid-uniben/ubjsti-client/commit/537004c61d4e81e6a579b1034329a29038fdbae2) Refines journal branding and header layout, Updates homepage and header to highlight Journal of Humanities and University of Benin branding, improves logo/title styling, introduces a university badge, and enhances text hierarchy for clarity and visual appeal. - 2026-01-27
-  - [24be5f8](https://github.com/drid-uniben/ubjsti-client/commit/24be5f88171c7efdf864ec397315fef5fe453ed3) updated the editorial board in the about page. - 2026-01-09
-  - [7f2ebf0](https://github.com/drid-uniben/ubjsti-client/commit/7f2ebf0a289627e855685c531257b1b30df7c5b1) Update - 2026-01-08
-  - [288a286](https://github.com/drid-uniben/ubjsti-client/commit/288a28601394b5e13f89ebbfa19288168ecc3d39) Update - 2026-01-07
-  - [a19aadc](https://github.com/drid-uniben/ubjsti-client/commit/a19aadc8ca8839b575d928679c6148a736b3b3bb) librarian update - 2026-01-07
-  - [78d082d](https://github.com/drid-uniben/ubjsti-client/commit/78d082d653340933b3d25d11116c02d523411e27) Made changes to the editorial board - 2026-01-07
-  - [ea5bec3](https://github.com/drid-uniben/ubjsti-client/commit/ea5bec3c1fd4e88c548367f146197edef5356e7d) Added more articles - 2026-01-07
-  - [7e231e2](https://github.com/drid-uniben/ubjsti-client/commit/7e231e2f423e09058ea5a3b3d589f4862800fb6d) I changed the color on major places from maroon to dark blue - 2025-12-15
-  - [eb5ee08](https://github.com/drid-uniben/ubjsti-client/commit/eb5ee08233590b355a01f1a5ee756f2ffea6e90e) I changed the color on major places from maroon to dark blue and updated the font - 2025-12-13
-  - [c556500](https://github.com/drid-uniben/ubjsti-client/commit/c556500103f004409dd839e5d1253d9ca9d2c826) I added the optional phoneNumber and areaOfSpecialization fields to both the reviewer invitation and acceptance forms. - 2025-12-13
-  - [e6f37ad](https://github.com/drid-uniben/ubjsti-client/commit/e6f37ad55545b386244395d36bc3519371829595) feat(admin): Categorize eligible reviewers into first and second choice - 2025-12-03
-  - [0fbf7c9](https://github.com/drid-uniben/ubjsti-client/commit/0fbf7c9fa4fd8b7205609dd1106bbbe02604fffa) Update - 2025-12-02
-  - [4dd4a48](https://github.com/drid-uniben/ubjsti-client/commit/4dd4a480778672075cdcaa70acf3e2ed77fea02d) refactor: Update journal name from UBJH to UBJSTI - 2025-11-21
-  - [e553571](https://github.com/drid-uniben/ubjsti-client/commit/e5535715d3afe0ef67b1b2601ba0470e45ea20ac) Update - 2025-11-18
-  - [5edc783](https://github.com/drid-uniben/ubjsti-client/commit/5edc783079b59039d069f5cb96ad9f2d36af2be0) Made the coAuthors fields optional - 2025-11-13
-  - [740de79](https://github.com/drid-uniben/ubjsti-client/commit/740de79cde32ac54a8884d3ef2dbb99abf29f498) update - 2025-11-11
-  - [3994f31](https://github.com/drid-uniben/ubjsti-client/commit/3994f31a9a9ce94c8ae40dbb10f15c553cdaee33) fixes - 2025-11-06
-  - [5469e21](https://github.com/drid-uniben/ubjsti-client/commit/5469e213e455ef3addb7a4de087dfbc8c519cd3c) Updated all features and pages - 2025-11-06
-  - [987f750](https://github.com/drid-uniben/ubjsti-client/commit/987f7504694a04290fbf6ecee777fbb24f3d1d35) Update - 2025-11-05
-  - [bc97b52](https://github.com/drid-uniben/ubjsti-client/commit/bc97b522cbfcfa6b4f492c6b4e80fa3df2aa69ba) Update - 2025-11-05
-- ubjh-server (58 commits)
+- ibr-tetfund-client (62 commits)
+  - [f2269c4](https://github.com/drid-uniben/ibr-tetfund-client/commit/f2269c40b37d5c0987c559bb0845af04ffe8655b) Merge pull request #31 from drid-uniben/second-call - 2026-11-07
+  - [baf9511](https://github.com/drid-uniben/ibr-tetfund-client/commit/baf95114dfd5fd560fc39ed0473ec067d96410c3) feat(decisions_2): add final submitted badge and final submission filters - 2026-11-07
+  - [5d425ae](https://github.com/drid-uniben/ibr-tetfund-client/commit/5d425ae0318db9b6d84e79a316f4c465ab62e9a1) Merge pull request #30 from drid-uniben/second-call - 2026-11-07
+  - [6642a36](https://github.com/drid-uniben/ibr-tetfund-client/commit/6642a36093ed6b55763bd36d055104a1926ffb91) fix(auth): deduplicate concurrent refresh calls, exclude refresh endpoint from retry loop, and avoid logout on transient errors - 2026-11-07
+  - [c37d33a](https://github.com/drid-uniben/ibr-tetfund-client/commit/c37d33a178204689cafb5443e5a22203e1c5ff00) Merge pull request #29 from drid-uniben/second-call - 2026-11-04
+  - [1e1c030](https://github.com/drid-uniben/ibr-tetfund-client/commit/1e1c0302c2175125a4a004c064e38c01f6291cf8) chore: update GEMINI.md instructions - 2026-11-04
+  - [4ca7446](https://github.com/drid-uniben/ibr-tetfund-client/commit/4ca74463d0aa9930742fda4c0ed8bab69d5cf09a) Merge pull request #28 from drid-uniben/second-call - 2026-10-20
+  - [8efc890](https://github.com/drid-uniben/ibr-tetfund-client/commit/8efc89091435ca5de0fab9a060ca85ddb185b31e) feat(export): add layout and link style options to full proposal word export dialog - 2026-10-20
+  - [836a94d](https://github.com/drid-uniben/ibr-tetfund-client/commit/836a94d61cc962c1be29752024e6e7da8e93b189) Merge pull request #27 from drid-uniben/second-call - 2026-10-07
+  - [0b6c8b0](https://github.com/drid-uniben/ibr-tetfund-client/commit/0b6c8b01301cd1e226b3f0d75b4cc899fa4af94f) fix(client): fix DecisionsPanelWrapper closure and add URL persistence to reviews page - 2026-10-07
+  - [cf7f087](https://github.com/drid-uniben/ibr-tetfund-client/commit/cf7f0872bb0a3c3c47e2868e31c052b138a448b9) Merge pull request #26 from drid-uniben/second-call - 2026-10-07
+  - [3813ba0](https://github.com/drid-uniben/ibr-tetfund-client/commit/3813ba029ff34e8f505377f7293cd411a5bbd581) fix(client): persist pagination and filters in URL and fix faculty filter - 2026-10-06
+  - [9c49580](https://github.com/drid-uniben/ibr-tetfund-client/commit/9c495807cdc5dda5f144bc6b793af1b84b6da68d) Merge pull request #25 from drid-uniben/second-call - 2026-10-06
+  - [c5926d3](https://github.com/drid-uniben/ibr-tetfund-client/commit/c5926d3f402c0cda3f4c8b008cab0e6e53bffa1e) style(analytics): align research funnel and summary cards with reference PDF design - 2026-10-06
+  - [886712a](https://github.com/drid-uniben/ibr-tetfund-client/commit/886712aa13a23bf6bfa60a1de0a9754c6b7d68dc) Merge pull request #24 from drid-uniben/second-call - 2026-10-06
+  - [c153551](https://github.com/drid-uniben/ibr-tetfund-client/commit/c153551cd93cc17a07150ea0f0678e75ea262dea) feat: draft review card, export to Word dialog, search fix, and reject send-comments toggle for full proposals - 2026-10-06
+  - [393d747](https://github.com/drid-uniben/ibr-tetfund-client/commit/393d747d1e2292c1bb9ac939616a2da71149328a) Merge pull request #23 from drid-uniben/second-call - 2026-09-21
+  - [f0fa052](https://github.com/drid-uniben/ibr-tetfund-client/commit/f0fa0528f33c9953858156140dc7a56e6dac75f2) fix: implement backend-driven search, status filter, and stable pagination for final decision panel - 2026-09-21
+  - [07d38cb](https://github.com/drid-uniben/ibr-tetfund-client/commit/07d38cb10dc6c4c00ccc89ac8c0e973bb587bb8a) fix: implement backend-driven pagination, sorting, and search for decision tables - 2026-09-21
+  - [5b5396f](https://github.com/drid-uniben/ibr-tetfund-client/commit/5b5396fccbcf6fb606968d7b052c5acadb91f28d) Merge pull request #22 from drid-uniben/second-call - 2026-09-21
+  - [3e215bb](https://github.com/drid-uniben/ibr-tetfund-client/commit/3e215bbd1d52ef40e275dba11ac8de164ed8ecbf) fix: correct budget template callout wording and heading - 2026-09-20
+  - [3428d7a](https://github.com/drid-uniben/ibr-tetfund-client/commit/3428d7a2b7b7180fd33c5d933db294d375ad57d9) fix: resolve null deadline rendering issues on researcher dashboards - 2026-09-20
+  - [7374bbb](https://github.com/drid-uniben/ibr-tetfund-client/commit/7374bbb1a318be7836f2d88b28dbd3d1b128c426) Merge pull request #21 from drid-uniben/second-call - 2026-09-20
+  - [aee626a](https://github.com/drid-uniben/ibr-tetfund-client/commit/aee626afb2ea587c503fa64dc7c7d32fcd938590) style: add scroll behavior to final decision dialog feedback textarea - 2026-09-20
+  - [d802a05](https://github.com/drid-uniben/ibr-tetfund-client/commit/d802a05ddf0bfd51787c51b67e183a8501f672ad) style: add scroll behavior to decision dialog feedback textarea - 2026-09-20
+  - [8ed7a11](https://github.com/drid-uniben/ibr-tetfund-client/commit/8ed7a11ad937f85f3024847d2d40ba5780b1acd5) Merge pull request #20 from drid-uniben/second-call - 2026-09-20
+  - [1f50c6e](https://github.com/drid-uniben/ibr-tetfund-client/commit/1f50c6ed0c95807f066e97dcd4f2cb3ba334d118) feat: add budget template download to full proposal guidelines - 2026-09-20
+  - [a4acb83](https://github.com/drid-uniben/ibr-tetfund-client/commit/a4acb8303e8d95672f1e08cef205087777628446) Merge pull request #19 from drid-uniben/second-call - 2026-09-20
+  - [d971a12](https://github.com/drid-uniben/ibr-tetfund-client/commit/d971a12c96d50ca90926fd9e5479c0cfd3eb4ed8) feat: solo reviewer feedback prefill - 2026-09-20
+  - [c9a2851](https://github.com/drid-uniben/ibr-tetfund-client/commit/c9a2851e0fc38a4c9e3395f783c61af662d8f869) Merge pull request #18 from drid-uniben/second-call - 2026-09-19
+  - [aef2712](https://github.com/drid-uniben/ibr-tetfund-client/commit/aef2712b676ed8c68d96c76a46b2ea49f2671337) feat: update scoring criteria to 8-point rubric - 2026-09-19
+  - [fdd20ff](https://github.com/drid-uniben/ibr-tetfund-client/commit/fdd20ff4ac7d060332162374b8a26bd79e4a1947) Merge pull request #17 from drid-uniben/second-call - 2026-09-19
+  - [18dc2eb](https://github.com/drid-uniben/ibr-tetfund-client/commit/18dc2eb795d8389893ef23dc36c3e7560cc83d22) fix: resolve solo reviewer assignment UI freeze and availability issues - 2026-09-19
+  - [32adee1](https://github.com/drid-uniben/ibr-tetfund-client/commit/32adee138eb399b43c85a2959f828b3277dedf3d) Merge pull request #16 from drid-uniben/second-call - 2026-09-18
+  - [e1a0fbc](https://github.com/drid-uniben/ibr-tetfund-client/commit/e1a0fbce0e17c2208ea147186a3cd90c0da4a317) feat: implement solo reviewer bypass flow UI - 2026-09-18
+  - [1577598](https://github.com/drid-uniben/ibr-tetfund-client/commit/157759821a079f4e340d2c505abfc73c205a7ce8) Merge pull request #15 from drid-uniben/second-call - 2026-09-13
+  - [787c22a](https://github.com/drid-uniben/ibr-tetfund-client/commit/787c22a17c2061edc3035b0a68db2e5cec24f3e0) strip empty optional fields before sending, in handleAddReviewer (client src/app/admin/invitations/page.tsx) - 2026-09-13
+  - [a9b6857](https://github.com/drid-uniben/ibr-tetfund-client/commit/a9b6857e9697dcd899b598b24b7edc7d1f45af45) Merge pull request #14 from drid-uniben/second-call - 2026-08-25
+  - [43db46c](https://github.com/drid-uniben/ibr-tetfund-client/commit/43db46c8661220de8617be3117428c26641ec1c2) made a change to the department enforcement - 2026-08-25
+  - [8489cb0](https://github.com/drid-uniben/ibr-tetfund-client/commit/8489cb0b52c83624a12a5d92e241d4d0349b0c0a) Merge pull request #13 from drid-uniben/second-call - 2026-08-05
+  - [ccb4221](https://github.com/drid-uniben/ibr-tetfund-client/commit/ccb4221220add1e0846bfda09dfd05cfe229a55e) added validation to the title field - 2026-08-05
+  - [f8d289d](https://github.com/drid-uniben/ibr-tetfund-client/commit/f8d289d80a5d532d3de7a09914adf3a7a0b62481) Merge pull request #12 from drid-uniben/second-call - 2026-07-26
+  - [abf76aa](https://github.com/drid-uniben/ibr-tetfund-client/commit/abf76aa3b56426825cf8d7dabd063d1cbecc2288) style(admin): warm design pass + submission-windows management page - 2026-07-25
+  - [bf6cf13](https://github.com/drid-uniben/ibr-tetfund-client/commit/bf6cf1343a89010552d42dd22d19d46a689ae884) style(reviewers): warm design pass - 2026-07-25
+  - [870cc66](https://github.com/drid-uniben/ibr-tetfund-client/commit/870cc66781a4b53ee2a6b4fbaf6219293b3307f1) style(researchers): warm design pass + live deadline + drop redundant userId - 2026-07-25
+  - [0f85a50](https://github.com/drid-uniben/ibr-tetfund-client/commit/0f85a50f0892cc09cf2b08bba3831df915b43092) Merge pull request #11 from drid-uniben/second-call - 2026-07-25
+  - [f69e2a8](https://github.com/drid-uniben/ibr-tetfund-client/commit/f69e2a815ba8a51ae505deab13f8bb40a39c09a4) feat(design): warm design foundation — tokens, ui primitives, shared layouts, window API + public pages - 2026-07-25
+  - [7b79c80](https://github.com/drid-uniben/ibr-tetfund-client/commit/7b79c80dd0af8e04634a27e6036913c2afeec68b) docs(design): add DESIGN.md warm design system (impeccable format); ignore local .claude tooling - 2026-07-25
+  - [b1fe6a8](https://github.com/drid-uniben/ibr-tetfund-client/commit/b1fe6a870eec564d753c6ce35a70f2decdc0173b) Merge pull request #10 from drid-uniben/second-call - 2026-07-24
+  - [8c260dd](https://github.com/drid-uniben/ibr-tetfund-client/commit/8c260dd14ad8decfbb0770e8af54a37c6baae2e8) content+fix(submission): guideline note, uniform 10MB limit, email normalization - 2026-07-24
+  - [2e88f5a](https://github.com/drid-uniben/ibr-tetfund-client/commit/2e88f5a7522d4f839a96d596d20a5ab0fd4654ab) Merge pull request #9 from drid-uniben/second-call - 2026-07-24
+  - [eb15551](https://github.com/drid-uniben/ibr-tetfund-client/commit/eb155516078e12378bdb80978d0f515b6ecef6c5) test(client): add Vitest + RTL suites (header nav, api client, tet-fund faculty flow, email regex) - 2026-07-24
+  - [002ba8f](https://github.com/drid-uniben/ibr-tetfund-client/commit/002ba8f91a9ee7d7c45695aa3c162c46ed892f42) content(masters): submit via upload form, drop email-submission instruction - 2026-07-24
+  - [315b34b](https://github.com/drid-uniben/ibr-tetfund-client/commit/315b34befd027cd447df609a88928d7c1f762791) Merge pull request #8 from drid-uniben/second-call - 2026-07-24
+  - [07b0c6e](https://github.com/drid-uniben/ibr-tetfund-client/commit/07b0c6e2b5d50541ec5b1e51511ca4a5ba0811b2) feat(design): serif+gradient hero, dynamic logo header, wider forms, deadline slots - 2026-07-24
+  - [940476d](https://github.com/drid-uniben/ibr-tetfund-client/commit/940476d942118af3367bf7f87b62ee493785482a) refactor(client): read faculty/department as title strings across admin/reviewer pages (Option A) - 2026-07-24
+  - [912c381](https://github.com/drid-uniben/ibr-tetfund-client/commit/912c381ebab90ed1e25ab77179c1852ff078d4b6) feat(submission): warm redesign of public submission pages + Option A data - 2026-07-24
+  - [4568917](https://github.com/drid-uniben/ibr-tetfund-client/commit/456891771c0ccd6aa5d225c19753469420676456) feat: add context-aware custom 404 not-found page - 2026-07-23
+  - [5b5448a](https://github.com/drid-uniben/ibr-tetfund-client/commit/5b5448a919036eb10b0887d982d237e2096efeaf) Merge pull request #7 from drid-uniben/second-call - 2026-07-23
+  - [bed3aa7](https://github.com/drid-uniben/ibr-tetfund-client/commit/bed3aa7193974cd5273f83c56051760347024174) fix(lint): remove unused variable in staff proposal submit - 2026-07-23
+  - [ef87b49](https://github.com/drid-uniben/ibr-tetfund-client/commit/ef87b49942c245960065038b4d183a982bf8100b) Merge pull request #6 from drid-uniben/second-call - 2026-07-23
+  - [bdb7e0d](https://github.com/drid-uniben/ibr-tetfund-client/commit/bdb7e0d0a7be21357f3869506c8f8ceda98afcb1) fix: Enable page scroll and re-open TETFund IBR application - 2026-07-23
+- ubjh-server (60 commits)
+  - [82c2c0c](https://github.com/drid-uniben/ubjh-server/commit/82c2c0cd96222e9457305dca96f6cdacb8078614) Merge pull request #21 from drid-uniben/author - 2026-11-07
+  - [6de967b](https://github.com/drid-uniben/ubjh-server/commit/6de967b58d2fb868e375ac63449d04a2c727cb34) fix(auth): return 429 for rate limit, separate login/refresh buckets, and add refresh token rotation grace window - 2026-11-07
   - [d5840a3](https://github.com/drid-uniben/ubjh-server/commit/d5840a3de6f02c2d57d606ce32bf5d4c22ad603b) Merge pull request #19 from drid-uniben/author - 2026-07-23
   - [33e1f9d](https://github.com/drid-uniben/ubjh-server/commit/33e1f9de804340be94f12f525e3669f36bbd4a51) increased ratelimit for authors - 2026-07-20
   - [c5e3e6b](https://github.com/drid-uniben/ubjh-server/commit/c5e3e6b9215294b633481735eec943e0f1923843) Scope refresh cookie to the API host instead of the frontend domain - 2026-07-20
@@ -350,64 +365,67 @@ Commits:
   - [e5df93d](https://github.com/drid-uniben/ubjh-server/commit/e5df93d17eab6b9fa9b69fa7f16244568b042c12) feat(manuscripts): Implement manuscript archiving and unarchiving - 2025-12-04
   - [3e8987f](https://github.com/drid-uniben/ubjh-server/commit/3e8987f173dc72bf3ea02de711f88737f281112a) made a fix for the asking for author privilege even when it's an admin route endpoint - 2025-12-03
   - [a431def](https://github.com/drid-uniben/ubjh-server/commit/a431defdbe489640e8c1eb10f925f24510c36ca3) Made important updates for deployment - 2025-11-13
-- ibr-tetfund-client (56 commits)
-  - [4ca7446](https://github.com/drid-uniben/ibr-tetfund-client/commit/4ca74463d0aa9930742fda4c0ed8bab69d5cf09a) Merge pull request #28 from drid-uniben/second-call - 2026-10-20
-  - [8efc890](https://github.com/drid-uniben/ibr-tetfund-client/commit/8efc89091435ca5de0fab9a060ca85ddb185b31e) feat(export): add layout and link style options to full proposal word export dialog - 2026-10-20
-  - [836a94d](https://github.com/drid-uniben/ibr-tetfund-client/commit/836a94d61cc962c1be29752024e6e7da8e93b189) Merge pull request #27 from drid-uniben/second-call - 2026-10-07
-  - [0b6c8b0](https://github.com/drid-uniben/ibr-tetfund-client/commit/0b6c8b01301cd1e226b3f0d75b4cc899fa4af94f) fix(client): fix DecisionsPanelWrapper closure and add URL persistence to reviews page - 2026-10-07
-  - [cf7f087](https://github.com/drid-uniben/ibr-tetfund-client/commit/cf7f0872bb0a3c3c47e2868e31c052b138a448b9) Merge pull request #26 from drid-uniben/second-call - 2026-10-07
-  - [3813ba0](https://github.com/drid-uniben/ibr-tetfund-client/commit/3813ba029ff34e8f505377f7293cd411a5bbd581) fix(client): persist pagination and filters in URL and fix faculty filter - 2026-10-06
-  - [9c49580](https://github.com/drid-uniben/ibr-tetfund-client/commit/9c495807cdc5dda5f144bc6b793af1b84b6da68d) Merge pull request #25 from drid-uniben/second-call - 2026-10-06
-  - [c5926d3](https://github.com/drid-uniben/ibr-tetfund-client/commit/c5926d3f402c0cda3f4c8b008cab0e6e53bffa1e) style(analytics): align research funnel and summary cards with reference PDF design - 2026-10-06
-  - [886712a](https://github.com/drid-uniben/ibr-tetfund-client/commit/886712aa13a23bf6bfa60a1de0a9754c6b7d68dc) Merge pull request #24 from drid-uniben/second-call - 2026-10-06
-  - [c153551](https://github.com/drid-uniben/ibr-tetfund-client/commit/c153551cd93cc17a07150ea0f0678e75ea262dea) feat: draft review card, export to Word dialog, search fix, and reject send-comments toggle for full proposals - 2026-10-06
-  - [393d747](https://github.com/drid-uniben/ibr-tetfund-client/commit/393d747d1e2292c1bb9ac939616a2da71149328a) Merge pull request #23 from drid-uniben/second-call - 2026-09-21
-  - [f0fa052](https://github.com/drid-uniben/ibr-tetfund-client/commit/f0fa0528f33c9953858156140dc7a56e6dac75f2) fix: implement backend-driven search, status filter, and stable pagination for final decision panel - 2026-09-21
-  - [07d38cb](https://github.com/drid-uniben/ibr-tetfund-client/commit/07d38cb10dc6c4c00ccc89ac8c0e973bb587bb8a) fix: implement backend-driven pagination, sorting, and search for decision tables - 2026-09-21
-  - [5b5396f](https://github.com/drid-uniben/ibr-tetfund-client/commit/5b5396fccbcf6fb606968d7b052c5acadb91f28d) Merge pull request #22 from drid-uniben/second-call - 2026-09-21
-  - [3e215bb](https://github.com/drid-uniben/ibr-tetfund-client/commit/3e215bbd1d52ef40e275dba11ac8de164ed8ecbf) fix: correct budget template callout wording and heading - 2026-09-20
-  - [3428d7a](https://github.com/drid-uniben/ibr-tetfund-client/commit/3428d7a2b7b7180fd33c5d933db294d375ad57d9) fix: resolve null deadline rendering issues on researcher dashboards - 2026-09-20
-  - [7374bbb](https://github.com/drid-uniben/ibr-tetfund-client/commit/7374bbb1a318be7836f2d88b28dbd3d1b128c426) Merge pull request #21 from drid-uniben/second-call - 2026-09-20
-  - [aee626a](https://github.com/drid-uniben/ibr-tetfund-client/commit/aee626afb2ea587c503fa64dc7c7d32fcd938590) style: add scroll behavior to final decision dialog feedback textarea - 2026-09-20
-  - [d802a05](https://github.com/drid-uniben/ibr-tetfund-client/commit/d802a05ddf0bfd51787c51b67e183a8501f672ad) style: add scroll behavior to decision dialog feedback textarea - 2026-09-20
-  - [8ed7a11](https://github.com/drid-uniben/ibr-tetfund-client/commit/8ed7a11ad937f85f3024847d2d40ba5780b1acd5) Merge pull request #20 from drid-uniben/second-call - 2026-09-20
-  - [1f50c6e](https://github.com/drid-uniben/ibr-tetfund-client/commit/1f50c6ed0c95807f066e97dcd4f2cb3ba334d118) feat: add budget template download to full proposal guidelines - 2026-09-20
-  - [a4acb83](https://github.com/drid-uniben/ibr-tetfund-client/commit/a4acb8303e8d95672f1e08cef205087777628446) Merge pull request #19 from drid-uniben/second-call - 2026-09-20
-  - [d971a12](https://github.com/drid-uniben/ibr-tetfund-client/commit/d971a12c96d50ca90926fd9e5479c0cfd3eb4ed8) feat: solo reviewer feedback prefill - 2026-09-20
-  - [c9a2851](https://github.com/drid-uniben/ibr-tetfund-client/commit/c9a2851e0fc38a4c9e3395f783c61af662d8f869) Merge pull request #18 from drid-uniben/second-call - 2026-09-19
-  - [aef2712](https://github.com/drid-uniben/ibr-tetfund-client/commit/aef2712b676ed8c68d96c76a46b2ea49f2671337) feat: update scoring criteria to 8-point rubric - 2026-09-19
-  - [fdd20ff](https://github.com/drid-uniben/ibr-tetfund-client/commit/fdd20ff4ac7d060332162374b8a26bd79e4a1947) Merge pull request #17 from drid-uniben/second-call - 2026-09-19
-  - [18dc2eb](https://github.com/drid-uniben/ibr-tetfund-client/commit/18dc2eb795d8389893ef23dc36c3e7560cc83d22) fix: resolve solo reviewer assignment UI freeze and availability issues - 2026-09-19
-  - [32adee1](https://github.com/drid-uniben/ibr-tetfund-client/commit/32adee138eb399b43c85a2959f828b3277dedf3d) Merge pull request #16 from drid-uniben/second-call - 2026-09-18
-  - [e1a0fbc](https://github.com/drid-uniben/ibr-tetfund-client/commit/e1a0fbce0e17c2208ea147186a3cd90c0da4a317) feat: implement solo reviewer bypass flow UI - 2026-09-18
-  - [1577598](https://github.com/drid-uniben/ibr-tetfund-client/commit/157759821a079f4e340d2c505abfc73c205a7ce8) Merge pull request #15 from drid-uniben/second-call - 2026-09-13
-  - [787c22a](https://github.com/drid-uniben/ibr-tetfund-client/commit/787c22a17c2061edc3035b0a68db2e5cec24f3e0) strip empty optional fields before sending, in handleAddReviewer (client src/app/admin/invitations/page.tsx) - 2026-09-13
-  - [a9b6857](https://github.com/drid-uniben/ibr-tetfund-client/commit/a9b6857e9697dcd899b598b24b7edc7d1f45af45) Merge pull request #14 from drid-uniben/second-call - 2026-08-25
-  - [43db46c](https://github.com/drid-uniben/ibr-tetfund-client/commit/43db46c8661220de8617be3117428c26641ec1c2) made a change to the department enforcement - 2026-08-25
-  - [8489cb0](https://github.com/drid-uniben/ibr-tetfund-client/commit/8489cb0b52c83624a12a5d92e241d4d0349b0c0a) Merge pull request #13 from drid-uniben/second-call - 2026-08-05
-  - [ccb4221](https://github.com/drid-uniben/ibr-tetfund-client/commit/ccb4221220add1e0846bfda09dfd05cfe229a55e) added validation to the title field - 2026-08-05
-  - [f8d289d](https://github.com/drid-uniben/ibr-tetfund-client/commit/f8d289d80a5d532d3de7a09914adf3a7a0b62481) Merge pull request #12 from drid-uniben/second-call - 2026-07-26
-  - [abf76aa](https://github.com/drid-uniben/ibr-tetfund-client/commit/abf76aa3b56426825cf8d7dabd063d1cbecc2288) style(admin): warm design pass + submission-windows management page - 2026-07-25
-  - [bf6cf13](https://github.com/drid-uniben/ibr-tetfund-client/commit/bf6cf1343a89010552d42dd22d19d46a689ae884) style(reviewers): warm design pass - 2026-07-25
-  - [870cc66](https://github.com/drid-uniben/ibr-tetfund-client/commit/870cc66781a4b53ee2a6b4fbaf6219293b3307f1) style(researchers): warm design pass + live deadline + drop redundant userId - 2026-07-25
-  - [0f85a50](https://github.com/drid-uniben/ibr-tetfund-client/commit/0f85a50f0892cc09cf2b08bba3831df915b43092) Merge pull request #11 from drid-uniben/second-call - 2026-07-25
-  - [f69e2a8](https://github.com/drid-uniben/ibr-tetfund-client/commit/f69e2a815ba8a51ae505deab13f8bb40a39c09a4) feat(design): warm design foundation — tokens, ui primitives, shared layouts, window API + public pages - 2026-07-25
-  - [7b79c80](https://github.com/drid-uniben/ibr-tetfund-client/commit/7b79c80dd0af8e04634a27e6036913c2afeec68b) docs(design): add DESIGN.md warm design system (impeccable format); ignore local .claude tooling - 2026-07-25
-  - [b1fe6a8](https://github.com/drid-uniben/ibr-tetfund-client/commit/b1fe6a870eec564d753c6ce35a70f2decdc0173b) Merge pull request #10 from drid-uniben/second-call - 2026-07-24
-  - [8c260dd](https://github.com/drid-uniben/ibr-tetfund-client/commit/8c260dd14ad8decfbb0770e8af54a37c6baae2e8) content+fix(submission): guideline note, uniform 10MB limit, email normalization - 2026-07-24
-  - [2e88f5a](https://github.com/drid-uniben/ibr-tetfund-client/commit/2e88f5a7522d4f839a96d596d20a5ab0fd4654ab) Merge pull request #9 from drid-uniben/second-call - 2026-07-24
-  - [eb15551](https://github.com/drid-uniben/ibr-tetfund-client/commit/eb155516078e12378bdb80978d0f515b6ecef6c5) test(client): add Vitest + RTL suites (header nav, api client, tet-fund faculty flow, email regex) - 2026-07-24
-  - [002ba8f](https://github.com/drid-uniben/ibr-tetfund-client/commit/002ba8f91a9ee7d7c45695aa3c162c46ed892f42) content(masters): submit via upload form, drop email-submission instruction - 2026-07-24
-  - [315b34b](https://github.com/drid-uniben/ibr-tetfund-client/commit/315b34befd027cd447df609a88928d7c1f762791) Merge pull request #8 from drid-uniben/second-call - 2026-07-24
-  - [07b0c6e](https://github.com/drid-uniben/ibr-tetfund-client/commit/07b0c6e2b5d50541ec5b1e51511ca4a5ba0811b2) feat(design): serif+gradient hero, dynamic logo header, wider forms, deadline slots - 2026-07-24
-  - [940476d](https://github.com/drid-uniben/ibr-tetfund-client/commit/940476d942118af3367bf7f87b62ee493785482a) refactor(client): read faculty/department as title strings across admin/reviewer pages (Option A) - 2026-07-24
-  - [912c381](https://github.com/drid-uniben/ibr-tetfund-client/commit/912c381ebab90ed1e25ab77179c1852ff078d4b6) feat(submission): warm redesign of public submission pages + Option A data - 2026-07-24
-  - [4568917](https://github.com/drid-uniben/ibr-tetfund-client/commit/456891771c0ccd6aa5d225c19753469420676456) feat: add context-aware custom 404 not-found page - 2026-07-23
-  - [5b5448a](https://github.com/drid-uniben/ibr-tetfund-client/commit/5b5448a919036eb10b0887d982d237e2096efeaf) Merge pull request #7 from drid-uniben/second-call - 2026-07-23
-  - [bed3aa7](https://github.com/drid-uniben/ibr-tetfund-client/commit/bed3aa7193974cd5273f83c56051760347024174) fix(lint): remove unused variable in staff proposal submit - 2026-07-23
-  - [ef87b49](https://github.com/drid-uniben/ibr-tetfund-client/commit/ef87b49942c245960065038b4d183a982bf8100b) Merge pull request #6 from drid-uniben/second-call - 2026-07-23
-  - [bdb7e0d](https://github.com/drid-uniben/ibr-tetfund-client/commit/bdb7e0d0a7be21357f3869506c8f8ceda98afcb1) fix: Enable page scroll and re-open TETFund IBR application - 2026-07-23
-- ubjsti-server (29 commits)
+- ubjsti-client (57 commits)
+  - [21c2b79](https://github.com/drid-uniben/ubjsti-client/commit/21c2b799d2fcc09cec365f549f28dc3f5089fb50) Merge pull request #23 from drid-uniben/deadline - 2026-11-07
+  - [0e5187e](https://github.com/drid-uniben/ubjsti-client/commit/0e5187e3dfe6fbe741ccee2616f9838a97c100e3) fix(auth): prevent circular wait on refresh token failure and ignore transient errors - 2026-11-07
+  - [9b8b831](https://github.com/drid-uniben/ubjsti-client/commit/9b8b8312553dd354168aa353be49b84736b5b10c) Merge pull request #22 from drid-uniben/deadline - 2026-07-24
+  - [a23324a](https://github.com/drid-uniben/ubjsti-client/commit/a23324a2eba0575982aeb046f5a2955d847ad0f8) feat: add context-aware custom 404 not-found page - 2026-07-24
+  - [442aed7](https://github.com/drid-uniben/ubjsti-client/commit/442aed743848d2c28f3b1afa3273386724f45c7f) Merge pull request #20 from drid-uniben/deadline - 2026-06-19
+  - [d8a919a](https://github.com/drid-uniben/ubjsti-client/commit/d8a919a59ecfd037c468a4b1ebbacf357e492473) did the author's dashboard - 2026-06-19
+  - [05c1db2](https://github.com/drid-uniben/ubjsti-client/commit/05c1db275d2b3d38c5c716c50c0eabba34cc58c7) Merge pull request #18 from drid-uniben/deadline - 2026-05-12
+  - [ee05c97](https://github.com/drid-uniben/ubjsti-client/commit/ee05c9723407e5c3af938b9028faad8eae9502ab) Disable manuscript submissions and show closure notice - 2026-05-11
+  - [bb9d8e4](https://github.com/drid-uniben/ubjsti-client/commit/bb9d8e45e35d6d07fce912a9d542d806cb2ef866) Merge pull request #17 from drid-uniben/staging - 2026-05-11
+  - [dd07398](https://github.com/drid-uniben/ubjsti-client/commit/dd073987036394ee2ee34bae03794cc1c03f9454) Merge pull request #15 from drid-uniben/main - 2026-05-11
+  - [bfa5ed5](https://github.com/drid-uniben/ubjsti-client/commit/bfa5ed5d8e781c1f837d270411992e2f6d7b619e) Merge pull request #14 from drid-uniben/staging - 2026-05-11
+  - [a39af41](https://github.com/drid-uniben/ubjsti-client/commit/a39af41df497d1006967a4dde26f230824b41b6c) Merge pull request #13 from drid-uniben/main - 2026-05-11
+  - [9481794](https://github.com/drid-uniben/ubjsti-client/commit/948179494393fedb1c5352714d8ddce198a68238) Merge pull request #12 from drid-uniben/staging - 2026-05-11
+  - [2a42c44](https://github.com/drid-uniben/ubjsti-client/commit/2a42c443f042a663c61e344da5e809ffb7b7891a) Merge pull request #11 from drid-uniben/remove_deadline - 2026-05-11
+  - [f36b7a9](https://github.com/drid-uniben/ubjsti-client/commit/f36b7a9277df39757d0723f0ffb74a8351c3fe4c) Reopens manuscript submission with new form - 2026-05-11
+  - [d22102c](https://github.com/drid-uniben/ubjsti-client/commit/d22102c1a06b2684114ea915edadb2a70431c065) Merge pull request #10 from drid-uniben/staging - 2026-05-10
+  - [645dcf1](https://github.com/drid-uniben/ubjsti-client/commit/645dcf154c2b282d7bbb1f3755db4eb5effcaa25) Merge pull request #9 from drid-uniben/main - 2026-05-10
+  - [c21e587](https://github.com/drid-uniben/ubjsti-client/commit/c21e587bccbea6f1974adf74b0dd0f015575a4c5) Merge pull request #8 from drid-uniben/deadline - 2026-05-10
+  - [4fd88d7](https://github.com/drid-uniben/ubjsti-client/commit/4fd88d7b32f8dc57a44f1301b55f7f7ba221a017) Disable manuscript submissions and show closure notice - 2026-05-10
+  - [ae741f4](https://github.com/drid-uniben/ubjsti-client/commit/ae741f437365666d8a1c7df89a1d5aa4dcdfb522) Merge pull request #7 from drid-uniben/staging - 2026-05-10
+  - [ac76e21](https://github.com/drid-uniben/ubjsti-client/commit/ac76e21f35805f795f66f59c9f672f293bd09263) Merge pull request #6 from drid-uniben/main - 2026-05-10
+  - [c9cdd12](https://github.com/drid-uniben/ubjsti-client/commit/c9cdd126bf6025d6d5dc6822edf272b35d5f0fe9) Merge pull request #5 from drid-uniben/staging - 2026-04-11
+  - [2ed3e51](https://github.com/drid-uniben/ubjsti-client/commit/2ed3e51e8751c87f3a7c7135039110824724f944) Merge pull request #4 from drid-uniben/confirm_fix - 2026-04-11
+  - [9651caa](https://github.com/drid-uniben/ubjsti-client/commit/9651caa978e1515626972659ec350e3070f176e5) Fixing the content of the confirmation success page and making the initial review time flexible not defined - 2026-04-11
+  - [ca62251](https://github.com/drid-uniben/ubjsti-client/commit/ca62251efd911ca4f2f2ddaa540a5517d4ac4a5a) Merge pull request #3 from drid-uniben/staging - 2026-04-11
+  - [5c680b7](https://github.com/drid-uniben/ubjsti-client/commit/5c680b7fd60282bbd04f6f3b19ff924e86592671) Made changes - 2026-04-11
+  - [a5fe0ff](https://github.com/drid-uniben/ubjsti-client/commit/a5fe0ffb34bd9143a7f584c5cbe3c541c2636cca) Merge pull request #2 from drid-uniben/main - 2026-04-11
+  - [fc41728](https://github.com/drid-uniben/ubjsti-client/commit/fc41728e8a27590bb26d71afa2a1790c1711d86a) Making the coAithor field there  required - 2026-04-11
+  - [3cbbd9a](https://github.com/drid-uniben/ubjsti-client/commit/3cbbd9ac7671a0207a55b370b6919832f14b6859) feat(publication): increase fetch limits and add search for manual/pending articles - 2026-03-01
+  - [b4bdbc1](https://github.com/drid-uniben/ubjsti-client/commit/b4bdbc1d4afa1f0ce2ae3cc1e511e2f268c4a132) Updated the minimum year for creating a volume - 2026-02-27
+  - [98421c5](https://github.com/drid-uniben/ubjsti-client/commit/98421c591f81407b8e55bfee118211d8f3e48e7c) Adds manual article management and dual volume cover support - 2026-02-21
+  - [cb967b4](https://github.com/drid-uniben/ubjsti-client/commit/cb967b4f7e9f944784fb857a6fffe589b28384c5) update - 2026-02-20
+  - [aed43bb](https://github.com/drid-uniben/ubjsti-client/commit/aed43bbd6d497babb9791b056bc87f94c4b305ab) fixed the colors not displaying - 2026-02-20
+  - [877a19b](https://github.com/drid-uniben/ubjsti-client/commit/877a19b0418582e0b2fd46ace9d12d791b1a2be5) used the variable styles from the global.css - 2026-02-17
+  - [9ce0e55](https://github.com/drid-uniben/ubjsti-client/commit/9ce0e558c4af6df51a46d82f014539b8071d4998) chore: Comprehensive frontend-backend alignment and production hardening - 2026-02-16
+  - [131b3b6](https://github.com/drid-uniben/ubjsti-client/commit/131b3b6bf71ff3ab24b6dfffda3bfe8572cb1395) feat: add brand color variables and tailwind theme mappings to globals.css - 2026-02-16
+  - [7adef84](https://github.com/drid-uniben/ubjsti-client/commit/7adef84c1ddcd8d71d2f8347494c4249aaa801fd) Adds admin email campaign, override decision & improves search - 2026-02-04
+  - [22e68dd](https://github.com/drid-uniben/ubjsti-client/commit/22e68dd4313e3e21419f8b99f8059e278956871e) update - 2026-02-02
+  - [ee2eaf1](https://github.com/drid-uniben/ubjsti-client/commit/ee2eaf1d248d0460c46a882b282ee9345a8e8099) Added ISSN - 2026-02-02
+  - [af8ae72](https://github.com/drid-uniben/ubjsti-client/commit/af8ae7287420bcf357b216e23b5cb22109d02559) fixing lint error - 2026-01-27
+  - [3fd9d97](https://github.com/drid-uniben/ubjsti-client/commit/3fd9d976621fea0ba8c0e78e0d397f112ace30d0) fixing lint error - 2026-01-27
+  - [537004c](https://github.com/drid-uniben/ubjsti-client/commit/537004c61d4e81e6a579b1034329a29038fdbae2) Refines journal branding and header layout, Updates homepage and header to highlight Journal of Humanities and University of Benin branding, improves logo/title styling, introduces a university badge, and enhances text hierarchy for clarity and visual appeal. - 2026-01-27
+  - [24be5f8](https://github.com/drid-uniben/ubjsti-client/commit/24be5f88171c7efdf864ec397315fef5fe453ed3) updated the editorial board in the about page. - 2026-01-09
+  - [7f2ebf0](https://github.com/drid-uniben/ubjsti-client/commit/7f2ebf0a289627e855685c531257b1b30df7c5b1) Update - 2026-01-08
+  - [288a286](https://github.com/drid-uniben/ubjsti-client/commit/288a28601394b5e13f89ebbfa19288168ecc3d39) Update - 2026-01-07
+  - [a19aadc](https://github.com/drid-uniben/ubjsti-client/commit/a19aadc8ca8839b575d928679c6148a736b3b3bb) librarian update - 2026-01-07
+  - [78d082d](https://github.com/drid-uniben/ubjsti-client/commit/78d082d653340933b3d25d11116c02d523411e27) Made changes to the editorial board - 2026-01-07
+  - [ea5bec3](https://github.com/drid-uniben/ubjsti-client/commit/ea5bec3c1fd4e88c548367f146197edef5356e7d) Added more articles - 2026-01-07
+  - [7e231e2](https://github.com/drid-uniben/ubjsti-client/commit/7e231e2f423e09058ea5a3b3d589f4862800fb6d) I changed the color on major places from maroon to dark blue - 2025-12-15
+  - [eb5ee08](https://github.com/drid-uniben/ubjsti-client/commit/eb5ee08233590b355a01f1a5ee756f2ffea6e90e) I changed the color on major places from maroon to dark blue and updated the font - 2025-12-13
+  - [c556500](https://github.com/drid-uniben/ubjsti-client/commit/c556500103f004409dd839e5d1253d9ca9d2c826) I added the optional phoneNumber and areaOfSpecialization fields to both the reviewer invitation and acceptance forms. - 2025-12-13
+  - [e6f37ad](https://github.com/drid-uniben/ubjsti-client/commit/e6f37ad55545b386244395d36bc3519371829595) feat(admin): Categorize eligible reviewers into first and second choice - 2025-12-03
+  - [0fbf7c9](https://github.com/drid-uniben/ubjsti-client/commit/0fbf7c9fa4fd8b7205609dd1106bbbe02604fffa) Update - 2025-12-02
+  - [4dd4a48](https://github.com/drid-uniben/ubjsti-client/commit/4dd4a480778672075cdcaa70acf3e2ed77fea02d) refactor: Update journal name from UBJH to UBJSTI - 2025-11-21
+  - [e553571](https://github.com/drid-uniben/ubjsti-client/commit/e5535715d3afe0ef67b1b2601ba0470e45ea20ac) Update - 2025-11-18
+  - [5edc783](https://github.com/drid-uniben/ubjsti-client/commit/5edc783079b59039d069f5cb96ad9f2d36af2be0) Made the coAuthors fields optional - 2025-11-13
+  - [740de79](https://github.com/drid-uniben/ubjsti-client/commit/740de79cde32ac54a8884d3ef2dbb99abf29f498) update - 2025-11-11
+- ubjsti-server (30 commits)
+  - [62f1b6f](https://github.com/drid-uniben/ubjsti-server/commit/62f1b6f3c070b8a4e48ab9304286d5f1646fbe03) Merge pull request #19 from drid-uniben/author - 2026-11-07
+  - [8b24909](https://github.com/drid-uniben/ubjsti-server/commit/8b249097bbf93a9618de382a051e651d98c5cacf) fix(auth): return 429 for rate limit, separate login/refresh buckets, and add refresh token rotation grace window - 2026-11-07
   - [7109611](https://github.com/drid-uniben/ubjsti-server/commit/7109611c0828f2d682e7ab71dd54ef9a7a844df4) Merge pull request #17 from drid-uniben/author - 2026-07-23
   - [15bd67e](https://github.com/drid-uniben/ubjsti-server/commit/15bd67e51552806a2d7245fa891c51cdbd0138ec) Scope refresh cookie to the API host instead of the frontend domain - 2026-07-20
   - [2ccb5ae](https://github.com/drid-uniben/ubjsti-server/commit/2ccb5aeaea05b3d94d690e303e43e2a69e3bb727) Merge pull request #14 from drid-uniben/author - 2026-06-19
@@ -436,7 +454,6 @@ Commits:
   - [2f52d22](https://github.com/drid-uniben/ubjsti-server/commit/2f52d22da44550bb3488501bdb06dd396e63cd27) feat(manuscripts): Implement manuscript archiving and unarchiving - 2025-12-04
   - [82cb7d7](https://github.com/drid-uniben/ubjsti-server/commit/82cb7d7b81a25f200cacb76f37d46229f2440acf) feat(reviews): Fallback to manual assignment if auto-assign fails - 2025-12-03
   - [81b7b3a](https://github.com/drid-uniben/ubjsti-server/commit/81b7b3afddd953e776183a3d359231fa778ce59e) Made important changes to server and updated the email templates - 2025-11-13
-  - [1136814](https://github.com/drid-uniben/ubjsti-server/commit/113681484ded89c68304081f97339761eb9bcd3b) Adapted the server to serve the Uniben Journal of Science, Technology and Innovation - 2025-11-06
 - drid-uniben.org (11 commits)
   - [00082b1](https://github.com/drid-uniben/drid-uniben.org/commit/00082b1566eee0fb3fbc9c72500e9d32571e904d) Merge pull request #8 from drid-uniben/design - 2026-07-24
   - [b54b8f5](https://github.com/drid-uniben/drid-uniben.org/commit/b54b8f50cc32e06b7012472a00c89b1143906e4c) feat: add DRID contact email to site footer - 2026-07-24
@@ -474,7 +491,11 @@ Commits:
   - [7dceb53](https://github.com/drid-uniben/.github/commit/7dceb531a383d75aa7c6c9d026e1499ab8f2abca) Merge pull request #1 from Osalotioman/fix/readme - 2025-12-17
 
 PRs:
-- ibr-tetfund-server (31 PRs)
+- ibr-tetfund-server (35 PRs)
+  - [#39](https://github.com/drid-uniben/ibr-tetfund-server/pull/39) feat(email): update final submission reminder email for physical-only… - merged, updated 2026-11-09
+  - [#38](https://github.com/drid-uniben/ibr-tetfund-server/pull/38) feat(decisions_2): add final_submitted and final_pending status filte… - merged, updated 2026-11-07
+  - [#37](https://github.com/drid-uniben/ibr-tetfund-server/pull/37) fix(auth): return 429 for rate limit, separate login/refresh buckets,… - merged, updated 2026-11-07
+  - [#36](https://github.com/drid-uniben/ibr-tetfund-server/pull/36) feat(notifications): add configurable notify modes for full proposal … - merged, updated 2026-11-04
   - [#35](https://github.com/drid-uniben/ibr-tetfund-server/pull/35) feat(export): add estimated budget fallback and landscape table layou… - merged, updated 2026-10-20
   - [#34](https://github.com/drid-uniben/ibr-tetfund-server/pull/34) fix(reviews): match faculty filter as string title in proposalReviews… - merged, updated 2026-10-07
   - [#33](https://github.com/drid-uniben/ibr-tetfund-server/pull/33) fix: conditional feedback copy in rejection email template - merged, updated 2026-10-06
@@ -506,7 +527,10 @@ PRs:
   - [#7](https://github.com/drid-uniben/ibr-tetfund-server/pull/7) style(emails): align templates with warm aubergine + gold palette - merged, updated 2026-07-24
   - [#6](https://github.com/drid-uniben/ibr-tetfund-server/pull/6) Second call - merged, updated 2026-07-24
   - [#5](https://github.com/drid-uniben/ibr-tetfund-server/pull/5) Second call - merged, updated 2026-07-23
-- ibr-tetfund-client (23 PRs)
+- ibr-tetfund-client (26 PRs)
+  - [#31](https://github.com/drid-uniben/ibr-tetfund-client/pull/31) feat(decisions_2): add final submitted badge and final submission fil… - merged, updated 2026-11-07
+  - [#30](https://github.com/drid-uniben/ibr-tetfund-client/pull/30) fix(auth): deduplicate concurrent refresh calls, exclude refresh endp… - merged, updated 2026-11-07
+  - [#29](https://github.com/drid-uniben/ibr-tetfund-client/pull/29) chore: update GEMINI.md instructions - merged, updated 2026-11-04
   - [#28](https://github.com/drid-uniben/ibr-tetfund-client/pull/28) feat(export): add layout and link style options to full proposal word… - merged, updated 2026-10-20
   - [#27](https://github.com/drid-uniben/ibr-tetfund-client/pull/27) fix(client): fix DecisionsPanelWrapper closure and add URL persistenc… - merged, updated 2026-10-07
   - [#26](https://github.com/drid-uniben/ibr-tetfund-client/pull/26) fix(client): persist pagination and filters in URL and fix faculty fi… - merged, updated 2026-10-07
@@ -530,7 +554,8 @@ PRs:
   - [#8](https://github.com/drid-uniben/ibr-tetfund-client/pull/8) Second call - merged, updated 2026-07-24
   - [#7](https://github.com/drid-uniben/ibr-tetfund-client/pull/7) fix(lint): remove unused variable in staff proposal submit - merged, updated 2026-07-23
   - [#6](https://github.com/drid-uniben/ibr-tetfund-client/pull/6) fix: Enable page scroll and re-open TETFund IBR application - merged, updated 2026-07-23
-- ubjh-client (22 PRs)
+- ubjh-client (23 PRs)
+  - [#26](https://github.com/drid-uniben/ubjh-client/pull/26) fix(auth): prevent circular wait on refresh token failure and ignore … - merged, updated 2026-11-07
   - [#25](https://github.com/drid-uniben/ubjh-client/pull/25) feat: add context-aware custom 404 not-found page - merged, updated 2026-07-24
   - [#24](https://github.com/drid-uniben/ubjh-client/pull/24) made similar change done to the reviewer assignment to the admin assi… - merged, updated 2026-06-19
   - [#23](https://github.com/drid-uniben/ubjh-client/pull/23) Merging to main - merged, updated 2026-06-19
@@ -553,7 +578,8 @@ PRs:
   - [#6](https://github.com/drid-uniben/ubjh-client/pull/6) Fixing the content of the confirmation success page and making the in… - merged, updated 2026-04-11
   - [#5](https://github.com/drid-uniben/ubjh-client/pull/5) Main - merged, updated 2026-04-11
   - [#4](https://github.com/drid-uniben/ubjh-client/pull/4) Making the CoAuthors fields required - merged, updated 2026-04-11
-- ubjsti-client (20 PRs)
+- ubjsti-client (21 PRs)
+  - [#23](https://github.com/drid-uniben/ubjsti-client/pull/23) fix(auth): prevent circular wait on refresh token failure and ignore … - merged, updated 2026-11-07
   - [#22](https://github.com/drid-uniben/ubjsti-client/pull/22) feat: add context-aware custom 404 not-found page - merged, updated 2026-07-24
   - [#20](https://github.com/drid-uniben/ubjsti-client/pull/20) did the author's dashboard - merged, updated 2026-06-19
   - [#19](https://github.com/drid-uniben/ubjsti-client/pull/19) Merging to main - merged, updated 2026-05-12
@@ -574,7 +600,8 @@ PRs:
   - [#4](https://github.com/drid-uniben/ubjsti-client/pull/4) Fixing the content of the confirmation success page and making the in… - merged, updated 2026-04-11
   - [#3](https://github.com/drid-uniben/ubjsti-client/pull/3) Merging to main - merged, updated 2026-04-11
   - [#2](https://github.com/drid-uniben/ubjsti-client/pull/2) Making the coAithor field there  required - merged, updated 2026-04-11
-- ubjh-server (16 PRs)
+- ubjh-server (17 PRs)
+  - [#21](https://github.com/drid-uniben/ubjh-server/pull/21) fix(auth): return 429 for rate limit, separate login/refresh buckets,… - merged, updated 2026-11-07
   - [#20](https://github.com/drid-uniben/ubjh-server/pull/20) Merging to main - merged, updated 2026-07-23
   - [#19](https://github.com/drid-uniben/ubjh-server/pull/19) Author - merged, updated 2026-07-23
   - [#18](https://github.com/drid-uniben/ubjh-server/pull/18) Merging to main - merged, updated 2026-06-19
@@ -591,7 +618,8 @@ PRs:
   - [#7](https://github.com/drid-uniben/ubjh-server/pull/7) Merging to main - merged, updated 2026-04-11
   - [#6](https://github.com/drid-uniben/ubjh-server/pull/6) Making the Submission email work - merged, updated 2026-04-11
   - [#3](https://github.com/drid-uniben/ubjh-server/pull/3) Added multiple origins for the server - merged, updated 2026-04-11
-- ubjsti-server (13 PRs)
+- ubjsti-server (14 PRs)
+  - [#19](https://github.com/drid-uniben/ubjsti-server/pull/19) fix(auth): return 429 for rate limit, separate login/refresh buckets,… - merged, updated 2026-11-07
   - [#18](https://github.com/drid-uniben/ubjsti-server/pull/18) Merging to main - merged, updated 2026-07-23
   - [#17](https://github.com/drid-uniben/ubjsti-server/pull/17) Scope refresh cookie to the API host instead of the frontend domain - merged, updated 2026-07-23
   - [#14](https://github.com/drid-uniben/ubjsti-server/pull/14) did the author dashboard - merged, updated 2026-06-19
@@ -633,11 +661,12 @@ PRs:
   - [#3](https://github.com/drid-uniben/research-diploma-client/pull/3) Revamps registration flow with waitlist forms and UI tweaks - merged, updated 2026-01-23
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
-Total commits: 316
+Total commits: 317
 Total PRs: 55
 
 Commits:
-- org-structure (77 commits)
+- org-structure (78 commits)
+  - [14b1895](https://github.com/drid-uniben/org-structure/commit/14b18953880a4d8f29f90f9e622d16a5d1fb256d) chore(report): update weekly intern progress - 2026-11-02
   - [27af17f](https://github.com/drid-uniben/org-structure/commit/27af17fc9d1f42d53f37b52b97c99ce2a16b1adc) chore(report): update weekly intern progress - 2026-10-26
   - [0b16753](https://github.com/drid-uniben/org-structure/commit/0b167531adc369c8b52f08cca7627c836b9f6b5d) chore(report): update weekly intern progress - 2026-10-19
   - [a22282c](https://github.com/drid-uniben/org-structure/commit/a22282c58bee036f4a5d2822c3928856a7158d52) chore(report): update weekly intern progress - 2026-10-12
@@ -995,18 +1024,18 @@ PRs:
   - [#3](https://github.com/drid-uniben/drid-con-ticket/pull/3) [WIP] : Major update - merged, updated 2025-12-06
   - [#2](https://github.com/drid-uniben/drid-con-ticket/pull/2) update feat/upgrade1 with dev - merged, updated 2025-12-06
   - [#1](https://github.com/drid-uniben/drid-con-ticket/pull/1) chore: update readme - merged, updated 2025-12-05
-- org-structure (5 PRs)
-  - [#9](https://github.com/drid-uniben/org-structure/pull/9) Update weekly-intern-progress.yml - merged, updated 2026-06-23
-  - [#8](https://github.com/drid-uniben/org-structure/pull/8) chore: Remove Afahakan Precious from interns.json - merged, updated 2026-05-28
-  - [#7](https://github.com/drid-uniben/org-structure/pull/7) chore: Add interns.json and create weekly intern progress workflow - merged, updated 2026-04-20
-  - [#6](https://github.com/drid-uniben/org-structure/pull/6) chore: Update interns.md to remove redundant entries and reorganize p… - merged, updated 2026-04-11
-  - [#5](https://github.com/drid-uniben/org-structure/pull/5) chore: Update Emmanuel Osalotioman Osazuwa's role from backend+devops… - merged, updated 2026-03-22
 - ubjsti-server (5 PRs)
   - [#16](https://github.com/drid-uniben/ubjsti-server/pull/16) docs: Create README.md - merged, updated 2026-06-23
   - [#15](https://github.com/drid-uniben/ubjsti-server/pull/15) chore: Delete CLAUDE.md - merged, updated 2026-06-23
   - [#10](https://github.com/drid-uniben/ubjsti-server/pull/10) sync: Sync staging with prod - merged, updated 2026-04-11
   - [#3](https://github.com/drid-uniben/ubjsti-server/pull/3) chore: update prod - merged, updated 2026-04-11
   - [#1](https://github.com/drid-uniben/ubjsti-server/pull/1) chore: Contribution workflows - merged, updated 2026-03-05
+- org-structure (5 PRs)
+  - [#9](https://github.com/drid-uniben/org-structure/pull/9) Update weekly-intern-progress.yml - merged, updated 2026-06-23
+  - [#8](https://github.com/drid-uniben/org-structure/pull/8) chore: Remove Afahakan Precious from interns.json - merged, updated 2026-05-28
+  - [#7](https://github.com/drid-uniben/org-structure/pull/7) chore: Add interns.json and create weekly intern progress workflow - merged, updated 2026-04-20
+  - [#6](https://github.com/drid-uniben/org-structure/pull/6) chore: Update interns.md to remove redundant entries and reorganize p… - merged, updated 2026-04-11
+  - [#5](https://github.com/drid-uniben/org-structure/pull/5) chore: Update Emmanuel Osalotioman Osazuwa's role from backend+devops… - merged, updated 2026-03-22
 - ubjh-server (4 PRs)
   - [#5](https://github.com/drid-uniben/ubjh-server/pull/5) chore: update prod - merged, updated 2026-04-11
   - [#4](https://github.com/drid-uniben/ubjh-server/pull/4) chore: Allow everyone to view issues - merged, updated 2026-04-11
@@ -1084,7 +1113,7 @@ feat: Enhance challenge description handling with markdown link validation and r
   - [#5](https://github.com/drid-uniben/drid-intern/pull/5) [WIP] Modern UI/UX - merged, updated 2026-02-21
 
 ### Light Ebube (@Lyteking)
-Total commits: 12
+Total commits: 8
 Total PRs: 4
 
 Commits:
@@ -1094,15 +1123,11 @@ Commits:
   - [2cab393](https://github.com/drid-uniben/drid-con-ticket/commit/2cab393055cbb47621c2648ee493667c277d4421) Fixed the upload image field and modified not found page - 2025-12-07
   - [3b19d48](https://github.com/drid-uniben/drid-con-ticket/commit/3b19d486013642737b6919a73f76515df4d56947) Fixed some of the issues in the TODO.md file - 2025-12-07
   - [cea1c9f](https://github.com/drid-uniben/drid-con-ticket/commit/cea1c9f226829f8b89b8ba2622d44b9f82e2ccb0) Fixed some of the issues in the TODO.md file - 2025-12-06
-- ubjsti-client (4 commits)
+- ubjsti-client (2 commits)
   - [568017c](https://github.com/drid-uniben/ubjsti-client/commit/568017ce55527860be71dddc0602c0696fb29444) Fixed Raymond's problems - 2025-11-11
   - [782655d](https://github.com/drid-uniben/ubjsti-client/commit/782655de10f9289667bf0f471a49ab28d97a201f) Fixed Raymond's problems - 2025-11-11
-  - [0386549](https://github.com/drid-uniben/ubjsti-client/commit/03865498fb80bcc60c8b143cbec4460d301a0b56) Added the search page and modified the header - 2025-11-04
-  - [73a37db](https://github.com/drid-uniben/ubjsti-client/commit/73a37dbcb604f2e7370b0b1288931e44e155fb97) Added the index in the footer - 2025-11-04
-- ubjh-client (3 commits)
+- ubjh-client (1 commit)
   - [dbaaf18](https://github.com/drid-uniben/ubjh-client/commit/dbaaf18ec00e205f4f2a2c313efa14b1b67f214e) Fixed type error in article route - 2025-11-11
-  - [b89f683](https://github.com/drid-uniben/ubjh-client/commit/b89f683144c9ddd8625374726cac7458a77a8b2c) Added the search page and modified the header - 2025-11-04
-  - [0b7d3ab](https://github.com/drid-uniben/ubjh-client/commit/0b7d3ab6205bb2f33f8a2f7daa3c41c94959a6a2) Added the search page and modified the header - 2025-11-04
 
 PRs:
 - drid-con-ticket (3 PRs)
