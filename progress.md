@@ -1,17 +1,17 @@
 # DRID Weekly Intern Activity Report
 
-Generated: 2026-11-16
-Window: 2025-11-16 to 2026-11-16 (last 365 days)
+Generated: 2026-11-23
+Window: 2025-11-23 to 2026-11-23 (last 365 days)
 Organization: drid-uniben
 
 ## Summary
 
 | Intern | Commits in Window | PRs in Window | Active Repos |
 | --- | ---: | ---: | ---: |
-| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 443 | 157 | 13 |
-| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 318 | 55 | 19 |
+| Omoyakhi Raymond Eshikogie (@Raymond-engr) | 440 | 157 | 13 |
+| Emmanuel Osalotioman Osazuwa (@Osalotioman) | 319 | 55 | 19 |
 | Genesis Osasenaga Ighalo (@daves-hub) | 21 | 5 | 2 |
-| Light Ebube (@Lyteking) | 5 | 4 | 2 |
+| Light Ebube (@Lyteking) | 6 | 4 | 2 |
 | Ohenhen Isoken Glory (@Glorie27) | 2 | 3 | 2 |
 | Lucky Egho (@EGHO-LUCKY) | 1 | 2 | 2 |
 | Ameh Isaac Favour (@Isaac-Ameh) | 1 | 1 | 1 |
@@ -21,7 +21,7 @@ Organization: drid-uniben
 ## Detailed Activity (Commits First)
 
 ### Omoyakhi Raymond Eshikogie (@Raymond-engr)
-Total commits: 443
+Total commits: 440
 Total PRs: 157
 
 Commits:
@@ -172,7 +172,7 @@ Commits:
   - [90a6888](https://github.com/drid-uniben/drid-con-ticket/commit/90a68888c27e4d98332ceb2a58e6047ea3eabeee) Added a well structured PRD document - 2025-12-05
   - [1d662c9](https://github.com/drid-uniben/drid-con-ticket/commit/1d662c902a665650cf61d0c8a967b936cc440571) Added a well structured PRD document - 2025-12-05
   - [029a2bb](https://github.com/drid-uniben/drid-con-ticket/commit/029a2bb84060f33b8c191fadb3718c859f96f21a) first commit - 2025-12-05
-- ubjh-client (64 commits)
+- ubjh-client (63 commits)
   - [115b711](https://github.com/drid-uniben/ubjh-client/commit/115b711af65a6de28c61ca51dfc1d5aa5d951d6a) Merge pull request #26 from drid-uniben/author - 2026-11-07
   - [c414d2a](https://github.com/drid-uniben/ubjh-client/commit/c414d2a98c17233a22bfbcaec1af6430b8ed408e) fix(auth): prevent circular wait on refresh token failure and ignore transient errors - 2026-11-07
   - [1165ce9](https://github.com/drid-uniben/ubjh-client/commit/1165ce9b15422a6a2b0d4011de965b329a9c9a5b) Merge pull request #25 from drid-uniben/author - 2026-07-24
@@ -236,7 +236,6 @@ Commits:
   - [e91c985](https://github.com/drid-uniben/ubjh-client/commit/e91c985812b72b167191c2576c73e4389dd40c6d) Added more articles - 2026-01-07
   - [1f36069](https://github.com/drid-uniben/ubjh-client/commit/1f3606961a9e45de8bfbbb1dd7e66f11d77fd96a) I added the optional phoneNumber and areaOfSpecialization fields to both the reviewer invitation and acceptance forms. - 2025-12-11
   - [659adaf](https://github.com/drid-uniben/ubjh-client/commit/659adaf2591b84ca0c4574ca2dcd57b99e90c5bb) fixes - 2025-12-03
-  - [12ea61f](https://github.com/drid-uniben/ubjh-client/commit/12ea61f237192f13c17a8e54976a07aa389e5a8e) chore(data): Update dummy article PDF filenames - 2025-11-18
 - ibr-tetfund-client (62 commits)
   - [f2269c4](https://github.com/drid-uniben/ibr-tetfund-client/commit/f2269c40b37d5c0987c559bb0845af04ffe8655b) Merge pull request #31 from drid-uniben/second-call - 2026-11-07
   - [baf9511](https://github.com/drid-uniben/ibr-tetfund-client/commit/baf95114dfd5fd560fc39ed0473ec067d96410c3) feat(decisions_2): add final submitted badge and final submission filters - 2026-11-07
@@ -360,7 +359,7 @@ Commits:
   - [dc5709e](https://github.com/drid-uniben/ubjh-server/commit/dc5709e8b37ddcfcb3451749a4ab394654ae458f) I updated reviewer.routes.ts for completeProfileSchema with optional phoneNumber and areaOfSpecialization. In reviewer.controller.ts, I ensured inviteReviewer remained original, and modified completeReviewerProfile, getInvitations, getAllReviewers, getReviewerById, and getReviewerDashboard to include the new fields. I also added phoneNumber and areaOfSpecialization to IUser and UserSchema in user.model.ts. For reAssignReviewer.controller.ts, I updated getExistingReviewers to select these fields and getEligibleReviewersForRevised to include them in EligibleReviewer objects and ensuring assignReview.controller.ts's assignReviewer and getEligibleReviewersForManuscript properly include them. - 2025-12-11
   - [e5df93d](https://github.com/drid-uniben/ubjh-server/commit/e5df93d17eab6b9fa9b69fa7f16244568b042c12) feat(manuscripts): Implement manuscript archiving and unarchiving - 2025-12-04
   - [3e8987f](https://github.com/drid-uniben/ubjh-server/commit/3e8987f173dc72bf3ea02de711f88737f281112a) made a fix for the asking for author privilege even when it's an admin route endpoint - 2025-12-03
-- ubjsti-client (55 commits)
+- ubjsti-client (53 commits)
   - [21c2b79](https://github.com/drid-uniben/ubjsti-client/commit/21c2b799d2fcc09cec365f549f28dc3f5089fb50) Merge pull request #23 from drid-uniben/deadline - 2026-11-07
   - [0e5187e](https://github.com/drid-uniben/ubjsti-client/commit/0e5187e3dfe6fbe741ccee2616f9838a97c100e3) fix(auth): prevent circular wait on refresh token failure and ignore transient errors - 2026-11-07
   - [9b8b831](https://github.com/drid-uniben/ubjsti-client/commit/9b8b8312553dd354168aa353be49b84736b5b10c) Merge pull request #22 from drid-uniben/deadline - 2026-07-24
@@ -414,8 +413,6 @@ Commits:
   - [c556500](https://github.com/drid-uniben/ubjsti-client/commit/c556500103f004409dd839e5d1253d9ca9d2c826) I added the optional phoneNumber and areaOfSpecialization fields to both the reviewer invitation and acceptance forms. - 2025-12-13
   - [e6f37ad](https://github.com/drid-uniben/ubjsti-client/commit/e6f37ad55545b386244395d36bc3519371829595) feat(admin): Categorize eligible reviewers into first and second choice - 2025-12-03
   - [0fbf7c9](https://github.com/drid-uniben/ubjsti-client/commit/0fbf7c9fa4fd8b7205609dd1106bbbe02604fffa) Update - 2025-12-02
-  - [4dd4a48](https://github.com/drid-uniben/ubjsti-client/commit/4dd4a480778672075cdcaa70acf3e2ed77fea02d) refactor: Update journal name from UBJH to UBJSTI - 2025-11-21
-  - [e553571](https://github.com/drid-uniben/ubjsti-client/commit/e5535715d3afe0ef67b1b2601ba0470e45ea20ac) Update - 2025-11-18
 - ubjsti-server (29 commits)
   - [62f1b6f](https://github.com/drid-uniben/ubjsti-server/commit/62f1b6f3c070b8a4e48ab9304286d5f1646fbe03) Merge pull request #19 from drid-uniben/author - 2026-11-07
   - [8b24909](https://github.com/drid-uniben/ubjsti-server/commit/8b249097bbf93a9618de382a051e651d98c5cacf) fix(auth): return 429 for rate limit, separate login/refresh buckets, and add refresh token rotation grace window - 2026-11-07
@@ -653,11 +650,12 @@ PRs:
   - [#3](https://github.com/drid-uniben/research-diploma-client/pull/3) Revamps registration flow with waitlist forms and UI tweaks - merged, updated 2026-01-23
 
 ### Emmanuel Osalotioman Osazuwa (@Osalotioman)
-Total commits: 318
+Total commits: 319
 Total PRs: 55
 
 Commits:
-- org-structure (79 commits)
+- org-structure (80 commits)
+  - [e427d1b](https://github.com/drid-uniben/org-structure/commit/e427d1be4546b15d7c8a4664601e6e150e40b225) chore(report): update weekly intern progress - 2026-11-16
   - [8aa01b1](https://github.com/drid-uniben/org-structure/commit/8aa01b13f962a969eb8a1a60d8aae79cbfe3318e) chore(report): update weekly intern progress - 2026-11-09
   - [14b1895](https://github.com/drid-uniben/org-structure/commit/14b18953880a4d8f29f90f9e622d16a5d1fb256d) chore(report): update weekly intern progress - 2026-11-02
   - [27af17f](https://github.com/drid-uniben/org-structure/commit/27af17fc9d1f42d53f37b52b97c99ce2a16b1adc) chore(report): update weekly intern progress - 2026-10-26
@@ -1108,11 +1106,12 @@ feat: Enhance challenge description handling with markdown link validation and r
   - [#37](https://github.com/drid-uniben/drid-con-ticket/pull/37) Add approve builds to pnpm workspace file for both server and client modules - merged, updated 2026-11-12
 
 ### Light Ebube (@Lyteking)
-Total commits: 5
+Total commits: 6
 Total PRs: 4
 
 Commits:
-- drid-con-ticket (5 commits)
+- drid-con-ticket (6 commits)
+  - [fe8416d](https://github.com/drid-uniben/drid-con-ticket/commit/fe8416de0a662d075a8e47216a20cade36e1fc03) Rewrite admin dashboard and fix CI issues (#36) - 2026-11-18
   - [2883fec](https://github.com/drid-uniben/drid-con-ticket/commit/2883fecca312070429783f7a2eea88bc031a735c) Fixed the logo on the registration page and handled error logs properly in the login page - 2025-12-10
   - [baa2dc6](https://github.com/drid-uniben/drid-con-ticket/commit/baa2dc62527f7336d32315becbfd41a6f4e81584) Added the QR scanner in the Agent page - 2025-12-09
   - [2cab393](https://github.com/drid-uniben/drid-con-ticket/commit/2cab393055cbb47621c2648ee493667c277d4421) Fixed the upload image field and modified not found page - 2025-12-07
@@ -1121,7 +1120,7 @@ Commits:
 
 PRs:
 - drid-con-ticket (3 PRs)
-  - [#36](https://github.com/drid-uniben/drid-con-ticket/pull/36) Light - open, updated 2026-11-12
+  - [#36](https://github.com/drid-uniben/drid-con-ticket/pull/36) Rewrite admin dashboard and fix CI issues - merged, updated 2026-11-18
   - [#8](https://github.com/drid-uniben/drid-con-ticket/pull/8) Added the QR scanner in the Agent page - merged, updated 2025-12-09
   - [#6](https://github.com/drid-uniben/drid-con-ticket/pull/6) Fixed some of the issues in the TODO.md file - merged, updated 2025-12-07
 - research-diploma-client (1 PR)
